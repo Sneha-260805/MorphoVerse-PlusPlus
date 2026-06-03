@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Secrets
+.env
+.env.*
+.env.example
+secrets.py
+config.py
+
+# Dataset
+morphoverse_jsons/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
