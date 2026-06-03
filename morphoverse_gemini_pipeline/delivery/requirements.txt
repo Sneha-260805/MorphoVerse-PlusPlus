@@ -1,0 +1,10 @@
+requests>=2.31
+# Optional (only if USE_SEMANTIC_ALIGNMENT=1 for semantic stanza alignment):
+# torch
+# transformers
+# sentencepiece
+# sentence-transformers
+# faiss-cpu
+# numpy
+# Dev:
+pytest>=8.0

@@ -11,22 +11,18 @@ env/
 */venv/
 
 # Local output and generated files
-**/output/
+output/
 
-# Input data and large generated datasets
-**/morphoverse_jsons/
+# Input data that should not be tracked
+morphoverse_jsons/
 
 # Environment files and secrets
 .env
 *.env
 
-# Editor/project files
+# Editor settings
 .vscode/
 .idea/
 
-# Archives
-*.zip
-
-# OS files
-Thumbs.db
-.DS_Store
+# Misc
+*.log
