@@ -1,0 +1,108 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1279",
+  "poem_title": "Vennilave Vennilave",
+  "language": "Tamil",
+  "original_poem": "வெண்ணிலவே வெண்ணிலவே,  \nவெள்ளை சிரிக்கும் மேகங்களில்  \nஉன் கண்ணிருக்கும் கதை அழகு,  \nஅழகின் திருவிழா காற்றில் ஓர் குமுதம்!",
+  "translated_poem": "O moonlight, O moonlight,  \nIn the white smiling clouds,  \nThe tale within your eyes is beautiful,  \nA festival of beauty dances in the breeze!",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9015,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "வெண்ணிலவே வெண்ணிலவே,",
+          "வெள்ளை சிரிக்கும் மேகங்களில்",
+          "உன் கண்ணிருக்கும் கதை அழகு,",
+          "அழகின் திருவிழா காற்றில் ஓர் குமுதம்!"
+        ],
+        "translated_lines": [
+          "O moonlight, O moonlight,",
+          "In the white smiling clouds,",
+          "The tale within your eyes is beautiful,",
+          "A festival of beauty dances in the breeze!"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "wonder rising to joyful celebration",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "வெண்ணிலவே வெண்ணிலவே,",
+          "வெள்ளை சிரிக்கும் மேகங்களில்",
+          "உன் கண்ணிருக்கும் கதை அழகு,",
+          "அழகின் திருவிழா காற்றில் ஓர் குமுதம்!"
+        ],
+        "translated_lines": [
+          "O moonlight, O moonlight,",
+          "In the white smiling clouds,",
+          "The tale within your eyes is beautiful,",
+          "A festival of beauty dances in the breeze!"
+        ],
+        "emotion": "peace",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "குமுதம் (kumutam) is the white water-lily that blooms by moonlight in Tamil poetic tradition, a specific akam image of nocturnal beauty; 'dances in the breeze' loses this precise botanical-symbolic resonance.",
+        "metaphor_spans": [
+          {
+            "source_term": "வெள்ளை சிரிக்கும் மேகங்களில்",
+            "abstract_meaning": "clouds as the moonlight's own smiling, luminous companions"
+          },
+          {
+            "source_term": "உன் கண்ணிருக்கும் கதை அழகு",
+            "abstract_meaning": "the moon's gaze as a silent story of beauty told to the night"
+          },
+          {
+            "source_term": "அழகின் திருவிழா காற்றில் ஓர் குமுதம்",
+            "abstract_meaning": "the night-blooming lily as the festival of beauty made tangible in the breeze"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "குமுதம்",
+        "romanization": "kumutam",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "The white water-lily that blooms by moonlight, a classical Tamil akam symbol of nocturnal beauty, is rendered generically as 'a festival of beauty dances in the breeze.'"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9015,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

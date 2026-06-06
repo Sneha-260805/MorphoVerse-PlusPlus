@@ -1,0 +1,124 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1234",
+  "poem_title": "Kesariya Balam",
+  "language": "Rajasthani",
+  "original_poem": "केसरिया बालम, पधारो म्हारे देश,  \nमरुधरा री धरती पर, प्रेम रा फेरो।  \nप्यार री पावन बण, रेती री माटी,  \nबांध्यो म्हारी कलाई पर सुहाग री रेगो।",
+  "translated_poem": "Beloved in saffron, come to my land,  \nTo Marudhara's soil, where love makes its stand.  \nA holy bond in sands of gold,  \nA bracelet of love, forever we hold.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9315,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "केसरिया बालम, पधारो म्हारे देश,",
+          "मरुधरा री धरती पर, प्रेम रा फेरो।",
+          "प्यार री पावन बण, रेती री माटी,",
+          "बांध्यो म्हारी कलाई पर सुहाग री रेगो।"
+        ],
+        "translated_lines": [
+          "Beloved in saffron, come to my land,",
+          "To Marudhara's soil, where love makes its stand.",
+          "A holy bond in sands of gold,",
+          "A bracelet of love, forever we hold."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "longing to joyful welcome",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "केसरिया बालम, पधारो म्हारे देश,",
+          "मरुधरा री धरती पर, प्रेम रा फेरो।",
+          "प्यार री पावन बण, रेती री माटी,",
+          "बांध्यो म्हारी कलाई पर सुहाग री रेगो।"
+        ],
+        "translated_lines": [
+          "Beloved in saffron, come to my land,",
+          "To Marudhara's soil, where love makes its stand.",
+          "A holy bond in sands of gold,",
+          "A bracelet of love, forever we hold."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "'सुहाग री रेगो' (thread of marital auspiciousness) loses its specific bridal-ritual and suhag connotation, rendered as generic love bracelet.",
+        "metaphor_spans": [
+          {
+            "source_term": "प्यार री पावन बण",
+            "abstract_meaning": "love as a sacred forest or bond — the desert sands transformed into a holy, sheltering space of union"
+          },
+          {
+            "source_term": "रेती री माटी",
+            "abstract_meaning": "golden desert sand as the consecrated ground of a love that is both earthly and spiritually pure"
+          },
+          {
+            "source_term": "सुहाग री रेगो",
+            "abstract_meaning": "the thread of marital auspiciousness as the binding promise of the beloved's return and union"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "केसरिया बालम",
+        "romanization": "Kesariya Balam",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "The iconic Rajasthani folk song title and its saffron-clad beloved imagery is partially preserved but the folk-song tradition identity is lost in translation."
+      },
+      {
+        "term": "मरुधरा",
+        "romanization": "Marudhara",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Marudhara (land of the dead/desert) rendered as generic soil; its specific Thar desert cultural identity is weakened."
+      },
+      {
+        "term": "सुहाग री रेगो",
+        "romanization": "suhag ri rego",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Suhag (marital auspiciousness thread) is a specific bridal ritual custom flattened to 'bracelet of love'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9315,
+      "source_term_checks": {
+        "entities_total": 3,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

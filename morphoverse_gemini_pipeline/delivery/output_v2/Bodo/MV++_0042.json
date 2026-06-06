@@ -1,0 +1,104 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0042",
+  "poem_title": "Dharma",
+  "language": "Bodo",
+  "original_poem": "धर्म\nधर्म, तुमार मार्ग\nजीवनले सिखावै,\nमोर हृदयले बिचार\nसत्य गुथा।",
+  "translated_poem": "Religion\nReligion, your path\nTeaches life,\nIn my heart, thoughts\nWoven with truth.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8692,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "धर्म",
+          "धर्म, तुमार मार्ग",
+          "जीवनले सिखावै,",
+          "मोर हृदयले बिचार",
+          "सत्य गुथा।"
+        ],
+        "translated_lines": [
+          "Religion",
+          "Religion, your path",
+          "Teaches life,",
+          "In my heart, thoughts",
+          "Woven with truth."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "quiet resolve through truth",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "धर्म",
+          "धर्म, तुमार मार्ग",
+          "जीवनले सिखावै,",
+          "मोर हृदयले बिचार",
+          "सत्य गुथा।"
+        ],
+        "translated_lines": [
+          "Religion",
+          "Religion, your path",
+          "Teaches life,",
+          "In my heart, thoughts",
+          "Woven with truth."
+        ],
+        "emotion": "peace",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "धर्म in Bodo context may carry bathou cosmological meaning of righteous cosmic order rather than the generic 'religion'; गुथा (woven) invokes the Bodo weaving tradition as a metaphor for moral integration, partially flattened to 'woven with truth'.",
+        "metaphor_spans": [
+          {
+            "source_term": "सत्य गुथा",
+            "abstract_meaning": "truth as the thread binding one's inner moral fabric"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "गुथा",
+        "romanization": "Githa",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Rendered as 'woven' — loses the dokhona weaving tradition that is the primary symbol of Bodo cultural identity and continuity."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8692,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 1,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

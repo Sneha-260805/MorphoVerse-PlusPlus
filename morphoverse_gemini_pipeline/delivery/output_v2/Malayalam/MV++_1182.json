@@ -1,0 +1,116 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1182",
+  "poem_title": "Naranathu Bhranthan",
+  "language": "Malayalam",
+  "original_poem": "നറനാത്ത്‌ ഭ്രാന്തൻ  \nകല്ല്‌ തള്ളി കയറുന്നു,  \nഓരോ ദിനവും  \nതാഴേക്ക് വീഴും  \nപക്ഷെ അവനവിടെ  \nപോയി തുടങ്ങുന്നു വീണ്ടും.",
+  "translated_poem": "The wanderer,  \nPushing the stone uphill,  \nEvery day it falls  \nBack down,  \nBut he starts again  \nFrom where it fell.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9885,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "നറനാത്ത്‌ ഭ്രാന്തൻ",
+          "കല്ല്‌ തള്ളി കയറുന്നു,",
+          "ഓരോ ദിനവും",
+          "താഴേക്ക് വീഴും",
+          "പക്ഷെ അവനവിടെ",
+          "പോയി തുടങ്ങുന്നു വീണ്ടും."
+        ],
+        "translated_lines": [
+          "The wanderer,",
+          "Pushing the stone uphill,",
+          "Every day it falls",
+          "Back down,",
+          "But he starts again",
+          "From where it fell."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "defiance through endless resilience",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "നറനാത്ത്‌ ഭ്രാന്തൻ",
+          "കല്ല്‌ തള്ളി കയറുന്നു,",
+          "ഓരോ ദിനവും",
+          "താഴേക്ക് വീഴും",
+          "പക്ഷെ അവനവിടെ",
+          "പോയി തുടങ്ങുന്നു വീണ്ടും."
+        ],
+        "translated_lines": [
+          "The wanderer,",
+          "Pushing the stone uphill,",
+          "Every day it falls",
+          "Back down,",
+          "But he starts again",
+          "From where it fell."
+        ],
+        "emotion": "resilience",
+        "tone": "defiance",
+        "translation_quality": "partial",
+        "loss_note": "Naranathu Bhranthan is a legendary Kerala folk figure associated with absurdist wisdom and social critique; 'wanderer' loses this specific identity.",
+        "metaphor_spans": [
+          {
+            "source_term": "കല്ല്‌ തള്ളി കയറുന്നു",
+            "abstract_meaning": "futile yet compelled human striving against an indifferent cosmos"
+          },
+          {
+            "source_term": "താഴേക്ക് വീഴും",
+            "abstract_meaning": "inevitable collapse of every effort, the cyclical defeat of mortal ambition"
+          },
+          {
+            "source_term": "പോയി തുടങ്ങുന്നു വീണ്ടും",
+            "abstract_meaning": "the mad saint's defiant recommencement as the only meaningful act"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "നറനാത്ത്‌ ഭ്രാന്തൻ",
+        "romanization": "Naranathu Bhranthan",
+        "category": "MYTHOLOGICAL_EVENT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Naranathu Bhranthan is a specific Kerala folk-philosophical figure whose legend of rolling a stone uphill is the poem's entire referent; reduced to generic 'wanderer'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9885,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

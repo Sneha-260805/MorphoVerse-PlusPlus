@@ -1,0 +1,185 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0105",
+  "poem_title": "Saare Jahan Se Achha",
+  "language": "Hindi",
+  "original_poem": "सारे जहाँ से अच्छा, हिन्दोसिता हमारा,  \nहम बुलबुलें हैं इसकी, ये गुलसितां हमारा।  \n\nग़ुर्बत में हों अगर हम, रहता है दिल वतन में,  \nसमझो वहीं हमें भी दिल हो जहाँ हमारा।  \n\nमज़हब नहीं सिखाता आपस में बैर रखना,  \nहिंदी हैं हम, वतन है हिन्दोस्तां हमारा।",
+  "translated_poem": "Better than the entire world, is our Hindustan,  \nWe are its nightingales, and it’s our garden land.  \n\nEven if we are in exile, our hearts reside at home,  \nWherever our hearts may be, there lies our homeland.  \n\nReligion does not teach us to harbor enmity,  \nWe are Indians, and India is our motherland.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8823,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "सारे जहाँ से अच्छा, हिन्दोसिता हमारा,",
+          "हम बुलबुलें हैं इसकी, ये गुलसितां हमारा।"
+        ],
+        "translated_lines": [
+          "Better than the entire world, is our Hindustan,",
+          "We are its nightingales, and it’s our garden land."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ग़ुर्बत में हों अगर हम, रहता है दिल वतन में,",
+          "समझो वहीं हमें भी दिल हो जहाँ हमारा।"
+        ],
+        "translated_lines": [
+          "Even if we are in exile, our hearts reside at home,",
+          "Wherever our hearts may be, there lies our homeland."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "मज़हब नहीं सिखाता आपस में बैर रखना,",
+          "हिंदी हैं हम, वतन है हिन्दोस्तां हमारा।"
+        ],
+        "translated_lines": [
+          "Religion does not teach us to harbor enmity,",
+          "We are Indians, and India is our motherland."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "celebratory to reflective to declarative",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "सारे जहाँ से अच्छा, हिन्दोसिता हमारा,",
+          "हम बुलबुलें हैं इसकी, ये गुलसितां हमारा।"
+        ],
+        "translated_lines": [
+          "Better than the entire world, is our Hindustan,",
+          "We are its nightingales, and it’s our garden land."
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ग़ुर्बत में हों अगर हम, रहता है दिल वतन में,",
+          "समझो वहीं हमें भी दिल हो जहाँ हमारा।"
+        ],
+        "translated_lines": [
+          "Even if we are in exile, our hearts reside at home,",
+          "Wherever our hearts may be, there lies our homeland."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "मज़हब नहीं सिखाता आपस में बैर रखना,",
+          "हिंदी हैं हम, वतन है हिन्दोस्तां हमारा।"
+        ],
+        "translated_lines": [
+          "Religion does not teach us to harbor enmity,",
+          "We are Indians, and India is our motherland."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "हिन्दोसिता",
+        "romanization": "Hindosita",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Poetic Urdu term for Hindustan"
+      },
+      {
+        "term": "बुलबुलें",
+        "romanization": "bulbulen",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Nightingale symbol lost in translation"
+      },
+      {
+        "term": "गुलसितां",
+        "romanization": "gulistan",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Garden metaphor partially rendered"
+      },
+      {
+        "term": "वतन",
+        "romanization": "watan",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 2,
+        "preserved": true,
+        "translation_note": "Homeland as devotional anchor"
+      },
+      {
+        "term": "मज़हब",
+        "romanization": "mazhab",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 3,
+        "preserved": true,
+        "translation_note": "Religion as unifying moral guide"
+      },
+      {
+        "term": "हिंदी",
+        "romanization": "Hindi",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 3,
+        "preserved": false,
+        "translation_note": "Refers to people of Hind not language"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8823,
+      "source_term_checks": {
+        "entities_total": 6,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1184",
+  "poem_title": "Siring",
+  "language": "Manipuri",
+  "original_poem": "सिरिंग आहंगबा निंगथी,  \nतुमतुम्बा लोंतखा नुंशी।  \nपुमपम्ची, नचुम पांगक्ले,  \nमीनाई पुंगी वानरे।\n\nमुटुंबा, कुई युम्लुंग पांग,  \nईरेइरबा सिंगनिंग्लोंबा।  \nफुम्ना निंगं बा लैरेम,  \nतुम्बेइबा मतंबंग रसे।\n\nइरेयोकुं, खंग्तिबा सुभा,  \nसिरिंग्लोबा पुंतीरे,  \nमीतेंगबा ईमा निंहोक,  \nफंग्बा तुमिनांग रसे।",
+  "translated_poem": "Spring comes with a gentle breeze,  \nSoft and subtle, the earth it frees.  \nThe flowers bloom, the buds awake,  \nNature’s song, the birds partake.\n\nWith hands open, the fields embrace,  \nDew-kissed mornings, a tender grace.  \nUnder the sky's wide gentle dome,  \nThe heart finds its sweetest home.\n\nDawn's soft hues, whispered dreams,  \nSpring’s arrival in nature’s gleam.  \nThe mother earth with open arms,  \nWelcomes the world with peaceful charms.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7777,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "सिरिंग आहंगबा निंगथी,",
+          "तुमतुम्बा लोंतखा नुंशी।",
+          "पुमपम्ची, नचुम पांगक्ले,",
+          "मीनाई पुंगी वानरे।"
+        ],
+        "translated_lines": [
+          "Spring comes with a gentle breeze,",
+          "Soft and subtle, the earth it frees.",
+          "The flowers bloom, the buds awake,",
+          "Nature’s song, the birds partake."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "मुटुंबा, कुई युम्लुंग पांग,",
+          "ईरेइरबा सिंगनिंग्लोंबा।",
+          "फुम्ना निंगं बा लैरेम,",
+          "तुम्बेइबा मतंबंग रसे।"
+        ],
+        "translated_lines": [
+          "With hands open, the fields embrace,",
+          "Dew-kissed mornings, a tender grace.",
+          "Under the sky's wide gentle dome,",
+          "The heart finds its sweetest home."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "इरेयोकुं, खंग्तिबा सुभा,",
+          "सिरिंग्लोबा पुंतीरे,",
+          "मीतेंगबा ईमा निंहोक,",
+          "फंग्बा तुमिनांग रसे।"
+        ],
+        "translated_lines": [
+          "Dawn's soft hues, whispered dreams,",
+          "Spring’s arrival in nature’s gleam.",
+          "The mother earth with open arms,",
+          "Welcomes the world with peaceful charms."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "gentle awakening to peaceful homecoming",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "सिरिंग आहंगबा निंगथी,",
+          "तुमतुम्बा लोंतखा नुंशी।",
+          "पुमपम्ची, नचुम पांगक्ले,",
+          "मीनाई पुंगी वानरे।"
+        ],
+        "translated_lines": [
+          "Spring comes with a gentle breeze,",
+          "Soft and subtle, the earth it frees.",
+          "The flowers bloom, the buds awake,",
+          "Nature’s song, the birds partake."
+        ],
+        "emotion": "celebration",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "Siring's specific Manipuri seasonal-cultural resonance and पुंगी (pung drum) as a musical-cultural instrument are flattened into generic nature imagery.",
+        "metaphor_spans": [
+          {
+            "source_term": "तुमतुम्बा लोंतखा नुंशी",
+            "abstract_meaning": "earth gently released from winter's stillness by spring's soft touch"
+          },
+          {
+            "source_term": "मीनाई पुंगी वानरे",
+            "abstract_meaning": "birdsong as nature's own ceremonial drumming welcoming spring"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "मुटुंबा, कुई युम्लुंग पांग,",
+          "ईरेइरबा सिंगनिंग्लोंबा।",
+          "फुम्ना निंगं बा लैरेम,",
+          "तुम्बेइबा मतंबंग रसे।"
+        ],
+        "translated_lines": [
+          "With hands open, the fields embrace,",
+          "Dew-kissed mornings, a tender grace.",
+          "Under the sky's wide gentle dome,",
+          "The heart finds its sweetest home."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "मुटुंबा (open hands) carries a gesture of ritual offering lost in translation; लैरेम may carry sky-deity connotation not rendered.",
+        "metaphor_spans": [
+          {
+            "source_term": "मुटुंबा",
+            "abstract_meaning": "open hands as the earth's gesture of ritual welcome and surrender to spring"
+          },
+          {
+            "source_term": "तुम्बेइबा मतंबंग रसे",
+            "abstract_meaning": "the heart finding its truest dwelling within nature's seasonal embrace"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "इरेयोकुं, खंग्तिबा सुभा,",
+          "सिरिंग्लोबा पुंतीरे,",
+          "मीतेंगबा ईमा निंहोक,",
+          "फंग्बा तुमिनांग रसे।"
+        ],
+        "translated_lines": [
+          "Dawn's soft hues, whispered dreams,",
+          "Spring’s arrival in nature’s gleam.",
+          "The mother earth with open arms,",
+          "Welcomes the world with peaceful charms."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "मीतेंगबा ईमा (mother earth as a specific nurturing maternal figure) carries deeper Manipuri cosmological weight than 'mother earth with open arms'.",
+        "metaphor_spans": [
+          {
+            "source_term": "मीतेंगबा ईमा निंहोक",
+            "abstract_meaning": "earth as a mother whose embrace is the ultimate refuge of spring's arrival"
+          },
+          {
+            "source_term": "इरेयोकुं, खंग्तिबा सुभा",
+            "abstract_meaning": "dawn's whispered light as the first tender announcement of seasonal renewal"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "सिरिंग",
+        "romanization": "siring",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Siring as Manipuri spring season carries specific cultural-ecological significance beyond generic 'spring'."
+      },
+      {
+        "term": "मीनाई पुंगी",
+        "romanization": "minai pungi",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Pungi as a traditional instrument is collapsed into generic 'nature's song'."
+      },
+      {
+        "term": "मीतेंगबा ईमा",
+        "romanization": "meetengba ima",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 3,
+        "preserved": false,
+        "translation_note": "Ima (mother) as a cosmological nurturing figure has deeper Manipuri cultural resonance than 'mother earth'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7777,
+      "source_term_checks": {
+        "entities_total": 3,
+        "entities_dropped": 0,
+        "metaphors_total": 6,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

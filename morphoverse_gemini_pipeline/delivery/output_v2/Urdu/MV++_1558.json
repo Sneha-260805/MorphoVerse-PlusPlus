@@ -1,0 +1,200 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1558",
+  "poem_title": "Ek Shayar Ka Khat",
+  "language": "Urdu",
+  "original_poem": "یہ خط ہے ایک شاعر کا  \nجو لکھا ہے اس نے پیار کا  \nمحبت کی کچھ باتیں ہیں  \nزندگی کی کچھ راتیں ہیں  \n\nیہ شہر کی وہ گلیاں ہیں  \nجہاں خواب بُنے جاتے ہیں  \nوہ خواب جو کسی نے دیکھے  \nاور کسی کے دل میں رہتے  \n\nیہ دل ہے ایک آئینہ سا  \nجو چپکے سے ٹوٹ جاتا  \nپھر جڑتا، پھر بکھرتا ہے  \nمحبت میں وہی ہوتا ہے",
+  "translated_poem": "This is a letter from a poet,  \nWritten with love as he wrote it.  \nSome tales of love fill each line,  \nAnd moments of life intertwined.  \n\nThese are the alleys of the city,  \nWhere dreams are woven so pretty.  \nDreams that someone dared to see,  \nAnd live on in someone’s memory.  \n\nThe heart is like a fragile glass,  \nBreaking in silence as moments pass.  \nThen it mends, only to break again,  \nFor this is the fate of love's domain.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7894,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "یہ خط ہے ایک شاعر کا",
+          "جو لکھا ہے اس نے پیار کا",
+          "محبت کی کچھ باتیں ہیں",
+          "زندگی کی کچھ راتیں ہیں"
+        ],
+        "translated_lines": [
+          "This is a letter from a poet,",
+          "Written with love as he wrote it.",
+          "Some tales of love fill each line,",
+          "And moments of life intertwined."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "یہ شہر کی وہ گلیاں ہیں",
+          "جہاں خواب بُنے جاتے ہیں",
+          "وہ خواب جو کسی نے دیکھے",
+          "اور کسی کے دل میں رہتے"
+        ],
+        "translated_lines": [
+          "These are the alleys of the city,",
+          "Where dreams are woven so pretty.",
+          "Dreams that someone dared to see,",
+          "And live on in someone’s memory."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "یہ دل ہے ایک آئینہ سا",
+          "جو چپکے سے ٹوٹ جاتا",
+          "پھر جڑتا، پھر بکھرتا ہے",
+          "محبت میں وہی ہوتا ہے"
+        ],
+        "translated_lines": [
+          "The heart is like a fragile glass,",
+          "Breaking in silence as moments pass.",
+          "Then it mends, only to break again,",
+          "For this is the fate of love's domain."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "tender longing to resigned acceptance",
+    "translation_fidelity_score": 0.666667,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "یہ خط ہے ایک شاعر کا",
+          "جو لکھا ہے اس نے پیار کا",
+          "محبت کی کچھ باتیں ہیں",
+          "زندگی کی کچھ راتیں ہیں"
+        ],
+        "translated_lines": [
+          "This is a letter from a poet,",
+          "Written with love as he wrote it.",
+          "Some tales of love fill each line,",
+          "And moments of life intertwined."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "محبت (mohabbat) and پیار (pyar) are not interchangeable in Urdu — pyar is earthly affection while mohabbat carries a deeper, sometimes Sufi resonance; the translation collapses both into 'love'.",
+        "metaphor_spans": [
+          {
+            "source_term": "زندگی کی کچھ راتیں",
+            "abstract_meaning": "the dark, sleepless hours of lived experience that love makes bearable"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "یہ شہر کی وہ گلیاں ہیں",
+          "جہاں خواب بُنے جاتے ہیں",
+          "وہ خواب جو کسی نے دیکھے",
+          "اور کسی کے دل میں رہتے"
+        ],
+        "translated_lines": [
+          "These are the alleys of the city,",
+          "Where dreams are woven so pretty.",
+          "Dreams that someone dared to see,",
+          "And live on in someone’s memory."
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "گلیاں (galiyaan, narrow alleys) in Urdu poetry evokes the beloved's quarter — the physical geography of longing — which 'alleys of the city' does not convey.",
+        "metaphor_spans": [
+          {
+            "source_term": "شہر کی وہ گلیاں",
+            "abstract_meaning": "the beloved's neighbourhood as the site of unfulfilled longing"
+          },
+          {
+            "source_term": "خواب بُنے جاتے ہیں",
+            "abstract_meaning": "dreams woven in the city's margins as the lover's only refuge"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "یہ دل ہے ایک آئینہ سا",
+          "جو چپکے سے ٹوٹ جاتا",
+          "پھر جڑتا، پھر بکھرتا ہے",
+          "محبت میں وہی ہوتا ہے"
+        ],
+        "translated_lines": [
+          "The heart is like a fragile glass,",
+          "Breaking in silence as moments pass.",
+          "Then it mends, only to break again,",
+          "For this is the fate of love's domain."
+        ],
+        "emotion": "resilience",
+        "tone": "whisper",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "دل ہے ایک آئینہ سا",
+            "abstract_meaning": "the heart as a mirror that shatters under love yet must reflect again"
+          },
+          {
+            "source_term": "جڑتا، پھر بکھرتا ہے",
+            "abstract_meaning": "the cyclical mending and breaking as the inescapable rhythm of loving"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "محبت",
+        "romanization": "mohabbat",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Mohabbat's deeper Sufi register of selfless love is flattened to generic 'love'."
+      },
+      {
+        "term": "آئینہ",
+        "romanization": "aaina",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 3,
+        "preserved": true,
+        "translation_note": "The mirror (aaina) as symbol of the self-reflecting heart is a classical Urdu and Sufi trope; 'fragile glass' partially preserves the image but loses the self-reflection dimension."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7894,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 5,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1158",
+  "poem_title": "Sonte Posh",
+  "language": "Kashmiri",
+  "original_poem": "سونتے پٲش  \nچٕھوان گٲنٕٹ کھیندٕ  \nمُنٕڈے چُھندٕ  \nہند گرمی وٚٹھٕ  \nسونتے پٲش، سونتے پٲش،  \nتُند بادل ہند ڈٕھندٕ۔",
+  "translated_poem": "The spring blossom,  \nEmerges from the earth,  \nDancing in the warmth,  \nOf the gentle sun,  \nThe spring blossom, the spring blossom,  \nBrings the joy of new life.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7932,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "سونتے پٲش",
+          "چٕھوان گٲنٕٹ کھیندٕ",
+          "مُنٕڈے چُھندٕ",
+          "ہند گرمی وٚٹھٕ",
+          "سونتے پٲش، سونتے پٲش،",
+          "تُند بادل ہند ڈٕھندٕ۔"
+        ],
+        "translated_lines": [
+          "The spring blossom,",
+          "Emerges from the earth,",
+          "Dancing in the warmth,",
+          "Of the gentle sun,",
+          "The spring blossom, the spring blossom,",
+          "Brings the joy of new life."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "celebration",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "سونتے پٲش",
+          "چٕھوان گٲنٕٹ کھیندٕ",
+          "مُنٕڈے چُھندٕ",
+          "ہند گرمی وٚٹھٕ",
+          "سونتے پٲش، سونتے پٲش،",
+          "تُند بادل ہند ڈٕھندٕ۔"
+        ],
+        "translated_lines": [
+          "The spring blossom,",
+          "Emerges from the earth,",
+          "Dancing in the warmth,",
+          "Of the gentle sun,",
+          "The spring blossom, the spring blossom,",
+          "Brings the joy of new life."
+        ],
+        "emotion": "celebration",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7932,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

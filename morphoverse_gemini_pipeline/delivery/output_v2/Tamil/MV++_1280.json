@@ -1,0 +1,99 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1280",
+  "poem_title": "Nilavum Malargalum",
+  "language": "Tamil",
+  "original_poem": "நிலவும் மலரும் இசைபடைத்து  \nவித்யாசமாகி என் மனதின்  \nவிடுதியில் காட்சியளிக்க,  \nஉனது நெஞ்சில் நான் ஒரு பாதை!",
+  "translated_poem": "The moon and flowers compose music,  \nUniquely presenting in my heart’s  \nAbode, revealing to the world,  \nI am a path within your heart!",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8641,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "நிலவும் மலரும் இசைபடைத்து",
+          "வித்யாசமாகி என் மனதின்",
+          "விடுதியில் காட்சியளிக்க,",
+          "உனது நெஞ்சில் நான் ஒரு பாதை!"
+        ],
+        "translated_lines": [
+          "The moon and flowers compose music,",
+          "Uniquely presenting in my heart’s",
+          "Abode, revealing to the world,",
+          "I am a path within your heart!"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "wonder into intimate declaration",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "நிலவும் மலரும் இசைபடைத்து",
+          "வித்யாசமாகி என் மனதின்",
+          "விடுதியில் காட்சியளிக்க,",
+          "உனது நெஞ்சில் நான் ஒரு பாதை!"
+        ],
+        "translated_lines": [
+          "The moon and flowers compose music,",
+          "Uniquely presenting in my heart’s",
+          "Abode, revealing to the world,",
+          "I am a path within your heart!"
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "partial",
+        "loss_note": "விடுதி (viṭuti) carries the classical Tamil sense of a resting-place or inn for the soul, not merely 'abode'; the phrase காட்சியளிக்க implies a revelatory vision, closer to darshan than 'revealing to the world'.",
+        "metaphor_spans": [
+          {
+            "source_term": "நிலவும் மலரும் இசைபடைத்து",
+            "abstract_meaning": "the beloved's presence composing the speaker's inner emotional music"
+          },
+          {
+            "source_term": "மனதின் விடுதியில் காட்சியளிக்க",
+            "abstract_meaning": "the heart as a sanctuary where the beloved appears as a vision"
+          },
+          {
+            "source_term": "உனது நெஞ்சில் நான் ஒரு பாதை",
+            "abstract_meaning": "the speaker's existence as a living trace inscribed within the beloved's being"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8641,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

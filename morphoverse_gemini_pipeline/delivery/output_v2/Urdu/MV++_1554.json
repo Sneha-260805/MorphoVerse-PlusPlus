@@ -1,0 +1,219 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1554",
+  "poem_title": "Yeh Daag Daag Ujala",
+  "language": "Urdu",
+  "original_poem": "یہ داغ داغ اجالا، یہ خاموشی کے سایے  \nیہ آہنگ ہے، یہ چپ، یہ خاموشی کے نیچے  \nچند لمحوں کی محبت، چند دھندلے خواب  \nمحبت کی گلیوں میں، چلتے ہیں ہم۔\n\nتاریک راتوں میں، کہیں کوئی چاند ہو  \nاجالا ہو، لیکن ہم سے دور ہو۔  \nیہ داغ داغ اجالا، یہ خاموشی کے سایے  \nیہ عشق کی کہانی ہے، جو کبھی نہ سمجھی۔\n\nنہ جانے کس کے خواب میں، یہ صبح بکھری ہو  \nنہ جانے کس کی آنکھوں میں، یہ آہنگ بھری ہو۔  \nیہ داغ داغ اجالا، یہ خاموشی کے سایے  \nیہ گیت ہے عشق کا، جو زندگی میں ہے۔",
+  "translated_poem": "This stained dawn, these shadows of silence,  \nThis rhythm, this hush, beneath the quiet,  \nMoments of love, a few hazy dreams,  \nWe walk through the streets of love.\n\nIn dark nights, may there be a moon somewhere,  \nLight shining, but far from us.  \nThis stained dawn, these shadows of silence,  \nThis is the tale of love, never truly understood.\n\nWho knows in whose dreams this morning is scattered,  \nIn whose eyes this rhythm is filled?  \nThis stained dawn, these shadows of silence,  \nThis is the song of love, which lives in life.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8994,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "یہ داغ داغ اجالا، یہ خاموشی کے سایے",
+          "یہ آہنگ ہے، یہ چپ، یہ خاموشی کے نیچے",
+          "چند لمحوں کی محبت، چند دھندلے خواب",
+          "محبت کی گلیوں میں، چلتے ہیں ہم۔"
+        ],
+        "translated_lines": [
+          "This stained dawn, these shadows of silence,",
+          "This rhythm, this hush, beneath the quiet,",
+          "Moments of love, a few hazy dreams,",
+          "We walk through the streets of love."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "تاریک راتوں میں، کہیں کوئی چاند ہو",
+          "اجالا ہو، لیکن ہم سے دور ہو۔",
+          "یہ داغ داغ اجالا، یہ خاموشی کے سایے",
+          "یہ عشق کی کہانی ہے، جو کبھی نہ سمجھی۔"
+        ],
+        "translated_lines": [
+          "In dark nights, may there be a moon somewhere,",
+          "Light shining, but far from us.",
+          "This stained dawn, these shadows of silence,",
+          "This is the tale of love, never truly understood."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "نہ جانے کس کے خواب میں، یہ صبح بکھری ہو",
+          "نہ جانے کس کی آنکھوں میں، یہ آہنگ بھری ہو۔",
+          "یہ داغ داغ اجالا، یہ خاموشی کے سایے",
+          "یہ گیت ہے عشق کا، جو زندگی میں ہے۔"
+        ],
+        "translated_lines": [
+          "Who knows in whose dreams this morning is scattered,",
+          "In whose eyes this rhythm is filled?",
+          "This stained dawn, these shadows of silence,",
+          "This is the song of love, which lives in life."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "longing through unresolved grief",
+    "translation_fidelity_score": 0.833333,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "یہ داغ داغ اجالا، یہ خاموشی کے سایے",
+          "یہ آہنگ ہے، یہ چپ، یہ خاموشی کے نیچے",
+          "چند لمحوں کی محبت، چند دھندلے خواب",
+          "محبت کی گلیوں میں، چلتے ہیں ہم۔"
+        ],
+        "translated_lines": [
+          "This stained dawn, these shadows of silence,",
+          "This rhythm, this hush, beneath the quiet,",
+          "Moments of love, a few hazy dreams,",
+          "We walk through the streets of love."
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "partial",
+        "loss_note": "داغ داغ اجالا (daag daag ujala, stain-pocked light) is a charged phrase from Faiz Ahmed Faiz's 'Subh-e-Azadi' — its invocation here carries the weight of Partition's betrayed dawn; 'stained dawn' partially preserves this but loses the intertextual resonance.",
+        "metaphor_spans": [
+          {
+            "source_term": "داغ داغ اجالا",
+            "abstract_meaning": "a freedom or dawn so compromised by loss that its light is more wound than illumination"
+          },
+          {
+            "source_term": "خاموشی کے سایے",
+            "abstract_meaning": "silence as an oppressive presence that shadows even moments of light"
+          },
+          {
+            "source_term": "محبت کی گلیوں میں",
+            "abstract_meaning": "love as a labyrinthine urban space through which the self wanders without destination"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "تاریک راتوں میں، کہیں کوئی چاند ہو",
+          "اجالا ہو، لیکن ہم سے دور ہو۔",
+          "یہ داغ داغ اجالا، یہ خاموشی کے سایے",
+          "یہ عشق کی کہانی ہے، جو کبھی نہ سمجھی۔"
+        ],
+        "translated_lines": [
+          "In dark nights, may there be a moon somewhere,",
+          "Light shining, but far from us.",
+          "This stained dawn, these shadows of silence,",
+          "This is the tale of love, never truly understood."
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "نہ جانے کس کے خواب میں، یہ صبح بکھری ہو",
+          "نہ جانے کس کی آنکھوں میں، یہ آہنگ بھری ہو۔",
+          "یہ داغ داغ اجالا، یہ خاموشی کے سایے",
+          "یہ گیت ہے عشق کا، جو زندگی میں ہے۔"
+        ],
+        "translated_lines": [
+          "Who knows in whose dreams this morning is scattered,",
+          "In whose eyes this rhythm is filled?",
+          "This stained dawn, these shadows of silence,",
+          "This is the song of love, which lives in life."
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "داغ داغ اجالا",
+        "romanization": "daag daag ujala",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Intertextual echo of Faiz's 'Subh-e-Azadi' — the Partition's betrayed dawn — reduced to 'stained dawn' without the historical-political register."
+      },
+      {
+        "term": "عشق",
+        "romanization": "ishq",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 2,
+        "preserved": false,
+        "translation_note": "عشق carries a Sufi register of annihilating love distinct from the romantic 'love' used in translation."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8994,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 7,
+        "metaphors_dropped": 4
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 4,
+      "confidence": "high"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[2].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "تاریک راتوں میں کہیں کوئی چاند ہو",
+      "note": "metaphor_source_term_not_in_source"
+    },
+    {
+      "field_path": "annotation.stanzas[2].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "عشق کی کہانی جو کبھی نہ سمجھی",
+      "note": "metaphor_source_term_not_in_source"
+    },
+    {
+      "field_path": "annotation.stanzas[3].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "کس کے خواب میں یہ صبح بکھری ہو",
+      "note": "metaphor_source_term_not_in_source"
+    },
+    {
+      "field_path": "annotation.stanzas[3].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "کس کی آنکھوں میں یہ آہنگ بھری ہو",
+      "note": "metaphor_source_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

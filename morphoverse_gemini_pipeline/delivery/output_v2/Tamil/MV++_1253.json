@@ -1,0 +1,188 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1253",
+  "poem_title": "Chinnanjiru Kiliye",
+  "language": "Tamil",
+  "original_poem": "சின்னஞ்சிறு கிளியே கண்ணம்மா செந்தென்னை அழகே!\nஎன்னையே கொஞ்சம் பாரு கண்ணம்மா எங்குச் சென்றாய்?\n\nபாடல் விரும்பு வான்சுடர் பெண்ணே செந்தென்னை அழகே!\nபாரதியின் உள்ளத்தில் நிறைந்தே பொங்குதடி மகிழ்ச்சி!\n\nதாயே பிறந்த நாளின் பெருமை உள்ளம் இனிது கண்ணம்மா!",
+  "translated_poem": "My little bird, O Kannamma, beauty like crimson oil!\nJust look at me for a while, Kannamma, where have you gone?\n\nLover of songs, bright as the stars, crimson beauty like oil!\nIn Bharati’s heart, you’ve filled it with overflowing joy!\n\nMother, born on a day of greatness, my heart is sweet with Kannamma!",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8698,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "சின்னஞ்சிறு கிளியே கண்ணம்மா செந்தென்னை அழகே!",
+          "என்னையே கொஞ்சம் பாரு கண்ணம்மா எங்குச் சென்றாய்?"
+        ],
+        "translated_lines": [
+          "My little bird, O Kannamma, beauty like crimson oil!",
+          "Just look at me for a while, Kannamma, where have you gone?"
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "பாடல் விரும்பு வான்சுடர் பெண்ணே செந்தென்னை அழகே!",
+          "பாரதியின் உள்ளத்தில் நிறைந்தே பொங்குதடி மகிழ்ச்சி!"
+        ],
+        "translated_lines": [
+          "Lover of songs, bright as the stars, crimson beauty like oil!",
+          "In Bharati’s heart, you’ve filled it with overflowing joy!"
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 1,
+        "source_lines": [
+          "தாயே பிறந்த நாளின் பெருமை உள்ளம் இனிது கண்ணம்மா!"
+        ],
+        "translated_lines": [
+          "Mother, born on a day of greatness, my heart is sweet with Kannamma!"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "longing to overflowing joy",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "சின்னஞ்சிறு கிளியே கண்ணம்மா செந்தென்னை அழகே!",
+          "என்னையே கொஞ்சம் பாரு கண்ணம்மா எங்குச் சென்றாய்?"
+        ],
+        "translated_lines": [
+          "My little bird, O Kannamma, beauty like crimson oil!",
+          "Just look at me for a while, Kannamma, where have you gone?"
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "செந்தென்னை அழகே (sentennai azhage) literally means 'beauty of the red/crimson coconut palm' — a specific Bharati epithet for Kannamma evoking the lush Tamil landscape; 'crimson oil' flattens the botanical-cultural image.",
+        "metaphor_spans": [
+          {
+            "source_term": "சின்னஞ்சிறு கிளியே",
+            "abstract_meaning": "Kannamma as a small, cherished, elusive beloved"
+          },
+          {
+            "source_term": "செந்தென்னை அழகே",
+            "abstract_meaning": "Kannamma's beauty rooted in the Tamil land's crimson coconut palm"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "பாடல் விரும்பு வான்சுடர் பெண்ணே செந்தென்னை அழகே!",
+          "பாரதியின் உள்ளத்தில் நிறைந்தே பொங்குதடி மகிழ்ச்சி!"
+        ],
+        "translated_lines": [
+          "Lover of songs, bright as the stars, crimson beauty like oil!",
+          "In Bharati’s heart, you’ve filled it with overflowing joy!"
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "பாரதியின் உள்ளத்தில் (Bharatiyil ullattil) names the poet Bharati himself within the poem, making this a self-referential declaration of creative joy; the translation renders it adequately but loses the weight of Bharati as a national-poet persona.",
+        "metaphor_spans": [
+          {
+            "source_term": "வான்சுடர் பெண்ணே",
+            "abstract_meaning": "Kannamma as a celestial radiance surpassing earthly beauty"
+          },
+          {
+            "source_term": "பொங்குதடி மகிழ்ச்சி",
+            "abstract_meaning": "joy overflowing like a vessel that cannot be contained"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 1,
+        "source_lines": [
+          "தாயே பிறந்த நாளின் பெருமை உள்ளம் இனிது கண்ணம்மா!"
+        ],
+        "translated_lines": [
+          "Mother, born on a day of greatness, my heart is sweet with Kannamma!"
+        ],
+        "emotion": "celebration",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "தாயே பிறந்த நாளின் பெருமை (taye piranta nalin perumai) — 'the greatness of the day of birth, O Mother' — carries a devotional address to the mother-figure that the translation partially preserves but the vocative weight of தாயே is softened.",
+        "metaphor_spans": [
+          {
+            "source_term": "உள்ளம் இனிது",
+            "abstract_meaning": "the heart made sweet by Kannamma's presence"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "கண்ணம்மா",
+        "romanization": "Kannamma",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Bharati's Kannamma is simultaneously a beloved, a muse, and a divine feminine presence; the translation retains the name but not the devotional-erotic layering."
+      },
+      {
+        "term": "செந்தென்னை அழகே",
+        "romanization": "sentennai azhage",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "The red coconut palm is a specific Tamil landscape marker used by Bharati as a civilisational emblem; rendered as 'crimson oil' loses this."
+      },
+      {
+        "term": "பாரதியின்",
+        "romanization": "Bharatiyil",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 2,
+        "preserved": true,
+        "translation_note": "Subramania Bharati's self-naming within the poem is a classical Tamil convention of kavimudrā; the translation preserves the name."
+      },
+      {
+        "term": "தாயே",
+        "romanization": "taye",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 3,
+        "preserved": false,
+        "translation_note": "The vocative தாயே addresses the mother as a sacred figure, blending maternal and divine registers; rendered as 'Mother' without the devotional weight."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8698,
+      "source_term_checks": {
+        "entities_total": 4,
+        "entities_dropped": 0,
+        "metaphors_total": 5,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

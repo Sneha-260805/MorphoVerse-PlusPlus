@@ -1,0 +1,5 @@
+poem_id,poem_title,language,status,field_path,severity,resolved_value,model_value,note
+MV++_1215,Loona,Punjabi,completed,annotation.stanzas[1],medium,faithful,faithful,stanza_in_alignment_risk_poem
+MV++_1215,Loona,Punjabi,completed,annotation.stanzas[2],medium,partial,partial,stanza_in_alignment_risk_poem
+MV++_1215,Loona,Punjabi,completed,annotation.stanzas[3],medium,lost,lost,stanza_in_alignment_risk_poem
+MV++_1255,Kamba Ramayanam,Tamil,salvaged,annotation.cultural_entities,medium,dropped,கம்பன்,entity_term_not_in_source

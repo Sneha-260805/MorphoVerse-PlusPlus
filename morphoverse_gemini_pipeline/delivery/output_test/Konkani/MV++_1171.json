@@ -1,0 +1,90 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1171",
+  "poem_title": "Tuka Zaum Aas",
+  "language": "Konkani",
+  "original_poem": "तूका जाऊं आस  \nतूच माझं स्वप्न,  \nसंपूर्ण रात्रीत  \nतू माझ्या सोबत,  \nशांतता आणतेस.",
+  "translated_poem": "You are my dream,  \nIn the depths of night,  \nWith you beside me,  \nYou bring peace,  \nTo my restless soul.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8484,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "तूका जाऊं आस",
+          "तूच माझं स्वप्न,",
+          "संपूर्ण रात्रीत",
+          "तू माझ्या सोबत,",
+          "शांतता आणतेस."
+        ],
+        "translated_lines": [
+          "You are my dream,",
+          "In the depths of night,",
+          "With you beside me,",
+          "You bring peace,",
+          "To my restless soul."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "longing resolved into peace",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "तूका जाऊं आस",
+          "तूच माझं स्वप्न,",
+          "संपूर्ण रात्रीत",
+          "तू माझ्या सोबत,",
+          "शांतता आणतेस."
+        ],
+        "translated_lines": [
+          "You are my dream,",
+          "In the depths of night,",
+          "With you beside me,",
+          "You bring peace,",
+          "To my restless soul."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8484,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

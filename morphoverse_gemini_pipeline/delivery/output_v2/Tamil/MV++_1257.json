@@ -1,0 +1,112 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1257",
+  "poem_title": "Azhagiya Tamil Magan",
+  "language": "Tamil",
+  "original_poem": "அழகிய தமிழ் மகன்\nஅன்னையின் கண்ணீர் நதி\nமனத்தை ஆளும் ஆற்றல்\nஉள்ளத்தில் கொண்டே உளர்மால்.",
+  "translated_poem": "The beautiful Tamil youth\nThe river of a mother’s tears\nThe strength that rules the mind\nResiding in the heart, it sways.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.822,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "அழகிய தமிழ் மகன்",
+          "அன்னையின் கண்ணீர் நதி",
+          "மனத்தை ஆளும் ஆற்றல்",
+          "உள்ளத்தில் கொண்டே உளர்மால்."
+        ],
+        "translated_lines": [
+          "The beautiful Tamil youth",
+          "The river of a mother’s tears",
+          "The strength that rules the mind",
+          "Residing in the heart, it sways."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "grief yielding to inner resilience",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "அழகிய தமிழ் மகன்",
+          "அன்னையின் கண்ணீர் நதி",
+          "மனத்தை ஆளும் ஆற்றல்",
+          "உள்ளத்தில் கொண்டே உளர்மால்."
+        ],
+        "translated_lines": [
+          "The beautiful Tamil youth",
+          "The river of a mother’s tears",
+          "The strength that rules the mind",
+          "Residing in the heart, it sways."
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "உளர்மால் carries the Alvar-tradition sense of being seized or overwhelmed by divine or deep inner force — rendered as 'it sways' which loses this weight of possession and the Vaishnava devotional resonance of மால் as an epithet of Vishnu.",
+        "metaphor_spans": [
+          {
+            "source_term": "அன்னையின் கண்ணீர் நதி",
+            "abstract_meaning": "a mother's accumulated sorrow flowing as an unstoppable civilisational grief"
+          },
+          {
+            "source_term": "மனத்தை ஆளும் ஆற்றல்",
+            "abstract_meaning": "the Tamil youth's identity as a sovereign force over inner life"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "தமிழ் மகன்",
+        "romanization": "Tamil magan",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Rendered as 'Tamil youth' — preserves the cultural identity marker but loses the filial-civilisational weight of மகன் as son of the Tamil mother-tongue tradition."
+      },
+      {
+        "term": "உளர்மால்",
+        "romanization": "ularmal",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "மால் is an epithet of Vishnu in Alvar devotional poetry; its presence here gives the line a devotional-possession resonance entirely absent in 'it sways'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.822,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1230",
+  "poem_title": "Thar Ri Gathri",
+  "language": "Rajasthani",
+  "original_poem": "थार री गाठरी में सपनां सांचो,\nपधारो म्हारे देश में, मिट्टी में बांचो।",
+  "translated_poem": "In the bundle of Thar, dreams come true,  \nCome to my land, live in the soil’s hue.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.91,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "थार री गाठरी में सपनां सांचो,",
+          "पधारो म्हारे देश में, मिट्टी में बांचो।"
+        ],
+        "translated_lines": [
+          "In the bundle of Thar, dreams come true,",
+          "Come to my land, live in the soil’s hue."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "invitation to belonging and rootedness",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "थार री गाठरी में सपनां सांचो,",
+          "पधारो म्हारे देश में, मिट्टी में बांचो।"
+        ],
+        "translated_lines": [
+          "In the bundle of Thar, dreams come true,",
+          "Come to my land, live in the soil’s hue."
+        ],
+        "emotion": "celebration",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "'बांचो' (to read/absorb deeply) loses its sense of intimate communion with the soil beyond mere living.",
+        "metaphor_spans": [
+          {
+            "source_term": "थार री गाठरी",
+            "abstract_meaning": "the Thar desert as a bundled inheritance carrying the weight of dreams and ancestral memory"
+          },
+          {
+            "source_term": "मिट्टी में बांचो",
+            "abstract_meaning": "reading oneself into the soil as an act of belonging and identity-formation in the desert land"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "थार",
+        "romanization": "Thar",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Thar retained but its connotation as a living cultural-spiritual landscape is flattened to a geographic bundle."
+      },
+      {
+        "term": "पधारो म्हारे देश",
+        "romanization": "padharo mhare desh",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Traditional Rajasthani hospitality invocation partially preserved; its ceremonial warmth is somewhat diluted."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.91,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

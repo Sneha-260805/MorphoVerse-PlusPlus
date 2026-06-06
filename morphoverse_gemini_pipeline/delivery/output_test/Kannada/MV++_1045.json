@@ -1,0 +1,160 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1045",
+  "poem_title": "Kaidi Aur Kokila",
+  "language": "Kannada",
+  "original_poem": "कैदी हूँ, पर कैद नहीं यह मन मेरा,  \nयह उड़ता है वन-उपवन, बागों में।  \nयह बाँध नहीं सकतीं दीवारें जेल की,  \nयह सुनता है आवाज़ें दूर के सागरों में।  \n\nमैंने सुनी है तुझसे मिलती हुई आवाज़,  \nओ कोयल, तू जो गाती है डाल-डाल पर।  \nतेरी आज़ादी की गूंज ने छेड़ दिया है,  \nइस बंधन में बंधी मेरी भी एक तार।  \n\nकैदी हूँ, पर तूने सिखाया मुझे,  \nकि बंधन तन के हों तो भी, मन रहे मुक्त।  \nतेरी पुकारों में जैसे मैं भी हूँ शामिल,  \nजैसे मैं भी गा रहा हूँ जीवन का राग।",
+  "translated_poem": "I am a prisoner, but my heart is not confined,  \nIt flies to forests and gardens, entwined.  \nWalls of the jail cannot bind me here,  \nIt listens to distant seas, clear and near.\n\nI’ve heard a voice much like yours,  \nO cuckoo, singing on branches it soars.  \nThe echo of your freedom stirs my heart,  \nA string in my own bonds, a counterpart.\n\nA prisoner I am, yet you taught me this,  \nThat though the body is bound, the soul finds bliss.  \nIn your calls, it feels as though I'm free,  \nAs if I too sing life’s melody.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.91,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "कैदी हूँ, पर कैद नहीं यह मन मेरा,",
+          "यह उड़ता है वन-उपवन, बागों में।",
+          "यह बाँध नहीं सकतीं दीवारें जेल की,",
+          "यह सुनता है आवाज़ें दूर के सागरों में।"
+        ],
+        "translated_lines": [
+          "I am a prisoner, but my heart is not confined,",
+          "It flies to forests and gardens, entwined.",
+          "Walls of the jail cannot bind me here,",
+          "It listens to distant seas, clear and near."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "मैंने सुनी है तुझसे मिलती हुई आवाज़,",
+          "ओ कोयल, तू जो गाती है डाल-डाल पर।",
+          "तेरी आज़ादी की गूंज ने छेड़ दिया है,",
+          "इस बंधन में बंधी मेरी भी एक तार।"
+        ],
+        "translated_lines": [
+          "I’ve heard a voice much like yours,",
+          "O cuckoo, singing on branches it soars.",
+          "The echo of your freedom stirs my heart,",
+          "A string in my own bonds, a counterpart."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "कैदी हूँ, पर तूने सिखाया मुझे,",
+          "कि बंधन तन के हों तो भी, मन रहे मुक्त।",
+          "तेरी पुकारों में जैसे मैं भी हूँ शामिल,",
+          "जैसे मैं भी गा रहा हूँ जीवन का राग।"
+        ],
+        "translated_lines": [
+          "A prisoner I am, yet you taught me this,",
+          "That though the body is bound, the soul finds bliss.",
+          "In your calls, it feels as though I'm free,",
+          "As if I too sing life’s melody."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "grief to resilience",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "कैदी हूँ, पर कैद नहीं यह मन मेरा,",
+          "यह उड़ता है वन-उपवन, बागों में।",
+          "यह बाँध नहीं सकतीं दीवारें जेल की,",
+          "यह सुनता है आवाज़ें दूर के सागरों में।"
+        ],
+        "translated_lines": [
+          "I am a prisoner, but my heart is not confined,",
+          "It flies to forests and gardens, entwined.",
+          "Walls of the jail cannot bind me here,",
+          "It listens to distant seas, clear and near."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "मैंने सुनी है तुझसे मिलती हुई आवाज़,",
+          "ओ कोयल, तू जो गाती है डाल-डाल पर।",
+          "तेरी आज़ादी की गूंज ने छेड़ दिया है,",
+          "इस बंधन में बंधी मेरी भी एक तार।"
+        ],
+        "translated_lines": [
+          "I’ve heard a voice much like yours,",
+          "O cuckoo, singing on branches it soars.",
+          "The echo of your freedom stirs my heart,",
+          "A string in my own bonds, a counterpart."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "कैदी हूँ, पर तूने सिखाया मुझे,",
+          "कि बंधन तन के हों तो भी, मन रहे मुक्त।",
+          "तेरी पुकारों में जैसे मैं भी हूँ शामिल,",
+          "जैसे मैं भी गा रहा हूँ जीवन का राग।"
+        ],
+        "translated_lines": [
+          "A prisoner I am, yet you taught me this,",
+          "That though the body is bound, the soul finds bliss.",
+          "In your calls, it feels as though I'm free,",
+          "As if I too sing life’s melody."
+        ],
+        "emotion": "resilience",
+        "tone": "defiance",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.91,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

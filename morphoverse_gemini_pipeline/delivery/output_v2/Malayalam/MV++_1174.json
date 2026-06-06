@@ -1,0 +1,108 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1174",
+  "poem_title": "Oru Nattu Vakkukaran",
+  "language": "Malayalam",
+  "original_poem": "ഒരു നാട്ടു വാക്കുകാരൻ  \nസത്യത്തിന്റെ ഉള്ളിളക്കം  \nവാക്കുകളിൽ താനായ്കൊണ്ട്  \nകാട്ടിയിടുന്ന  \nവഴിതിരിവ് പോലെ.",
+  "translated_poem": "A village wordsmith,  \nWeaving the tremors of truth,  \nCarving paths,  \nAs if revealing  \nA turn in the road.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9876,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ഒരു നാട്ടു വാക്കുകാരൻ",
+          "സത്യത്തിന്റെ ഉള്ളിളക്കം",
+          "വാക്കുകളിൽ താനായ്കൊണ്ട്",
+          "കാട്ടിയിടുന്ന",
+          "വഴിതിരിവ് പോലെ."
+        ],
+        "translated_lines": [
+          "A village wordsmith,",
+          "Weaving the tremors of truth,",
+          "Carving paths,",
+          "As if revealing",
+          "A turn in the road."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "quiet revelation through honest speech",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ഒരു നാട്ടു വാക്കുകാരൻ",
+          "സത്യത്തിന്റെ ഉള്ളിളക്കം",
+          "വാക്കുകളിൽ താനായ്കൊണ്ട്",
+          "കാട്ടിയിടുന്ന",
+          "വഴിതിരിവ് പോലെ."
+        ],
+        "translated_lines": [
+          "A village wordsmith,",
+          "Weaving the tremors of truth,",
+          "Carving paths,",
+          "As if revealing",
+          "A turn in the road."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "നാട്ടു വാക്കുകാരൻ implies a folk oral tradition bearer rooted in village speech; 'village wordsmith' softens the cultural specificity of vernacular truth-telling.",
+        "metaphor_spans": [
+          {
+            "source_term": "സത്യത്തിന്റെ ഉള്ളിളക്കം",
+            "abstract_meaning": "truth as an inner tremor that unsettles from within rather than from outside"
+          },
+          {
+            "source_term": "വഴിതിരിവ് പോലെ",
+            "abstract_meaning": "the wordsmith's utterance as a sudden turn in the road that reorients the listener's path"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "നാട്ടു വാക്കുകാരൻ",
+        "romanization": "naattu vaakkukaaran",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Refers to the Kerala folk oral tradition of village storytellers and vernacular truth-speakers; reduced to generic 'village wordsmith'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9876,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

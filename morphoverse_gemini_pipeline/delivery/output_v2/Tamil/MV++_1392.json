@@ -1,0 +1,112 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1392",
+  "poem_title": "Aasaiyin Kovil",
+  "language": "Tamil",
+  "original_poem": "ஆசையின் கோவில்,  \nஉன் உள்ளத்தில் எழுந்தது,  \nஎன் இதயத்தின் தேவதை,  \nகாதலின் கடலில் அலைகிறது!",
+  "translated_poem": "Temple of desire,  \nEmerged in your heart,  \nThe angel of my soul,  \nWaves in the sea of love!",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9859,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ஆசையின் கோவில்,",
+          "உன் உள்ளத்தில் எழுந்தது,",
+          "என் இதயத்தின் தேவதை,",
+          "காதலின் கடலில் அலைகிறது!"
+        ],
+        "translated_lines": [
+          "Temple of desire,",
+          "Emerged in your heart,",
+          "The angel of my soul,",
+          "Waves in the sea of love!"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "longing into devotional surrender",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ஆசையின் கோவில்,",
+          "உன் உள்ளத்தில் எழுந்தது,",
+          "என் இதயத்தின் தேவதை,",
+          "காதலின் கடலில் அலைகிறது!"
+        ],
+        "translated_lines": [
+          "Temple of desire,",
+          "Emerged in your heart,",
+          "The angel of my soul,",
+          "Waves in the sea of love!"
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "தேவதை (tevatai) in Tamil carries the specific weight of a tutelary deity or divine feminine presence, not merely 'angel'; the translation loses the devotional-sacred register and flattens it into a generic English spiritual term.",
+        "metaphor_spans": [
+          {
+            "source_term": "ஆசையின் கோவில்",
+            "abstract_meaning": "the beloved's heart as a consecrated space for desire"
+          },
+          {
+            "source_term": "காதலின் கடலில் அலைகிறது",
+            "abstract_meaning": "the soul-deity adrift and unmoored in the vastness of love"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "கோவில்",
+        "romanization": "kovil",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Rendered as 'temple' which is accurate lexically, but the kovil in Tamil devotional imagination is not merely a building — it is the dwelling-place of the divine, making the metaphor of the beloved's heart as kovil a theologically charged image that 'temple' only partially conveys."
+      },
+      {
+        "term": "தேவதை",
+        "romanization": "tevatai",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Rendered as 'angel', losing the Tamil devotional specificity of tevatai as a divine feminine tutelary presence distinct from the Abrahamic angel concept."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9859,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

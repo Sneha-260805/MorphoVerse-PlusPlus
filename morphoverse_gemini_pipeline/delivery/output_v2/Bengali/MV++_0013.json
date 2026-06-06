@@ -1,0 +1,200 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0013",
+  "poem_title": "Anondolokey",
+  "language": "Bengali",
+  "original_poem": "আনন্দলোকেতে অঙ্গন ফল।\nবুলবুলের গানে গাইছে,\nজাদুর খেলা মূর্ছনাতে,\nসেথা প্রেমের পরশ।\n\nআনন্দলোকেতে অঙ্গন ফল।\nমেঘের বুকে খেলে যায়,\nজলের প্রবাহে ভাসে,\nসেথা প্রেমের পরশ।\n\nসন্ধ্যাবেলা পাখির গান,\nনদীর তীরে মনের গান।\nআনন্দলোকেতে অঙ্গন ফল,\nবুলবুলের গানে গাইছে।",
+  "translated_poem": "In the land of joy, the courtyard is full of fruits.\nThe bulbul sings,\nIn the enchantment of magic,\nThere, the touch of love.\n\nIn the land of joy, the courtyard is full of fruits.\nIt plays on the back of the clouds,\nFloats in the flow of water,\nThere, the touch of love.\n\nIn the evening, the bird sings,\nOn the riverbank, the song of the heart.\nIn the land of joy, the courtyard is full,\nThe bulbul sings.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7657,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "বুলবুলের গানে গাইছে,",
+          "জাদুর খেলা মূর্ছনাতে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "The bulbul sings,",
+          "In the enchantment of magic,",
+          "There, the touch of love."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "মেঘের বুকে খেলে যায়,",
+          "জলের প্রবাহে ভাসে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "It plays on the back of the clouds,",
+          "Floats in the flow of water,",
+          "There, the touch of love."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সন্ধ্যাবেলা পাখির গান,",
+          "নদীর তীরে মনের গান।",
+          "আনন্দলোকেতে অঙ্গন ফল,",
+          "বুলবুলের গানে গাইছে।"
+        ],
+        "translated_lines": [
+          "In the evening, the bird sings,",
+          "On the riverbank, the song of the heart.",
+          "In the land of joy, the courtyard is full,",
+          "The bulbul sings."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "joy and abundance opening into lyrical wonder, settling into evening stillness and heartfelt song",
+    "translation_fidelity_score": 0.666667,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "বুলবুলের গানে গাইছে,",
+          "জাদুর খেলা মূর্ছনাতে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "The bulbul sings,",
+          "In the enchantment of magic,",
+          "There, the touch of love."
+        ],
+        "emotion": "peace",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "বুলবুলের গানে গাইছে literally means 'singing in the song of the bulbul' — a participatory merging with the bird's voice — but the translation renders it as the neutral 'the bulbul sings', losing the sense of communal or cosmic co-singing.",
+        "metaphor_spans": [
+          {
+            "source_term": "আনন্দলোকেতে অঙ্গন ফল",
+            "abstract_meaning": "the inner courtyard of the soul made fertile by joy"
+          },
+          {
+            "source_term": "প্রেমের পরশ",
+            "abstract_meaning": "love as a tangible, almost sacred touch that consecrates the space of joy"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "মেঘের বুকে খেলে যায়,",
+          "জলের প্রবাহে ভাসে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "It plays on the back of the clouds,",
+          "Floats in the flow of water,",
+          "There, the touch of love."
+        ],
+        "emotion": "peace",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "মেঘের বুকে খেলে যায় uses 'বুকে' (chest/breast) for the cloud, giving it a maternal, embodied tenderness that 'back of the clouds' in the translation misses entirely.",
+        "metaphor_spans": [
+          {
+            "source_term": "মেঘের বুকে খেলে যায়",
+            "abstract_meaning": "love or joy playing freely in the sheltering embrace of the sky"
+          },
+          {
+            "source_term": "জলের প্রবাহে ভাসে",
+            "abstract_meaning": "the self surrendering and drifting in the current of bliss"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সন্ধ্যাবেলা পাখির গান,",
+          "নদীর তীরে মনের গান।",
+          "আনন্দলোকেতে অঙ্গন ফল,",
+          "বুলবুলের গানে গাইছে।"
+        ],
+        "translated_lines": [
+          "In the evening, the bird sings,",
+          "On the riverbank, the song of the heart.",
+          "In the land of joy, the courtyard is full,",
+          "The bulbul sings."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "নদীর তীরে মনের গান",
+            "abstract_meaning": "the riverbank as the threshold where inner longing finds its voice"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "বুলবুল",
+        "romanization": "bulbul",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "The bulbul in Bengali poetic tradition carries connotations of the lover-poet and divine song, echoing both Perso-Arabic ghazal imagery and Tagore's lyrical universe; the translation retains the name but not the resonance."
+      },
+      {
+        "term": "বুলবুল",
+        "romanization": "bulbul",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 3,
+        "preserved": true,
+        "translation_note": "Repetition of the bulbul in the closing stanza reinforces its role as the presiding spirit of the poem's joyful world; the translation preserves the word."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7657,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 5,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

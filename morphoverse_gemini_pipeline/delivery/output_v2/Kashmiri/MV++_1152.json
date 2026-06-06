@@ -1,0 +1,120 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1152",
+  "poem_title": "Rinda Posh Maal",
+  "language": "Kashmiri",
+  "original_poem": "رِندہ پوشھ مال، گِندہ پوشھ مال  \nریشی واریہ نیاؤ، سہز پوشھ مال  \nہری ساری نوَ باغ، برکھہ دیار نۄندہ چھوک گول  \nہندہ کوسہ پاں لاری، ما زرۄ گندہ پوشھ مال  \nرِندہ پوشھھ مال، گِندہ پوشھھ مال۔",
+  "translated_poem": "The fair maidens blossom, the garden blooms,  \nIn the vale of saints, spring has arrived.  \nEvery garden is green, flowers shower,  \nFragrance spreads from every path, oh dear,  \nThe fair maidens blossom, the garden blooms.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8976,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "رِندہ پوشھ مال، گِندہ پوشھ مال",
+          "ریشی واریہ نیاؤ، سہز پوشھ مال",
+          "ہری ساری نوَ باغ، برکھہ دیار نۄندہ چھوک گول",
+          "ہندہ کوسہ پاں لاری، ما زرۄ گندہ پوشھ مال",
+          "رِندہ پوشھھ مال، گِندہ پوشھھ مال۔"
+        ],
+        "translated_lines": [
+          "The fair maidens blossom, the garden blooms,",
+          "In the vale of saints, spring has arrived.",
+          "Every garden is green, flowers shower,",
+          "Fragrance spreads from every path, oh dear,",
+          "The fair maidens blossom, the garden blooms."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "joy through sacred spring arrival",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "رِندہ پوشھ مال، گِندہ پوشھ مال",
+          "ریشی واریہ نیاؤ، سہز پوشھ مال",
+          "ہری ساری نوَ باغ، برکھہ دیار نۄندہ چھوک گول",
+          "ہندہ کوسہ پاں لاری، ما زرۄ گندہ پوشھ مال",
+          "رِندہ پوشھھ مال، گِندہ پوشھھ مال۔"
+        ],
+        "translated_lines": [
+          "The fair maidens blossom, the garden blooms,",
+          "In the vale of saints, spring has arrived.",
+          "Every garden is green, flowers shower,",
+          "Fragrance spreads from every path, oh dear,",
+          "The fair maidens blossom, the garden blooms."
+        ],
+        "emotion": "celebration",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "The Kashmiri phrase 'ریشی واریہ' (Rishi Variyah) specifically invokes the sacred valley of the Rishi saints — the Nund Rishi order — making spring's arrival a spiritually charged event, not merely a pastoral one; the translation renders it as 'vale of saints' which partially preserves but flattens the specific Rishi-order resonance.",
+        "metaphor_spans": [
+          {
+            "source_term": "رِندہ پوشھ مال",
+            "abstract_meaning": "maidens blooming as embodiment of spring's sacred renewal"
+          },
+          {
+            "source_term": "گِندہ پوشھ مال",
+            "abstract_meaning": "the garden's blossoming as communal spiritual flourishing"
+          },
+          {
+            "source_term": "برکھہ دیار نۄندہ چھوک گول",
+            "abstract_meaning": "flower-shower as divine benediction descending on the land"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ریشی واریہ",
+        "romanization": "Rishi Variyah",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Refers specifically to the sacred valley associated with the Rishi order of Kashmiri Sufi saints founded by Nund Rishi (Sheikh Nooruddin Noorani); 'vale of saints' loses the precise Rishi-order spiritual geography."
+      },
+      {
+        "term": "سہز پوشھ مال",
+        "romanization": "sahaz posh maal",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Spring blossoming in Kashmir carries the specific cultural weight of Nowruz and the Kashmiri spring festival tradition; translated as 'spring has arrived' which preserves the seasonal meaning but not the festive-cultural register."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8976,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -28,7 +28,117 @@ class StanzaCountMismatch(ModelValidationError):
     """Raised when a model response changes stanza segmentation."""
 
 
+# ── Abbreviated key expansion ────────────────────────────────────────────────
+def expand_abbreviated_keys(payload: Any) -> Any:
+    """Expand abbreviated model output keys to full names before schema validation.
+
+    The prompt asks the model to output compact keys (rs/ea/st/ce/i/em/to/tq/ln/ms
+    etc.) to fit within the proxy's ~37-token completion cap.  This function
+    expands them back to full field names so the rest of the pipeline is unchanged.
+    Full-key dicts pass through unchanged (idempotent).
+    """
+    from .schema import ABBREV_TOPLEVEL, ABBREV_STANZA, ABBREV_METAPHOR, ABBREV_ENTITY
+    if not isinstance(payload, dict):
+        return payload
+    expanded = {ABBREV_TOPLEVEL.get(k, k): v for k, v in payload.items()}
+    stanzas = expanded.get("stanzas")
+    if isinstance(stanzas, list):
+        new_stanzas = []
+        for st in stanzas:
+            if not isinstance(st, dict):
+                new_stanzas.append(st)
+                continue
+            exp_st = {ABBREV_STANZA.get(k, k): v for k, v in st.items()}
+            spans = exp_st.get("metaphor_spans")
+            if isinstance(spans, list):
+                exp_st["metaphor_spans"] = [
+                    {ABBREV_METAPHOR.get(k, k): v for k, v in m.items()}
+                    if isinstance(m, dict) else m
+                    for m in spans
+                ]
+            new_stanzas.append(exp_st)
+        expanded["stanzas"] = new_stanzas
+    entities = expanded.get("cultural_entities")
+    if isinstance(entities, list):
+        expanded["cultural_entities"] = [
+            {ABBREV_ENTITY.get(k, k): v for k, v in e.items()}
+            if isinstance(e, dict) else e
+            for e in entities
+        ]
+    return expanded
+
+
 # ── JSON extraction ──────────────────────────────────────────────────────────
+def _repair_truncated_json(s: str) -> Any:
+    """Best-effort repair of truncated JSON from proxy completion cutoff.
+
+    Strategy (least to most invasive):
+    1. Try a set of standard close-bracket suffixes.
+    2. Trim up to 2000 chars from the right and retry suffixes.
+    3. If cultural_entities is present but truncated, replace it with [].
+    4. If stanzas is the truncated part, close it with format-aware suffixes.
+    """
+    if not s.startswith("{"):
+        raise json.JSONDecodeError("not a JSON object", s, 0)
+
+    generic_closings = [
+        "",
+        "}",
+        "]}",
+        "}]}",
+        '"]}',
+        '"}]}',
+        '"}}]}',
+    ]
+    ce_closings = [
+        '],"ce":[]}',
+        '],"cultural_entities":[]}',
+        '}],"ce":[]}',
+        '}],"cultural_entities":[]}',
+        '"}],"ce":[]}',
+        '"}],"cultural_entities":[]}',
+        '""}],"ce":[]}',
+        '","ms":[]}],"ce":[]}',
+        '[],"ms":[]}],"ce":[]}',
+    ]
+    all_closings = generic_closings + ce_closings
+
+    for suffix in all_closings:
+        try:
+            result = json.loads(s + suffix)
+            if isinstance(result, dict):
+                return result
+        except json.JSONDecodeError:
+            pass
+
+    # Trim from the right (up to 2000 chars) until JSON closes cleanly.
+    for trim in range(1, min(2000, len(s))):
+        candidate = s[:-trim]
+        for suffix in all_closings[1:]:
+            try:
+                result = json.loads(candidate + suffix)
+                if isinstance(result, dict):
+                    return result
+            except json.JSONDecodeError:
+                pass
+
+    # Structural recovery: if cultural_entities is truncated, replace with [].
+    # Handles: {"recitation_style":...,"stanzas":[...],"cultural_entities":[{...cut
+    ce_markers = ['"cultural_entities":', '"ce":']
+    for marker in ce_markers:
+        idx = s.rfind(marker)
+        if idx != -1:
+            truncated_at_ce = s[:idx] + '"cultural_entities":[]}'
+            try:
+                result = json.loads(truncated_at_ce)
+                if isinstance(result, dict):
+                    return result
+            except json.JSONDecodeError:
+                pass
+
+    raise json.JSONDecodeError("repair exhausted", s, 0)
+
+
 def extract_json_payload(raw_text: str) -> Any:
     stripped = (raw_text or "").strip()
     if not stripped:
@@ -43,8 +153,13 @@ def extract_json_payload(raw_text: str) -> Any:
         start = stripped.find("{")
         end = stripped.rfind("}")
         if start != -1 and end != -1 and end > start:
-            return json.loads(stripped[start:end + 1])
-        raise
+            try:
+                return json.loads(stripped[start:end + 1])
+            except json.JSONDecodeError:
+                pass
+        # Last resort: try to repair truncated JSON (proxy completion cutoff)
+        candidate = stripped[start:] if start != -1 else stripped
+        return _repair_truncated_json(candidate)
 
 
 # ── Primitive validators ─────────────────────────────────────────────────────
@@ -88,13 +203,32 @@ def coerce_to_text(value: Any) -> str:
     return str(value).strip()
 
 
+def _strip_ascii_gloss(term: str) -> str:
+    """Remove trailing English gloss the model sometimes appends, e.g. ' (cold wind)'.
+    Strips only ASCII-only parentheticals so Indic script in parens is untouched."""
+    return re.sub(r"\s*\([A-Za-z0-9\s,\-']+\)\s*$", "", term).strip()
+
+
 def term_in_source(term: str, source_text: str) -> bool:
-    """Verbatim, whitespace-insensitive presence check (handles compounds/scripts)."""
+    """Verbatim, whitespace-insensitive presence check (handles compounds/scripts).
+
+    Also tries stripping trailing ASCII gloss the model sometimes appends to
+    source_term (e.g. 'చల్లగా వీచే గాలి (cold wind)' → 'చల్లగా వీచే గాలి').
+    """
     t = normalize_term(term)
     s = normalize_term(source_text)
     if t and t in s:
         return True
-    return bool(t and t.replace(" ", "") in s.replace(" ", ""))
+    if t and t.replace(" ", "") in s.replace(" ", ""):
+        return True
+    # Try after stripping any ASCII annotation gloss
+    t2 = normalize_term(_strip_ascii_gloss(term))
+    if t2 and t2 != t:
+        if t2 in s:
+            return True
+        if t2.replace(" ", "") in s.replace(" ", ""):
+            return True
+    return False
 
 
 # ── Metaphor span validation (no visual_motifs) ──────────────────────────────
@@ -347,7 +481,7 @@ async def fetch_gemini_annotation(
             return _fail("request_error", attempt_index, last_raw or "", last_error, model, kind)
 
         try:
-            parsed = extract_json_payload(last_raw)
+            parsed = expand_abbreviated_keys(extract_json_payload(last_raw))
         except json.JSONDecodeError as exc:
             if kind != "flash_fallback":
                 continue

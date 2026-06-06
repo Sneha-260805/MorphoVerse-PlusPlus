@@ -1,0 +1,168 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1220",
+  "poem_title": "Jithe Ik Raat Baithi Aa",
+  "language": "Punjabi",
+  "original_poem": "ਜਿਥੇ ਇਕ ਰਾਤ ਬੈਠੀ ਆ\nਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?\nਉੱਕੇ ਖ਼ੁਆਬਾਂ ਦੀਆਂ ਰਾਂਗਾਂ ਨੂੰ\nਇੱਕ ਸਪਨਾ ਦੇ ਰੰਗਾਂ ਵਿੱਚ ਖੇਡੀਦੀ।\nਜਿਥੇ ਇਕ ਰਾਤ ਬੈਠੀ ਆ\nਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?\nਜਿਥੇ ਉਸ ਦੀਆਂ ਹੱਸੀਆਂ ਦਾ ਨਾਚ,\nਤੇ ਦਿਲ ਦੇ ਗਾਉਂ ਦੇ ਵਿਚਕਾਰ।\n\nਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?\nਉੱਥੇ ਤਕਦੀਰਾਂ ਦੇ ਨਾਚਦੇ ਹਨ,\nਜਿਥੇ ਉਸ ਦਾ ਚਿਹਰਾ ਇੱਕ ਤਾਰਾ ਹੈ,\nਤੇ ਉਨ੍ਹਾਂ ਸਾਰੇ ਚੰਦਾਂ ਦੀਆਂ ਚੰਨਣਾਂ ਹਨ।",
+  "translated_poem": "Where She Sat One Night  \nWhere she sat one night,  \nWhat can I say?  \nShe played with the hues of dreams  \nIn the colors of a single dream.  \nWhere she sat one night,  \nWhat can I say?  \nWhere her laughter danced,  \nAnd the heart sang in between.\n\nWhat can I say?  \nThere, destinies dance,  \nWhere her face is a star,  \nAnd all those moons glow bright.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9085,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 8,
+        "source_lines": [
+          "ਜਿਥੇ ਇਕ ਰਾਤ ਬੈਠੀ ਆ",
+          "ਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?",
+          "ਉੱਕੇ ਖ਼ੁਆਬਾਂ ਦੀਆਂ ਰਾਂਗਾਂ ਨੂੰ",
+          "ਇੱਕ ਸਪਨਾ ਦੇ ਰੰਗਾਂ ਵਿੱਚ ਖੇਡੀਦੀ।",
+          "ਜਿਥੇ ਇਕ ਰਾਤ ਬੈਠੀ ਆ",
+          "ਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?",
+          "ਜਿਥੇ ਉਸ ਦੀਆਂ ਹੱਸੀਆਂ ਦਾ ਨਾਚ,",
+          "ਤੇ ਦਿਲ ਦੇ ਗਾਉਂ ਦੇ ਵਿਚਕਾਰ।"
+        ],
+        "translated_lines": [
+          "Where She Sat One Night",
+          "Where she sat one night,",
+          "What can I say?",
+          "She played with the hues of dreams",
+          "In the colors of a single dream.",
+          "Where she sat one night,",
+          "What can I say?",
+          "Where her laughter danced,",
+          "And the heart sang in between."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "ਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?",
+          "ਉੱਥੇ ਤਕਦੀਰਾਂ ਦੇ ਨਾਚਦੇ ਹਨ,",
+          "ਜਿਥੇ ਉਸ ਦਾ ਚਿਹਰਾ ਇੱਕ ਤਾਰਾ ਹੈ,",
+          "ਤੇ ਉਨ੍ਹਾਂ ਸਾਰੇ ਚੰਦਾਂ ਦੀਆਂ ਚੰਨਣਾਂ ਹਨ।"
+        ],
+        "translated_lines": [
+          "What can I say?",
+          "There, destinies dance,",
+          "Where her face is a star,",
+          "And all those moons glow bright."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "longing deepens into luminous wonder",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 8,
+        "source_lines": [
+          "ਜਿਥੇ ਇਕ ਰਾਤ ਬੈਠੀ ਆ",
+          "ਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?",
+          "ਉੱਕੇ ਖ਼ੁਆਬਾਂ ਦੀਆਂ ਰਾਂਗਾਂ ਨੂੰ",
+          "ਇੱਕ ਸਪਨਾ ਦੇ ਰੰਗਾਂ ਵਿੱਚ ਖੇਡੀਦੀ।",
+          "ਜਿਥੇ ਇਕ ਰਾਤ ਬੈਠੀ ਆ",
+          "ਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?",
+          "ਜਿਥੇ ਉਸ ਦੀਆਂ ਹੱਸੀਆਂ ਦਾ ਨਾਚ,",
+          "ਤੇ ਦਿਲ ਦੇ ਗਾਉਂ ਦੇ ਵਿਚਕਾਰ।"
+        ],
+        "translated_lines": [
+          "Where She Sat One Night",
+          "Where she sat one night,",
+          "What can I say?",
+          "She played with the hues of dreams",
+          "In the colors of a single dream.",
+          "Where she sat one night,",
+          "What can I say?",
+          "Where her laughter danced,",
+          "And the heart sang in between."
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "partial",
+        "loss_note": "ਰਾਂਗਾਂ (raangan) means the wiry, tangled threads of dreams — a tactile Punjabi image of entanglement — rendered as 'hues' loses the physical texture of knotted longing.",
+        "metaphor_spans": [
+          {
+            "source_term": "ਖ਼ੁਆਬਾਂ ਦੀਆਂ ਰਾਂਗਾਂ",
+            "abstract_meaning": "the knotted, unresolvable threads of remembered desire"
+          },
+          {
+            "source_term": "ਦਿਲ ਦੇ ਗਾਉਂ",
+            "abstract_meaning": "the interior village of the heart as a site of communal feeling"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "ਉੱਥੇ ਮੈਂ ਕੀ ਜਾਉਂ?",
+          "ਉੱਥੇ ਤਕਦੀਰਾਂ ਦੇ ਨਾਚਦੇ ਹਨ,",
+          "ਜਿਥੇ ਉਸ ਦਾ ਚਿਹਰਾ ਇੱਕ ਤਾਰਾ ਹੈ,",
+          "ਤੇ ਉਨ੍ਹਾਂ ਸਾਰੇ ਚੰਦਾਂ ਦੀਆਂ ਚੰਨਣਾਂ ਹਨ।"
+        ],
+        "translated_lines": [
+          "What can I say?",
+          "There, destinies dance,",
+          "Where her face is a star,",
+          "And all those moons glow bright."
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "ਤਕਦੀਰਾਂ (takdeeran) carries the Sufi-inflected Punjabi weight of fated destiny written before birth — 'destinies' in English is too neutral and loses this pre-ordained, divine-script connotation.",
+        "metaphor_spans": [
+          {
+            "source_term": "ਉਸ ਦਾ ਚਿਹਰਾ ਇੱਕ ਤਾਰਾ ਹੈ",
+            "abstract_meaning": "the beloved's face as a fixed celestial point orienting the speaker's entire cosmos"
+          },
+          {
+            "source_term": "ਚੰਦਾਂ ਦੀਆਂ ਚੰਨਣਾਂ",
+            "abstract_meaning": "the collective radiance of all moons as emanations of the beloved's singular light"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ਤਕਦੀਰਾਂ",
+        "romanization": "takdeeran",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 2,
+        "preserved": false,
+        "translation_note": "Rendered as 'destinies' — loses the Sufi-Punjabi sense of pre-written divine fate (qismat/taqdeer) central to kafi tradition."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9085,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 4,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1242",
+  "poem_title": "Ho Jamalo",
+  "language": "Sindhi",
+  "original_poem": "ڄامالي جي خوشبوءِ،  \nڪوڻن ۾ پکڙي،  \nسڄي سنڌ ۾،  \nمحفلون سجايو ٿا.  \nهو ڄامالو اچي،  \nڪمري جي دروازي کان،  \nسبحان الله، سڏجي ٿو.",
+  "translated_poem": "The fragrance of Jamalo spreads,  \nThrough every corner,  \nIn all of Sindh,  \nCelebrations arise.  \nHere comes Jamalo,  \nThrough the door of the room,  \nPraised with 'Subhan Allah.'",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8012,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 7,
+        "source_lines": [
+          "ڄامالي جي خوشبوءِ،",
+          "ڪوڻن ۾ پکڙي،",
+          "سڄي سنڌ ۾،",
+          "محفلون سجايو ٿا.",
+          "هو ڄامالو اچي،",
+          "ڪمري جي دروازي کان،",
+          "سبحان الله، سڏجي ٿو."
+        ],
+        "translated_lines": [
+          "The fragrance of Jamalo spreads,",
+          "Through every corner,",
+          "In all of Sindh,",
+          "Celebrations arise.",
+          "Here comes Jamalo,",
+          "Through the door of the room,",
+          "Praised with 'Subhan Allah.'"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "joyful arrival spreading communal celebration",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 7,
+        "source_lines": [
+          "ڄامالي جي خوشبوءِ،",
+          "ڪوڻن ۾ پکڙي،",
+          "سڄي سنڌ ۾،",
+          "محفلون سجايو ٿا.",
+          "هو ڄامالو اچي،",
+          "ڪمري جي دروازي کان،",
+          "سبحان الله، سڏجي ٿو."
+        ],
+        "translated_lines": [
+          "The fragrance of Jamalo spreads,",
+          "Through every corner,",
+          "In all of Sindh,",
+          "Celebrations arise.",
+          "Here comes Jamalo,",
+          "Through the door of the room,",
+          "Praised with 'Subhan Allah.'"
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "ڄامالي جي خوشبوءِ",
+            "abstract_meaning": "Jamalo's presence as a fragrance that permeates and unifies Sindhi communal life"
+          },
+          {
+            "source_term": "محفلون سجايو ٿا",
+            "abstract_meaning": "the beloved's arrival as the act that adorns and completes the gathering"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ڄامالو",
+        "romanization": "Jamalo",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Jamalo is the iconic Sindhi folk dance-song tradition; translation preserves the name but not its cultural weight as a communal performance form."
+      },
+      {
+        "term": "سنڌ",
+        "romanization": "Sindh",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      },
+      {
+        "term": "محفلون",
+        "romanization": "mahfilan",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Mahfil denotes a formal Sindhi cultural gathering with musical and devotional dimensions, reduced to generic 'celebrations'."
+      },
+      {
+        "term": "سبحان الله",
+        "romanization": "Subhan Allah",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Exclamation of divine praise used in Sindhi performance contexts to acclaim beauty or arrival; preserved in translation."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8012,
+      "source_term_checks": {
+        "entities_total": 4,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

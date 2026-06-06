@@ -1,0 +1,110 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1284",
+  "poem_title": "Kannanin Satham",
+  "language": "Tamil",
+  "original_poem": "கண்ணனின் சத்தம் என்ன,  \nகாதல் எனும் இசை,  \nநெஞ்சின் மயிலின்  \nவிளையாட்டும் மிதக்கும்!",
+  "translated_poem": "What is the call of Krishna?  \nIt is the music of love,  \nThe playful dance of the  \nPeacock in the heart, swaying!",
+  "status": "salvaged",
+  "model": "claude",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8302,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "கண்ணனின் சத்தம் என்ன,",
+          "காதல் எனும் இசை,",
+          "நெஞ்சின் மயிலின்",
+          "விளையாட்டும் மிதக்கும்!"
+        ],
+        "translated_lines": [
+          "What is the call of Krishna?",
+          "It is the music of love,",
+          "The playful dance of the",
+          "Peacock in the heart, swaying!"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "wonder deepening into devotional joy",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "கண்ணனின் சத்தம் என்ன,",
+          "காதல் எனும் இசை,",
+          "நெஞ்சின் மயிலின்",
+          "விளையாட்டும் மிதக்கும்!"
+        ],
+        "translated_lines": [
+          "What is the call of Krishna?",
+          "It is the music of love,",
+          "The playful dance of the",
+          "Peacock in the heart, swaying!"
+        ],
+        "emotion": "devotion",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "நெஞ்சின் மயிலின் (the peacock of the heart) carries the specific Murugan-tinai resonance of the kurinji landscape where the peacock is the vahana of Murugan and a symbol of divine ecstasy; the translation renders it as generic playful dance, losing this devotional-ecological specificity.",
+        "metaphor_spans": [
+          {
+            "source_term": "காதல் எனும் இசை",
+            "abstract_meaning": "Krishna's divine call experienced as an interior music of longing"
+          },
+          {
+            "source_term": "நெஞ்சின் மயிலின் விளையாட்டும் மிதக்கும்",
+            "abstract_meaning": "the soul's ecstatic response to Krishna's presence, dancing weightlessly within the devotee's heart"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8302,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 2,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 2,
+      "confidence": "low"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities",
+      "severity": "medium",
+      "resolved_value": "dropped",
+      "model_value": "கண்ணன்",
+      "note": "entity_term_not_in_source"
+    },
+    {
+      "field_path": "annotation.cultural_entities",
+      "severity": "medium",
+      "resolved_value": "dropped",
+      "model_value": "மயில்",
+      "note": "entity_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

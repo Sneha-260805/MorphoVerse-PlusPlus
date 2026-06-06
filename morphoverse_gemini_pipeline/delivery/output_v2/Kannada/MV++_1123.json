@@ -1,0 +1,178 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1123",
+  "poem_title": "Hachchevu Kannadada Deepa",
+  "language": "Kannada",
+  "original_poem": "ಹಚ್ಚೆವು ಕನ್ನಡದ ದೀಪ,  \nನಿನ್ನ ಕಂದನವನಲ್ಲಿ,  \nನೀನು ನನ್ನ ಹೃದಯವನ್ನು  \nಮೇಡಲ ಮೇಲಿಟ್ಟರೆ.  \n\nನಿನ್ನ ಬೆಳಕು ಹಾರುವಾಗ,  \nಕನ್ನಡ ನಾಡಿನ ಪರಿಮಳ,  \nನೀನೆ ನನ್ನ ಬಾಳ್ಮಣಿಯ,  \nನೀನೆ ನಮ್ಮ ತೇಜಸ್ಸು.",
+  "translated_poem": "You lit the lamp of Kannada,  \nIn your beloved garden,  \nIf you place it on my heart,  \nIt shines brightly.  \n\nAs your light soars,  \nThe fragrance of the Kannada land,  \nYou are my life's essence,  \nYou are our brilliance.",
+  "status": "salvaged",
+  "model": "claude",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8327,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ಹಚ್ಚೆವು ಕನ್ನಡದ ದೀಪ,",
+          "ನಿನ್ನ ಕಂದನವನಲ್ಲಿ,",
+          "ನೀನು ನನ್ನ ಹೃದಯವನ್ನು",
+          "ಮೇಡಲ ಮೇಲಿಟ್ಟರೆ."
+        ],
+        "translated_lines": [
+          "You lit the lamp of Kannada,",
+          "In your beloved garden,",
+          "If you place it on my heart,",
+          "It shines brightly."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "ನಿನ್ನ ಬೆಳಕು ಹಾರುವಾಗ,",
+          "ಕನ್ನಡ ನಾಡಿನ ಪರಿಮಳ,",
+          "ನೀನೆ ನನ್ನ ಬಾಳ್ಮಣಿಯ,",
+          "ನೀನೆ ನಮ್ಮ ತೇಜಸ್ಸು."
+        ],
+        "translated_lines": [
+          "As your light soars,",
+          "The fragrance of the Kannada land,",
+          "You are my life's essence,",
+          "You are our brilliance."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "devotion to luminous celebration",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ಹಚ್ಚೆವು ಕನ್ನಡದ ದೀಪ,",
+          "ನಿನ್ನ ಕಂದನವನಲ್ಲಿ,",
+          "ನೀನು ನನ್ನ ಹೃದಯವನ್ನು",
+          "ಮೇಡಲ ಮೇಲಿಟ್ಟರೆ."
+        ],
+        "translated_lines": [
+          "You lit the lamp of Kannada,",
+          "In your beloved garden,",
+          "If you place it on my heart,",
+          "It shines brightly."
+        ],
+        "emotion": "devotion",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "ಮೇಡಲ ಮೇಲಿಟ್ಟರೆ (placed on a raised platform/pedestal) loses its specific spatial-ritual connotation; translated loosely as 'shines brightly'.",
+        "metaphor_spans": [
+          {
+            "source_term": "ಕನ್ನಡದ ದೀಪ",
+            "abstract_meaning": "Kannada language and culture as a sacred lamp lit for veneration"
+          },
+          {
+            "source_term": "ಹೃದಯವನ್ನು ಮೇಡಲ ಮೇಲಿಟ್ಟರೆ",
+            "abstract_meaning": "offering one's heart as a pedestal for the Kannada flame"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "ನಿನ್ನ ಬೆಳಕು ಹಾರುವಾಗ,",
+          "ಕನ್ನಡ ನಾಡಿನ ಪರಿಮಳ,",
+          "ನೀನೆ ನನ್ನ ಬಾಳ್ಮಣಿಯ,",
+          "ನೀನೆ ನಮ್ಮ ತೇಜಸ್ಸು."
+        ],
+        "translated_lines": [
+          "As your light soars,",
+          "The fragrance of the Kannada land,",
+          "You are my life's essence,",
+          "You are our brilliance."
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "ಬಾಳ್ಮಣಿ (life-gem/jewel of existence) is rendered as 'life's essence', losing the gem imagery specific to Kannada devotional register.",
+        "metaphor_spans": [
+          {
+            "source_term": "ಕನ್ನಡ ನಾಡಿನ ಪರಿಮಳ",
+            "abstract_meaning": "the cultural identity of Kannada land as a spreading fragrance"
+          },
+          {
+            "source_term": "ಬಾಳ್ಮಣಿ",
+            "abstract_meaning": "Kannada as the precious gem that gives life its worth"
+          },
+          {
+            "source_term": "ತೇಜಸ್ಸು",
+            "abstract_meaning": "collective radiance of Kannada people as a shared luminous force"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ಕನ್ನಡ",
+        "romanization": "Kannada",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      },
+      {
+        "term": "ದೀಪ",
+        "romanization": "deepa",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "The lamp (deepa) carries devotional-ritual significance in Kannada tradition beyond mere illumination."
+      },
+      {
+        "term": "ತೇಜಸ್ಸು",
+        "romanization": "tejassu",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 2,
+        "preserved": false,
+        "translation_note": "Tejas carries Sanskrit-rooted sacred luminosity; 'brilliance' in translation loses this devotional resonance."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8327,
+      "source_term_checks": {
+        "entities_total": 4,
+        "entities_dropped": 1,
+        "metaphors_total": 5,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 1,
+      "confidence": "low"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities",
+      "severity": "medium",
+      "resolved_value": "dropped",
+      "model_value": "ಕನ್ನಡ ನಾಡು",
+      "note": "entity_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

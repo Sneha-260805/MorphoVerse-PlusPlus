@@ -1,0 +1,150 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1188",
+  "poem_title": "Turel",
+  "language": "Manipuri",
+  "original_poem": "तुरेल नुपा यम्लैक्ख्रिबा,  \nसाना चंगु मगनुंगली,  \nनोनी नारानबाशिगी,  \nयुंबिनु मग्नुम ओक्ते।\n\nलामंग थावंग थमाइब,  \nनिंगोल सिंगनबाउबा,  \nइयेंगुं तुंबाई ओइ,  \nताम्बा मोयोम इमो ओई।",
+  "translated_poem": "The river, a man restless and bold,  \nCarving the earth with stories untold,  \nDancing with the grace of the night,  \nWeaving through villages, out of sight.\n\nThe hills bow as he roars ahead,  \nCarrying dreams in his riverbed,  \nWhispers of love from mountain’s breast,  \nThe river flows on, never to rest.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned_low",
+    "alignment_confidence": 0.7271,
+    "alignment_note": "Alignment acceptable but not high (confidence=0.7271).",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "तुरेल नुपा यम्लैक्ख्रिबा,",
+          "साना चंगु मगनुंगली,",
+          "नोनी नारानबाशिगी,",
+          "युंबिनु मग्नुम ओक्ते।"
+        ],
+        "translated_lines": [
+          "The river, a man restless and bold,",
+          "Carving the earth with stories untold,",
+          "Dancing with the grace of the night,",
+          "Weaving through villages, out of sight."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "लामंग थावंग थमाइब,",
+          "निंगोल सिंगनबाउबा,",
+          "इयेंगुं तुंबाई ओइ,",
+          "ताम्बा मोयोम इमो ओई।"
+        ],
+        "translated_lines": [
+          "The hills bow as he roars ahead,",
+          "Carrying dreams in his riverbed,",
+          "Whispers of love from mountain’s breast,",
+          "The river flows on, never to rest."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "restless energy to ceaseless forward motion",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "तुरेल नुपा यम्लैक्ख्रिबा,",
+          "साना चंगु मगनुंगली,",
+          "नोनी नारानबाशिगी,",
+          "युंबिनु मग्नुम ओक्ते।"
+        ],
+        "translated_lines": [
+          "The river, a man restless and bold,",
+          "Carving the earth with stories untold,",
+          "Dancing with the grace of the night,",
+          "Weaving through villages, out of sight."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "नुपा यम्लैक्ख्रिबा (restless/bold man) carries a specific Meitei masculine vitality connotation flattened by 'restless and bold'.",
+        "metaphor_spans": [
+          {
+            "source_term": "तुरेल नुपा यम्लैक्ख्रिबा",
+            "abstract_meaning": "river as an untamed man driven by irrepressible inner force"
+          },
+          {
+            "source_term": "साना चंगु मगनुंगली",
+            "abstract_meaning": "golden carving as the river's purposeful shaping of the land"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "लामंग थावंग थमाइब,",
+          "निंगोल सिंगनबाउबा,",
+          "इयेंगुं तुंबाई ओइ,",
+          "ताम्बा मोयोम इमो ओई।"
+        ],
+        "translated_lines": [
+          "The hills bow as he roars ahead,",
+          "Carrying dreams in his riverbed,",
+          "Whispers of love from mountain’s breast,",
+          "The river flows on, never to rest."
+        ],
+        "emotion": "resilience",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "निंगोल सिंगनबाउबा (a woman longing/yearning) introduces a feminine counterpart to the river's masculine force, lost in translation.",
+        "metaphor_spans": [
+          {
+            "source_term": "लामंग थावंग थमाइब",
+            "abstract_meaning": "hills bowing as the river's authority commanding the landscape"
+          },
+          {
+            "source_term": "निंगोल सिंगनबाउबा",
+            "abstract_meaning": "river carrying the yearning of a woman separated from her home"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "तुरेल",
+        "romanization": "Turel",
+        "category": "SACRED_RIVER",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Turel is a named river in Manipur; its cultural specificity as a regional waterway is preserved only as a generic 'river'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned_low",
+      "alignment_confidence": 0.7271,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 4,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "medium"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0039",
+  "poem_title": "Bodo Rakhang",
+  "language": "Bodo",
+  "original_poem": "बोडो राखंग\nबोडो राखंग, तुमार पहिचान\nसंस्कृति, धरोहर, मोर गर्व,\nमोर हृदयले गुनगुन\nजन्मभूमि जिवित।",
+  "translated_poem": "Bodo Identity\nBodo Identity, your recognition\nCulture, heritage, my pride,\nIn my heart, a hum\nOf my birthplace alive.",
+  "status": "completed",
+  "model": "gemini",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8885,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "बोडो राखंग",
+          "बोडो राखंग, तुमार पहिचान",
+          "संस्कृति, धरोहर, मोर गर्व,",
+          "मोर हृदयले गुनगुन",
+          "जन्मभूमि जिवित।"
+        ],
+        "translated_lines": [
+          "Bodo Identity",
+          "Bodo Identity, your recognition",
+          "Culture, heritage, my pride,",
+          "In my heart, a hum",
+          "Of my birthplace alive."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "pride and cultural affirmation",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "बोडो राखंग",
+          "बोडो राखंग, तुमार पहिचान",
+          "संस्कृति, धरोहर, मोर गर्व,",
+          "मोर हृदयले गुनगुन",
+          "जन्मभूमि जिवित।"
+        ],
+        "translated_lines": [
+          "Bodo Identity",
+          "Bodo Identity, your recognition",
+          "Culture, heritage, my pride,",
+          "In my heart, a hum",
+          "Of my birthplace alive."
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "gemini",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8885,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

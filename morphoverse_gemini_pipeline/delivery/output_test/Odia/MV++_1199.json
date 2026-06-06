@@ -1,0 +1,99 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1199",
+  "poem_title": "Bande Utkala Janani",
+  "language": "Odia",
+  "original_poem": "ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ  \nମାଟି ଭାରସା  \nସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି  \nମୁ ନାଚିବା ପାଇଁ  \nତୁମର ଗର୍ବ ଉଠାଉଛି।",
+  "translated_poem": "Salute to Utkala Mother,  \nThe earth is heavy,  \nSeeing the sun and moon,  \nI am here to dance,  \nYour pride rises within me.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8035,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ",
+          "ମାଟି ଭାରସା",
+          "ସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି",
+          "ମୁ ନାଚିବା ପାଇଁ",
+          "ତୁମର ଗର୍ବ ଉଠାଉଛି।"
+        ],
+        "translated_lines": [
+          "Salute to Utkala Mother,",
+          "The earth is heavy,",
+          "Seeing the sun and moon,",
+          "I am here to dance,",
+          "Your pride rises within me."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "celebratory",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ",
+          "ମାଟି ଭାରସା",
+          "ସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି",
+          "ମୁ ନାଚିବା ପାଇଁ",
+          "ତୁମର ଗର୍ବ ଉଠାଉଛି।"
+        ],
+        "translated_lines": [
+          "Salute to Utkala Mother,",
+          "The earth is heavy,",
+          "Seeing the sun and moon,",
+          "I am here to dance,",
+          "Your pride rises within me."
+        ],
+        "emotion": "devotion",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ଉତ୍କଳ",
+        "romanization": "Utkala",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "ancient name for Odisha region"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8035,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

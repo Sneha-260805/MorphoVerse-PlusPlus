@@ -1,0 +1,128 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1180",
+  "poem_title": "Nizhalattam",
+  "language": "Malayalam",
+  "original_poem": "നിഴലാട്ടം  \nചിമ്മുന്ന നിലാവിൻ  \nകായലിൽ,  \nഇടറുന്ന ഓർമകൾ  \nമൂടിയ  \nകാളിയാട്ടം.",
+  "translated_poem": "Shadow play,  \nIn the shimmering moonlight  \nOver the backwaters,  \nThe dance of shadows  \nCovered by  \nFading memories.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7543,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "നിഴലാട്ടം",
+          "ചിമ്മുന്ന നിലാവിൻ",
+          "കായലിൽ,",
+          "ഇടറുന്ന ഓർമകൾ",
+          "മൂടിയ",
+          "കാളിയാട്ടം."
+        ],
+        "translated_lines": [
+          "Shadow play,",
+          "In the shimmering moonlight",
+          "Over the backwaters,",
+          "The dance of shadows",
+          "Covered by",
+          "Fading memories."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "wonder fading into melancholy",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "നിഴലാട്ടം",
+          "ചിമ്മുന്ന നിലാവിൻ",
+          "കായലിൽ,",
+          "ഇടറുന്ന ഓർമകൾ",
+          "മൂടിയ",
+          "കാളിയാട്ടം."
+        ],
+        "translated_lines": [
+          "Shadow play,",
+          "In the shimmering moonlight",
+          "Over the backwaters,",
+          "The dance of shadows",
+          "Covered by",
+          "Fading memories."
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "partial",
+        "loss_note": "കാളിയാട്ടം carries specific ritual shadow-puppet performance connotations lost in 'dance of shadows'.",
+        "metaphor_spans": [
+          {
+            "source_term": "ഇടറുന്ന ഓർമകൾ",
+            "abstract_meaning": "stumbling memories as a faltering, unreliable inner vision"
+          },
+          {
+            "source_term": "നിഴലാട്ടം",
+            "abstract_meaning": "shadow play as the illusory, ephemeral nature of recollection itself"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "കായലിൽ",
+        "romanization": "kayalil",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Kerala backwaters retained as 'backwaters'."
+      },
+      {
+        "term": "കാളിയാട്ടം",
+        "romanization": "kaliyattam",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Kaliyattam is a specific Kerala ritual shadow-puppet or dance form; reduced to generic 'dance of shadows'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7543,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 1
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 1,
+      "confidence": "high"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[1].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "ചിമ്മുന്ന നിലാവ്",
+      "note": "metaphor_source_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

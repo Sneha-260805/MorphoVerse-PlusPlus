@@ -1,0 +1,118 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0038",
+  "poem_title": "Kokrajhar",
+  "language": "Bodo",
+  "original_poem": "कोकराजहार\nकोकराजहार, तुमार माटि\nधुन शान्ति, मोर स्वप्न,\nमोर हृदय माटित\nजीवन बरजारी।",
+  "translated_poem": "Kokrajhar, your soil\nSings of peace, my dream,\nIn my heart’s earth\nLife flows beautifully.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9448,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "कोकराजहार",
+          "कोकराजहार, तुमार माटि",
+          "धुन शान्ति, मोर स्वप्न,",
+          "मोर हृदय माटित",
+          "जीवन बरजारी।"
+        ],
+        "translated_lines": [
+          "Kokrajhar, your soil",
+          "Sings of peace, my dream,",
+          "In my heart’s earth",
+          "Life flows beautifully."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "A quiet, grounded meditation on belonging and peace rooted in the soil of Kokrajhar, moving from place-name invocation to internalized longing for a life of beauty.",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "कोकराजहार",
+          "कोकराजहार, तुमार माटि",
+          "धुन शान्ति, मोर स्वप्न,",
+          "मोर हृदय माटित",
+          "जीवन बरजारी।"
+        ],
+        "translated_lines": [
+          "Kokrajhar, your soil",
+          "Sings of peace, my dream,",
+          "In my heart’s earth",
+          "Life flows beautifully."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "'बरजारी' carries a Bodo-specific sense of flourishing or flowing with vitality that 'flows beautifully' only partially captures; 'धुन' implies a melodic resonance or song-like quality not fully rendered by 'sings of'.",
+        "metaphor_spans": [
+          {
+            "source_term": "माटि",
+            "abstract_meaning": "Soil as ancestral identity and emotional rootedness, not merely physical earth."
+          },
+          {
+            "source_term": "हृदय माटित",
+            "abstract_meaning": "The heart conceived as cultivable ground, where life and longing are sown and grown."
+          },
+          {
+            "source_term": "जीवन बरजारी",
+            "abstract_meaning": "Life as a vital, flowing abundance rooted in place and community."
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "कोकराजहार",
+        "romanization": "Kokrajhar",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Kokrajhar is the principal urban and political centre of Bodoland; its invocation carries weight as a symbol of Bodo territorial identity and the aspiration for autonomy and peace, not merely a geographic label."
+      },
+      {
+        "term": "धुन",
+        "romanization": "dhun",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "'Dhun' denotes a melodic tune or song-form; translated as 'sings of' which loses the specific musical register and its possible allusion to Bodo oral song traditions such as gwsing."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9448,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "repair",
+    "retry_count": 1
+  }
+}

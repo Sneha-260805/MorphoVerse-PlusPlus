@@ -1,0 +1,160 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1247",
+  "poem_title": "Moomal Rano",
+  "language": "Sindhi",
+  "original_poem": "محبوب آيو جيءَ ۾،  \nساهه گهڙي ٿر ٿرن،  \nپڻين پارين جي،  \nلائي راڻو ڪن،  \nآسا مور مٿي سندر،  \nسُپڻي موئن،  \nمومل مور ٿيا،  \nڏيئي ڳڻين ڏيئي ڳڻين.\n\nريءَ ريءَ جوڳين،  \nجوڳين جيءُ سڙي سڙي،  \nپتڻ راڻا کڻي ڳرين،  \nجوڳين سڄڻ سندر ٿيا،  \nآسڻ ڳڻين آسڻ ڳڻين.",
+  "translated_poem": "The beloved came into my soul,  \nBreath trembles in every moment,  \nI clutch the bangles on my wrists,  \nHolding Rano in my heart.  \nYearning above all, the mind in splendor,  \nIn dreams, I die for him,  \nMoomal waits, counting her sorrows,  \nCounting and counting her sorrows.\n\nFor the ascetics who tread this path,  \nTheir soul burns as they walk,  \nRano, take the ferry across,  \nThe ascetics have become one with their beloved,  \nCounting their hopes, counting their hopes.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned_low",
+    "alignment_confidence": 0.6881,
+    "alignment_note": "Alignment acceptable but not high (confidence=0.6881).",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 8,
+        "source_lines": [
+          "محبوب آيو جيءَ ۾،",
+          "ساهه گهڙي ٿر ٿرن،",
+          "پڻين پارين جي،",
+          "لائي راڻو ڪن،",
+          "آسا مور مٿي سندر،",
+          "سُپڻي موئن،",
+          "مومل مور ٿيا،",
+          "ڏيئي ڳڻين ڏيئي ڳڻين."
+        ],
+        "translated_lines": [
+          "The beloved came into my soul,",
+          "Breath trembles in every moment,",
+          "I clutch the bangles on my wrists,",
+          "Holding Rano in my heart.",
+          "Yearning above all, the mind in splendor,",
+          "In dreams, I die for him,",
+          "Moomal waits, counting her sorrows,",
+          "Counting and counting her sorrows."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 5,
+        "source_lines": [
+          "ريءَ ريءَ جوڳين،",
+          "جوڳين جيءُ سڙي سڙي،",
+          "پتڻ راڻا کڻي ڳرين،",
+          "جوڳين سڄڻ سندر ٿيا،",
+          "آسڻ ڳڻين آسڻ ڳڻين."
+        ],
+        "translated_lines": [
+          "For the ascetics who tread this path,",
+          "Their soul burns as they walk,",
+          "Rano, take the ferry across,",
+          "The ascetics have become one with their beloved,",
+          "Counting their hopes, counting their hopes."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "longing resolved through surrender",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 8,
+        "source_lines": [
+          "محبوب آيو جيءَ ۾،",
+          "ساهه گهڙي ٿر ٿرن،",
+          "پڻين پارين جي،",
+          "لائي راڻو ڪن،",
+          "آسا مور مٿي سندر،",
+          "سُپڻي موئن،",
+          "مومل مور ٿيا،",
+          "ڏيئي ڳڻين ڏيئي ڳڻين."
+        ],
+        "translated_lines": [
+          "The beloved came into my soul,",
+          "Breath trembles in every moment,",
+          "I clutch the bangles on my wrists,",
+          "Holding Rano in my heart.",
+          "Yearning above all, the mind in splendor,",
+          "In dreams, I die for him,",
+          "Moomal waits, counting her sorrows,",
+          "Counting and counting her sorrows."
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 5,
+        "source_lines": [
+          "ريءَ ريءَ جوڳين،",
+          "جوڳين جيءُ سڙي سڙي،",
+          "پتڻ راڻا کڻي ڳرين،",
+          "جوڳين سڄڻ سندر ٿيا،",
+          "آسڻ ڳڻين آسڻ ڳڻين."
+        ],
+        "translated_lines": [
+          "For the ascetics who tread this path,",
+          "Their soul burns as they walk,",
+          "Rano, take the ferry across,",
+          "The ascetics have become one with their beloved,",
+          "Counting their hopes, counting their hopes."
+        ],
+        "emotion": "devotion",
+        "tone": "prayer",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "راڻو",
+        "romanization": "Rano",
+        "category": "MYTHOLOGICAL_EVENT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "beloved hero of Moomal Rano legend"
+      },
+      {
+        "term": "مومل",
+        "romanization": "Moomal",
+        "category": "MYTHOLOGICAL_EVENT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "legendary heroine longing for Rano"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned_low",
+      "alignment_confidence": 0.6881,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "medium"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

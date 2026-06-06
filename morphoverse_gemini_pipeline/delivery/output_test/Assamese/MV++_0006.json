@@ -1,0 +1,99 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0006",
+  "poem_title": "Jibon",
+  "language": "Assamese",
+  "original_poem": "জীৱন\nজীৱন, তুমি এক বুৰঞ্জী\nঅতি বেয়া মেঘৰ মাজত,\nসপোনৰ মৰমত দিয়া\nহৃদয়ৰ চেনেহৰ বাঁহী।",
+  "translated_poem": "Life\nLife, you are a history\nAmidst the darkest clouds,\nGifted in the love of dreams,\nThe flute of the heart's affection.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8154,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "জীৱন",
+          "জীৱন, তুমি এক বুৰঞ্জী",
+          "অতি বেয়া মেঘৰ মাজত,",
+          "সপোনৰ মৰমত দিয়া",
+          "হৃদয়ৰ চেনেহৰ বাঁহী।"
+        ],
+        "translated_lines": [
+          "Life",
+          "Life, you are a history",
+          "Amidst the darkest clouds,",
+          "Gifted in the love of dreams,",
+          "The flute of the heart's affection."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "grief to resilience",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "জীৱন",
+          "জীৱন, তুমি এক বুৰঞ্জী",
+          "অতি বেয়া মেঘৰ মাজত,",
+          "সপোনৰ মৰমত দিয়া",
+          "হৃদয়ৰ চেনেহৰ বাঁহী।"
+        ],
+        "translated_lines": [
+          "Life",
+          "Life, you are a history",
+          "Amidst the darkest clouds,",
+          "Gifted in the love of dreams,",
+          "The flute of the heart's affection."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "বাঁহী",
+        "romanization": "baanhi",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "flute symbol of devotional longing"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8154,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

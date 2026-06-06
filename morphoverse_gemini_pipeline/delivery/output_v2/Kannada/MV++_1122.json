@@ -1,0 +1,162 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1122",
+  "poem_title": "Mysuru Mallige",
+  "language": "Kannada",
+  "original_poem": "ಮೈಸೂರು ಮಲ್ಲಿಗೆ,  \nನಿನ್ನ ಸೊಗಸು ನನ್ನ ಮನಸಿಗೆ  \nಹರಿಯುತ್ತದೆ.  \nನಿನ್ನ ವಾಸನೆ,  \nನಿನ್ನ ಹೂವು,  \nನೀನೇ ನನಗೆ ಶಾಂತಿ.  \n\nನಿನ್ನ ಸೊಗಸು,  \nನಿನ್ನ ನಗುವ ಹೂವು,  \nನನ್ನ ಕಣ್ಮಣಿಯ ಮೇಲೆ  \nನಿನ್ನ ಹಣ್ಣಿನ ಧೂಳ ಬೀಳುತ್ತದೆ.  \nನೀನು ನನ್ನ ಹೃದಯಕ್ಕೆ  \nಮರಳಿ ಬರುವ ಹೂವು.",
+  "translated_poem": "Jasmine of Mysore,  \nYour beauty fills my heart,  \nIt blooms within.  \nYour fragrance,  \nYour flower,  \nYou bring me peace.  \n\nYour elegance,  \nYour smiling bloom,  \nThe dust of your fruit falls  \nOn my dear eyes.  \nYou are the flower  \nThat returns to my heart.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9069,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "ಮೈಸೂರು ಮಲ್ಲಿಗೆ,",
+          "ನಿನ್ನ ಸೊಗಸು ನನ್ನ ಮನಸಿಗೆ",
+          "ಹರಿಯುತ್ತದೆ.",
+          "ನಿನ್ನ ವಾಸನೆ,",
+          "ನಿನ್ನ ಹೂವು,",
+          "ನೀನೇ ನನಗೆ ಶಾಂತಿ."
+        ],
+        "translated_lines": [
+          "Jasmine of Mysore,",
+          "Your beauty fills my heart,",
+          "It blooms within.",
+          "Your fragrance,",
+          "Your flower,",
+          "You bring me peace."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 6,
+        "source_lines": [
+          "ನಿನ್ನ ಸೊಗಸು,",
+          "ನಿನ್ನ ನಗುವ ಹೂವು,",
+          "ನನ್ನ ಕಣ್ಮಣಿಯ ಮೇಲೆ",
+          "ನಿನ್ನ ಹಣ್ಣಿನ ಧೂಳ ಬೀಳುತ್ತದೆ.",
+          "ನೀನು ನನ್ನ ಹೃದಯಕ್ಕೆ",
+          "ಮರಳಿ ಬರುವ ಹೂವು."
+        ],
+        "translated_lines": [
+          "Your elegance,",
+          "Your smiling bloom,",
+          "The dust of your fruit falls",
+          "On my dear eyes.",
+          "You are the flower",
+          "That returns to my heart."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "gentle admiration opening into intimate longing, settling into quiet peace",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "ಮೈಸೂರು ಮಲ್ಲಿಗೆ,",
+          "ನಿನ್ನ ಸೊಗಸು ನನ್ನ ಮನಸಿಗೆ",
+          "ಹರಿಯುತ್ತದೆ.",
+          "ನಿನ್ನ ವಾಸನೆ,",
+          "ನಿನ್ನ ಹೂವು,",
+          "ನೀನೇ ನನಗೆ ಶಾಂತಿ."
+        ],
+        "translated_lines": [
+          "Jasmine of Mysore,",
+          "Your beauty fills my heart,",
+          "It blooms within.",
+          "Your fragrance,",
+          "Your flower,",
+          "You bring me peace."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "ಸೊಗಸು (sogasu) carries aesthetic-sensory richness beyond 'beauty'; 'fills my heart' softens the original 'flows into my mind'.",
+        "metaphor_spans": [
+          {
+            "source_term": "ನೀನೇ ನನಗೆ ಶಾಂತಿ",
+            "abstract_meaning": "the jasmine as sole source of inner stillness for the speaker"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 6,
+        "source_lines": [
+          "ನಿನ್ನ ಸೊಗಸು,",
+          "ನಿನ್ನ ನಗುವ ಹೂವು,",
+          "ನನ್ನ ಕಣ್ಮಣಿಯ ಮೇಲೆ",
+          "ನಿನ್ನ ಹಣ್ಣಿನ ಧೂಳ ಬೀಳುತ್ತದೆ.",
+          "ನೀನು ನನ್ನ ಹೃದಯಕ್ಕೆ",
+          "ಮರಳಿ ಬರುವ ಹೂವು."
+        ],
+        "translated_lines": [
+          "Your elegance,",
+          "Your smiling bloom,",
+          "The dust of your fruit falls",
+          "On my dear eyes.",
+          "You are the flower",
+          "That returns to my heart."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "ಕಣ್ಮಣಿ (kanmani, 'pupil of the eye') is a term of deep endearment lost in 'dear eyes'; ಹಣ್ಣಿನ ಧೂಳ (fruit-dust) loses its tactile intimacy.",
+        "metaphor_spans": [
+          {
+            "source_term": "ನಿನ್ನ ನಗುವ ಹೂವು",
+            "abstract_meaning": "the bloom as embodiment of joyful, living presence"
+          },
+          {
+            "source_term": "ಮರಳಿ ಬರುವ ಹೂವು",
+            "abstract_meaning": "the jasmine as recurring emotional return, a love that cycles back to the heart"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ಮೈಸೂರು ಮಲ್ಲಿಗೆ",
+        "romanization": "Mysuru Mallige",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Mysore jasmine is a celebrated regional emblem of Karnataka; 'Jasmine of Mysore' preserves the reference adequately."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9069,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

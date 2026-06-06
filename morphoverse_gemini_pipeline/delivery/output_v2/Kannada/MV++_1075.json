@@ -1,0 +1,188 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1075",
+  "poem_title": "Panchhi Nadiyan Pawan Ke Jhonke",
+  "language": "Kannada",
+  "original_poem": "पंछी, नदियाँ, पवन के झोंके,  \nकोई सरहद न इन्हें रोके,  \nसरहदें इंसानों के लिए हैं,  \nसोचो, तुमने और मैंने क्या पाया इंसान होकर।  \n\nदूरियों का ग़म नहीं था,  \nतुमसे मिलकर फिर से जीना है,  \nदिल से दिल के दरमियाँ,  \nदीवारें क्यों बनाई इंसान ने खुदा बनकर।  \n\nपंछी, नदियाँ, पवन के झोंके,  \nकोई सरहद न इन्हें रोके।",
+  "translated_poem": "Birds, rivers, gusts of wind,  \nNo borders to halt them or bind,  \nBorders are made for humankind;  \nThink, you and I—what have we gained as mankind?  \n\nDistances never weighed us down,  \nMeeting you gave life anew to drown.  \nWhy do hearts need walls to stay,  \nWhen man himself becomes God in the way?  \n\nBirds, rivers, gusts of wind,  \nNo borders to halt them or bind.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8885,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके,",
+          "सरहदें इंसानों के लिए हैं,",
+          "सोचो, तुमने और मैंने क्या पाया इंसान होकर।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind,",
+          "Borders are made for humankind;",
+          "Think, you and I—what have we gained as mankind?"
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "दूरियों का ग़म नहीं था,",
+          "तुमसे मिलकर फिर से जीना है,",
+          "दिल से दिल के दरमियाँ,",
+          "दीवारें क्यों बनाई इंसान ने खुदा बनकर।"
+        ],
+        "translated_lines": [
+          "Distances never weighed us down,",
+          "Meeting you gave life anew to drown.",
+          "Why do hearts need walls to stay,",
+          "When man himself becomes God in the way?"
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "wonder to sorrow to quiet defiance",
+    "translation_fidelity_score": 0.666667,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके,",
+          "सरहदें इंसानों के लिए हैं,",
+          "सोचो, तुमने और मैंने क्या पाया इंसान होकर।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind,",
+          "Borders are made for humankind;",
+          "Think, you and I—what have we gained as mankind?"
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "The rhetorical weight of 'इंसान होकर' (by being human) is softened in translation.",
+        "metaphor_spans": [
+          {
+            "source_term": "पंछी, नदियाँ, पवन के झोंके",
+            "abstract_meaning": "natural beings as symbols of freedom unbounded by human-made divisions"
+          },
+          {
+            "source_term": "सरहदें इंसानों के लिए हैं",
+            "abstract_meaning": "borders as the self-imposed cage of human civilization"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "दूरियों का ग़म नहीं था,",
+          "तुमसे मिलकर फिर से जीना है,",
+          "दिल से दिल के दरमियाँ,",
+          "दीवारें क्यों बनाई इंसान ने खुदा बनकर।"
+        ],
+        "translated_lines": [
+          "Distances never weighed us down,",
+          "Meeting you gave life anew to drown.",
+          "Why do hearts need walls to stay,",
+          "When man himself becomes God in the way?"
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "'खुदा बनकर' (by becoming God) carries a specific irony of human arrogance that the translation dilutes.",
+        "metaphor_spans": [
+          {
+            "source_term": "खुदा बनकर",
+            "abstract_meaning": "man's self-appointed divine authority used to justify separation"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "पंछी, नदियाँ, पवन के झोंके",
+            "abstract_meaning": "recurring image of boundless natural freedom as counterpoint to human division"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "खुदा",
+        "romanization": "khuda",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 2,
+        "preserved": false,
+        "translation_note": "'Khuda' (God in Urdu/Persian Islamic register) is rendered generically as 'God', losing its specific devotional register."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8885,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 5,
+        "metaphors_dropped": 1
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 1,
+      "confidence": "high"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[2].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "दिल से दिल के दरमियाँ दीवारें",
+      "note": "metaphor_source_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

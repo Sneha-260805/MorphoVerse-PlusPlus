@@ -46,3 +46,34 @@ STATUS_PENDING = "pending"
 ALIGNMENT_OK = "aligned"
 ALIGNMENT_LOW = "aligned_low"
 ALIGNMENT_RISK = "alignment_risk"
+
+# ── Abbreviated key maps (model outputs compact keys; pipeline expands before validation) ──
+# These save ~40% output tokens and allow simple annotations to fit in the proxy's
+# ~37-token completion budget.
+ABBREV_TOPLEVEL = {
+    "rs": "recitation_style",
+    "ea": "emotional_arc",
+    "st": "stanzas",
+    "ce": "cultural_entities",
+}
+ABBREV_STANZA = {
+    "i":  "index",
+    "em": "emotion",
+    "to": "tone",
+    "tq": "translation_quality",
+    "ln": "loss_note",
+    "ms": "metaphor_spans",
+}
+ABBREV_METAPHOR = {
+    "src": "source_term",
+    "st":  "source_term",   # fallback: format previously showed "st" for source_term
+    "am":  "abstract_meaning",
+}
+ABBREV_ENTITY = {
+    "tm": "term",
+    "rm": "romanization",
+    "ct": "category",
+    "si": "stanza_index",
+    "pr": "preserved",
+    "tn": "translation_note",
+}

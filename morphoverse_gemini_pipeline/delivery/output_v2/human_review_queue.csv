@@ -1,0 +1,16 @@
+poem_id,poem_title,language,status,field_path,severity,resolved_value,model_value,note
+MV++_0007,Pratima,Assamese,salvaged,annotation.cultural_entities,medium,dropped,প্ৰতিমা,entity_term_not_in_source
+MV++_1116,Mareyada Haadu,Kannada,salvaged,annotation.cultural_entities,medium,dropped,ತಮಸ್ಸು,entity_term_not_in_source
+MV++_1121,Kannada,Kannada,salvaged,annotation.cultural_entities,medium,dropped,ಕನ್ನಡ ನಾಡು,entity_term_not_in_source
+MV++_1123,Hachchevu Kannadada Deepa,Kannada,salvaged,annotation.cultural_entities,medium,dropped,ಕನ್ನಡ ನಾಡು,entity_term_not_in_source
+MV++_1202,Bhagavad Gita,Odia,salvaged,annotation.cultural_entities,medium,dropped,पाण्डवाः,entity_term_not_in_source
+MV++_1215,Loona,Punjabi,completed,annotation.stanzas[1],medium,partial,partial,stanza_in_alignment_risk_poem
+MV++_1215,Loona,Punjabi,completed,annotation.stanzas[2],medium,partial,partial,stanza_in_alignment_risk_poem
+MV++_1215,Loona,Punjabi,completed,annotation.stanzas[3],medium,lost,lost,stanza_in_alignment_risk_poem
+MV++_1235,Bhagavad Gita,Sanskrit,salvaged,annotation.stanzas[2].metaphor_spans,low,dropped,उच्छोषणमिन्द्रियाणाम्,metaphor_source_term_not_in_source
+MV++_1235,Bhagavad Gita,Sanskrit,salvaged,annotation.cultural_entities,medium,dropped,पाण्डवाः,entity_term_not_in_source
+MV++_1235,Bhagavad Gita,Sanskrit,salvaged,annotation.cultural_entities,medium,dropped,सुराणाम्,entity_term_not_in_source
+MV++_1284,Kannanin Satham,Tamil,salvaged,annotation.cultural_entities,medium,dropped,கண்ணன்,entity_term_not_in_source
+MV++_1284,Kannanin Satham,Tamil,salvaged,annotation.cultural_entities,medium,dropped,மயில்,entity_term_not_in_source
+MV++_1297,Kannanum Kanni,Tamil,salvaged,annotation.cultural_entities,medium,dropped,கண்ணன்,entity_term_not_in_source
+MV++_1425,Kannanin Vaasal,Tamil,salvaged,annotation.cultural_entities,medium,dropped,கண்ணன்,entity_term_not_in_source

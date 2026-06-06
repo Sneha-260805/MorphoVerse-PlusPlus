@@ -1,0 +1,148 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1216",
+  "poem_title": "Maan Da Mandir",
+  "language": "Punjabi",
+  "original_poem": "ਮਨ ਦਾ ਮੰਦਰ\nਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?\nਰੰਗਾਂ ਵਾਲੀ ਮਿੱਟੀ ਕਿੱਥੋਂ ਲਿਆਈ ਜਾਵੇ?\nਇਸ ਵਿੱਚ ਜੋਤ ਕਿਵੇਂ ਜਗਾਈ ਜਾਵੇ?\nਪ੍ਰੇਮ ਦੇ ਫੁੱਲ ਕਿਵੇਂ ਖਿਲਾਏ ਜਾਵਣ?\nਇਸ ਵਿੱਚ ਭਗਤਾਂ ਦੇ ਕੀਰਤਨ ਕਿਵੇਂ ਵਸਾਏ ਜਾਵਣ?\n\nਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?\nਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?",
+  "translated_poem": "Temple of the Mind\nHow can the temple of the mind be built?\nWhere can the colored clay be found?\nHow can the light within be kindled?\nHow can flowers of love bloom in it?\nHow can the hymns of devotees be instilled within?\n\nHow can the temple of the mind be built?\nHow can the temple of the mind be built?",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8728,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "ਮਨ ਦਾ ਮੰਦਰ",
+          "ਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?",
+          "ਰੰਗਾਂ ਵਾਲੀ ਮਿੱਟੀ ਕਿੱਥੋਂ ਲਿਆਈ ਜਾਵੇ?",
+          "ਇਸ ਵਿੱਚ ਜੋਤ ਕਿਵੇਂ ਜਗਾਈ ਜਾਵੇ?",
+          "ਪ੍ਰੇਮ ਦੇ ਫੁੱਲ ਕਿਵੇਂ ਖਿਲਾਏ ਜਾਵਣ?",
+          "ਇਸ ਵਿੱਚ ਭਗਤਾਂ ਦੇ ਕੀਰਤਨ ਕਿਵੇਂ ਵਸਾਏ ਜਾਵਣ?"
+        ],
+        "translated_lines": [
+          "Temple of the Mind",
+          "How can the temple of the mind be built?",
+          "Where can the colored clay be found?",
+          "How can the light within be kindled?",
+          "How can flowers of love bloom in it?",
+          "How can the hymns of devotees be instilled within?"
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?",
+          "ਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?"
+        ],
+        "translated_lines": [
+          "How can the temple of the mind be built?",
+          "How can the temple of the mind be built?"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "longing deepens into repeated yearning",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "ਮਨ ਦਾ ਮੰਦਰ",
+          "ਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?",
+          "ਰੰਗਾਂ ਵਾਲੀ ਮਿੱਟੀ ਕਿੱਥੋਂ ਲਿਆਈ ਜਾਵੇ?",
+          "ਇਸ ਵਿੱਚ ਜੋਤ ਕਿਵੇਂ ਜਗਾਈ ਜਾਵੇ?",
+          "ਪ੍ਰੇਮ ਦੇ ਫੁੱਲ ਕਿਵੇਂ ਖਿਲਾਏ ਜਾਵਣ?",
+          "ਇਸ ਵਿੱਚ ਭਗਤਾਂ ਦੇ ਕੀਰਤਨ ਕਿਵੇਂ ਵਸਾਏ ਜਾਵਣ?"
+        ],
+        "translated_lines": [
+          "Temple of the Mind",
+          "How can the temple of the mind be built?",
+          "Where can the colored clay be found?",
+          "How can the light within be kindled?",
+          "How can flowers of love bloom in it?",
+          "How can the hymns of devotees be instilled within?"
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?",
+          "ਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?"
+        ],
+        "translated_lines": [
+          "How can the temple of the mind be built?",
+          "How can the temple of the mind be built?"
+        ],
+        "emotion": "longing",
+        "tone": "prayer",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ਜੋਤ",
+        "romanization": "jot",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "divine inner light kindled"
+      },
+      {
+        "term": "ਕੀਰਤਨ",
+        "romanization": "kirtan",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "devotional hymn singing tradition"
+      },
+      {
+        "term": "ਭਗਤਾਂ",
+        "romanization": "bhagtan",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "devotees saints of bhakti"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8728,
+      "source_term_checks": {
+        "entities_total": 3,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

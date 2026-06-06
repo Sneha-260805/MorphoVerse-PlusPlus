@@ -1,0 +1,103 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1284",
+  "poem_title": "Kannanin Satham",
+  "language": "Tamil",
+  "original_poem": "கண்ணனின் சத்தம் என்ன,  \nகாதல் எனும் இசை,  \nநெஞ்சின் மயிலின்  \nவிளையாட்டும் மிதக்கும்!",
+  "translated_poem": "What is the call of Krishna?  \nIt is the music of love,  \nThe playful dance of the  \nPeacock in the heart, swaying!",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8302,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "கண்ணனின் சத்தம் என்ன,",
+          "காதல் எனும் இசை,",
+          "நெஞ்சின் மயிலின்",
+          "விளையாட்டும் மிதக்கும்!"
+        ],
+        "translated_lines": [
+          "What is the call of Krishna?",
+          "It is the music of love,",
+          "The playful dance of the",
+          "Peacock in the heart, swaying!"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "wonder",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "கண்ணனின் சத்தம் என்ன,",
+          "காதல் எனும் இசை,",
+          "நெஞ்சின் மயிலின்",
+          "விளையாட்டும் மிதக்கும்!"
+        ],
+        "translated_lines": [
+          "What is the call of Krishna?",
+          "It is the music of love,",
+          "The playful dance of the",
+          "Peacock in the heart, swaying!"
+        ],
+        "emotion": "devotion",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "கண்ணனின்",
+        "romanization": "Kannanin",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Krishna possessive form invoked"
+      },
+      {
+        "term": "மயிலின்",
+        "romanization": "mayilin",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Peacock symbol linked to Krishna"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8302,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

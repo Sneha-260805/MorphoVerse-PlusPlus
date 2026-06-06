@@ -1,0 +1,288 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1238",
+  "poem_title": "Santhal Rebellion",
+  "language": "Santhali",
+  "original_poem": "कब तक सहें हम,  \nधैर्य की सीमा है,  \nहम संताल हैं,  \nहमारा जज्बा देखो।\n\nहमारी ज़मीन पर,  \nकब्जा करने वालों,  \nहम उठ खड़े हुए हैं,  \nअब छूने दो हमें।\n\nरक्त का रंग है,  \nज़मीन की मिट्टी से,  \nहमारे हक की लड़ाई,  \nसंग्राम छेड़ेगी।\n\nधड़कता है दिल,  \nसंघर्ष की राह पर,  \nसंताल की आवाज़,  \nगूंजेगी सदा।\n\nआज़ादी का सपना,  \nहम सबका है अधिकार,  \nसंताल विद्रोह का ये,  \nकिसी से नहीं होगा माफ़।",
+  "translated_poem": "How long shall we endure,  \nPatience has its limits,  \nWe are Santhals,  \nWitness our spirit.\n\nOn our land,  \nThose who seize,  \nWe have risen,  \nLet us now be free.\n\nThe color of blood,  \nIs from the soil,  \nOur fight for rights,  \nWill raise the coil.\n\nA heartbeat strong,  \nOn the path of strife,  \nThe Santhal voice,  \nWill echo for life.\n\nThe dream of freedom,  \nIs our rightful claim,  \nThis Santhal rebellion,  \nShall never be in vain.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 5,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8941,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "कब तक सहें हम,",
+          "धैर्य की सीमा है,",
+          "हम संताल हैं,",
+          "हमारा जज्बा देखो।"
+        ],
+        "translated_lines": [
+          "How long shall we endure,",
+          "Patience has its limits,",
+          "We are Santhals,",
+          "Witness our spirit."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "हमारी ज़मीन पर,",
+          "कब्जा करने वालों,",
+          "हम उठ खड़े हुए हैं,",
+          "अब छूने दो हमें।"
+        ],
+        "translated_lines": [
+          "On our land,",
+          "Those who seize,",
+          "We have risen,",
+          "Let us now be free."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "रक्त का रंग है,",
+          "ज़मीन की मिट्टी से,",
+          "हमारे हक की लड़ाई,",
+          "संग्राम छेड़ेगी।"
+        ],
+        "translated_lines": [
+          "The color of blood,",
+          "Is from the soil,",
+          "Our fight for rights,",
+          "Will raise the coil."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "धड़कता है दिल,",
+          "संघर्ष की राह पर,",
+          "संताल की आवाज़,",
+          "गूंजेगी सदा।"
+        ],
+        "translated_lines": [
+          "A heartbeat strong,",
+          "On the path of strife,",
+          "The Santhal voice,",
+          "Will echo for life."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "आज़ादी का सपना,",
+          "हम सबका है अधिकार,",
+          "संताल विद्रोह का ये,",
+          "किसी से नहीं होगा माफ़।"
+        ],
+        "translated_lines": [
+          "The dream of freedom,",
+          "Is our rightful claim,",
+          "This Santhal rebellion,",
+          "Shall never be in vain."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "endurance to defiant rebellion",
+    "translation_fidelity_score": 0.6,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "कब तक सहें हम,",
+          "धैर्य की सीमा है,",
+          "हम संताल हैं,",
+          "हमारा जज्बा देखो।"
+        ],
+        "translated_lines": [
+          "How long shall we endure,",
+          "Patience has its limits,",
+          "We are Santhals,",
+          "Witness our spirit."
+        ],
+        "emotion": "resilience",
+        "tone": "defiance",
+        "translation_quality": "partial",
+        "loss_note": "Jajba carries a collective tribal spirit of resistance; 'spirit' is too generic.",
+        "metaphor_spans": [
+          {
+            "source_term": "धैर्य की सीमा",
+            "abstract_meaning": "patience as a boundary finally breached by accumulated colonial oppression"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "हमारी ज़मीन पर,",
+          "कब्जा करने वालों,",
+          "हम उठ खड़े हुए हैं,",
+          "अब छूने दो हमें।"
+        ],
+        "translated_lines": [
+          "On our land,",
+          "Those who seize,",
+          "We have risen,",
+          "Let us now be free."
+        ],
+        "emotion": "anger",
+        "tone": "defiance",
+        "translation_quality": "partial",
+        "loss_note": "'Let us now be free' softens the assertive 'ab chhune do hamen' which implies reclaiming physical land by force.",
+        "metaphor_spans": [
+          {
+            "source_term": "उठ खड़े हुए हैं",
+            "abstract_meaning": "collective physical rising as the embodied act of anti-colonial resistance"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "रक्त का रंग है,",
+          "ज़मीन की मिट्टी से,",
+          "हमारे हक की लड़ाई,",
+          "संग्राम छेड़ेगी।"
+        ],
+        "translated_lines": [
+          "The color of blood,",
+          "Is from the soil,",
+          "Our fight for rights,",
+          "Will raise the coil."
+        ],
+        "emotion": "anger",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "'Will raise the coil' is an awkward rendering; sangram chhedegi means 'will ignite the struggle', losing the martial declaration.",
+        "metaphor_spans": [
+          {
+            "source_term": "रक्त का रंग",
+            "abstract_meaning": "blood and soil as inseparable — ancestral belonging proven through sacrifice"
+          },
+          {
+            "source_term": "ज़मीन की मिट्टी",
+            "abstract_meaning": "the soil as the living body of Santhal identity, not mere territory"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "धड़कता है दिल,",
+          "संघर्ष की राह पर,",
+          "संताल की आवाज़,",
+          "गूंजेगी सदा।"
+        ],
+        "translated_lines": [
+          "A heartbeat strong,",
+          "On the path of strife,",
+          "The Santhal voice,",
+          "Will echo for life."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "धड़कता है दिल",
+            "abstract_meaning": "the heartbeat as the pulse of collective struggle, not individual emotion"
+          },
+          {
+            "source_term": "गूंजेगी सदा",
+            "abstract_meaning": "the Santhal voice as an undying oral echo across generations of resistance"
+          }
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "आज़ादी का सपना,",
+          "हम सबका है अधिकार,",
+          "संताल विद्रोह का ये,",
+          "किसी से नहीं होगा माफ़।"
+        ],
+        "translated_lines": [
+          "The dream of freedom,",
+          "Is our rightful claim,",
+          "This Santhal rebellion,",
+          "Shall never be in vain."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "'Shall never be in vain' loses the original's tone of unforgivability and irreversibility implied by 'kisi se nahi hoga maaf'.",
+        "metaphor_spans": [
+          {
+            "source_term": "आज़ादी का सपना",
+            "abstract_meaning": "freedom as a collective dream inseparable from the Santhal historical claim to land and dignity"
+          },
+          {
+            "source_term": "संताल विद्रोह",
+            "abstract_meaning": "the rebellion as an act beyond pardon — a rupture that cannot be undone or forgiven"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "संताल",
+        "romanization": "Santhal",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      },
+      {
+        "term": "संताल विद्रोह",
+        "romanization": "Santhal Vidroh",
+        "category": "MYTHOLOGICAL_EVENT",
+        "stanza_index": 5,
+        "preserved": true,
+        "translation_note": "The Santhal Rebellion of 1855–56 is a foundational historical-cultural event; 'rebellion' preserves the term but loses its specific Hul resonance."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8941,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 8,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1166",
+  "poem_title": "Bhatkar",
+  "language": "Konkani",
+  "original_poem": "भटकऱ  \nतू जसा,  \nसंपूर्ण जगात  \nसारं काही  \nगेलं भटकंतीत.",
+  "translated_poem": "The Bhatkar,  \nJust as you are,  \nWandering through  \nThe entire world,  \nEverything fades in the journey.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned_low",
+    "alignment_confidence": 0.6872,
+    "alignment_note": "Alignment acceptable but not high (confidence=0.6872).",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "भटकऱ",
+          "तू जसा,",
+          "संपूर्ण जगात",
+          "सारं काही",
+          "गेलं भटकंतीत."
+        ],
+        "translated_lines": [
+          "The Bhatkar,",
+          "Just as you are,",
+          "Wandering through",
+          "The entire world,",
+          "Everything fades in the journey."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "loss through endless wandering",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "भटकऱ",
+          "तू जसा,",
+          "संपूर्ण जगात",
+          "सारं काही",
+          "गेलं भटकंतीत."
+        ],
+        "translated_lines": [
+          "The Bhatkar,",
+          "Just as you are,",
+          "Wandering through",
+          "The entire world,",
+          "Everything fades in the journey."
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "Bhatkar carries a specific Konkani socio-feudal meaning of landlord or master, which the translation omits entirely.",
+        "metaphor_spans": [
+          {
+            "source_term": "भटकंतीत",
+            "abstract_meaning": "the landlord's restless roaming as a metaphor for the dissolution of all worldly possession and identity"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "भटकऱ",
+        "romanization": "bhatkar",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Bhatkar denotes the feudal landlord class in Goan Konkani society; rendered merely as a name in translation."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned_low",
+      "alignment_confidence": 0.6872,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 1,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "medium"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

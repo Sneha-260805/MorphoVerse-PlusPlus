@@ -1,0 +1,220 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1048",
+  "poem_title": "Ram Ka Prem Patra",
+  "language": "Kannada",
+  "original_poem": "राम का प्रेम पत्र,  \nसादे काग़ज़ पर लिखे हुए शब्दों का एक क़ाफ़िला,  \nसत्य का प्रतीक, जो झूठ की छाया में डूबा हुआ है।  \nयह पत्र एक संवाद है, सीता से नहीं, संसार से।  \n\nमेरे ह्रदय का बोझ कह नहीं सकता,  \nकि किस तरह अपनी मर्यादा में बंधा हूँ,  \nराम होकर भी, वनवास को अपनाए हुए हूँ,  \nऔर तुम्हारे बगैर अधूरा हूँ।  \n\nसीता, यह प्रेम-पत्र नहीं,  \nयह मेरी आत्मा की पुकार है,  \nजो सदियों से तुम्हें ढूंढ़ती आई है,  \nकि लौट आओ, और मेरे सत्य को सार्थक करो।",
+  "translated_poem": "Ram's love letter,  \nA procession of words on plain paper,  \nSymbol of truth, steeped in the shadow of lies.  \nThis letter speaks not to Sita alone, but to the world’s eyes.\n\nThe burden on my heart, I cannot explain,  \nBound by honor, yet bearing exile’s pain.  \nEven as Ram, embracing this forest way,  \nIncomplete am I without you, every day.\n\nSita, this is no mere love letter,  \nIt is the call of my soul, profound and unfettered,  \nSearching for you through ages that passed,  \nCome back, make my truth complete at last.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8987,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "राम का प्रेम पत्र,",
+          "सादे काग़ज़ पर लिखे हुए शब्दों का एक क़ाफ़िला,",
+          "सत्य का प्रतीक, जो झूठ की छाया में डूबा हुआ है।",
+          "यह पत्र एक संवाद है, सीता से नहीं, संसार से।"
+        ],
+        "translated_lines": [
+          "Ram's love letter,",
+          "A procession of words on plain paper,",
+          "Symbol of truth, steeped in the shadow of lies.",
+          "This letter speaks not to Sita alone, but to the world’s eyes."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "मेरे ह्रदय का बोझ कह नहीं सकता,",
+          "कि किस तरह अपनी मर्यादा में बंधा हूँ,",
+          "राम होकर भी, वनवास को अपनाए हुए हूँ,",
+          "और तुम्हारे बगैर अधूरा हूँ।"
+        ],
+        "translated_lines": [
+          "The burden on my heart, I cannot explain,",
+          "Bound by honor, yet bearing exile’s pain.",
+          "Even as Ram, embracing this forest way,",
+          "Incomplete am I without you, every day."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "सीता, यह प्रेम-पत्र नहीं,",
+          "यह मेरी आत्मा की पुकार है,",
+          "जो सदियों से तुम्हें ढूंढ़ती आई है,",
+          "कि लौट आओ, और मेरे सत्य को सार्थक करो।"
+        ],
+        "translated_lines": [
+          "Sita, this is no mere love letter,",
+          "It is the call of my soul, profound and unfettered,",
+          "Searching for you through ages that passed,",
+          "Come back, make my truth complete at last."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "longing through truth to soul's plea",
+    "translation_fidelity_score": 0.833333,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "राम का प्रेम पत्र,",
+          "सादे काग़ज़ पर लिखे हुए शब्दों का एक क़ाफ़िला,",
+          "सत्य का प्रतीक, जो झूठ की छाया में डूबा हुआ है।",
+          "यह पत्र एक संवाद है, सीता से नहीं, संसार से।"
+        ],
+        "translated_lines": [
+          "Ram's love letter,",
+          "A procession of words on plain paper,",
+          "Symbol of truth, steeped in the shadow of lies.",
+          "This letter speaks not to Sita alone, but to the world’s eyes."
+        ],
+        "emotion": "longing",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "क़ाफ़िला (caravan/procession) loses its Urdu-register weight; 'world's eyes' adds imagery absent in source.",
+        "metaphor_spans": [
+          {
+            "source_term": "शब्दों का एक क़ाफ़िला",
+            "abstract_meaning": "Ram's words as a long procession carrying truth across time"
+          },
+          {
+            "source_term": "झूठ की छाया में डूबा हुआ",
+            "abstract_meaning": "truth submerged beneath the world's capacity for falsehood"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "मेरे ह्रदय का बोझ कह नहीं सकता,",
+          "कि किस तरह अपनी मर्यादा में बंधा हूँ,",
+          "राम होकर भी, वनवास को अपनाए हुए हूँ,",
+          "और तुम्हारे बगैर अधूरा हूँ।"
+        ],
+        "translated_lines": [
+          "The burden on my heart, I cannot explain,",
+          "Bound by honor, yet bearing exile’s pain.",
+          "Even as Ram, embracing this forest way,",
+          "Incomplete am I without you, every day."
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "मर्यादा में बंधा हूँ",
+            "abstract_meaning": "Ram's divine code of honor as a binding constraint on personal love"
+          },
+          {
+            "source_term": "तुम्हारे बगैर अधूरा हूँ",
+            "abstract_meaning": "Sita's absence as incompleteness of Ram's own being and purpose"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "सीता, यह प्रेम-पत्र नहीं,",
+          "यह मेरी आत्मा की पुकार है,",
+          "जो सदियों से तुम्हें ढूंढ़ती आई है,",
+          "कि लौट आओ, और मेरे सत्य को सार्थक करो।"
+        ],
+        "translated_lines": [
+          "Sita, this is no mere love letter,",
+          "It is the call of my soul, profound and unfettered,",
+          "Searching for you through ages that passed,",
+          "Come back, make my truth complete at last."
+        ],
+        "emotion": "longing",
+        "tone": "prayer",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "आत्मा की पुकार",
+            "abstract_meaning": "the letter recast as Ram's eternal soul-cry transcending mortal correspondence"
+          },
+          {
+            "source_term": "मेरे सत्य को सार्थक करो",
+            "abstract_meaning": "Sita's return as the act that gives Ram's righteousness its meaning"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "राम",
+        "romanization": "Ram",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      },
+      {
+        "term": "सीता",
+        "romanization": "Sita",
+        "category": "DEITY",
+        "stanza_index": 3,
+        "preserved": true,
+        "translation_note": ""
+      },
+      {
+        "term": "मर्यादा",
+        "romanization": "maryada",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 2,
+        "preserved": false,
+        "translation_note": "Maryada carries the specific Ramayana ideal of Ram as Maryada Purushottam; 'honor' is too generic."
+      },
+      {
+        "term": "वनवास",
+        "romanization": "vanvas",
+        "category": "MYTHOLOGICAL_EVENT",
+        "stanza_index": 2,
+        "preserved": true,
+        "translation_note": "Translated as 'exile' which captures the event adequately."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8987,
+      "source_term_checks": {
+        "entities_total": 4,
+        "entities_dropped": 0,
+        "metaphors_total": 6,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

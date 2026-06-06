@@ -1,0 +1,112 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1157",
+  "poem_title": "Yemberzal",
+  "language": "Kashmiri",
+  "original_poem": "یٕمبر زل  \nپٲدَرتھ پٲوےٚ منٕ زل  \nبٕکھری یٕشور چھٕ آوےٚ  \nپرینٕ زٲند پٲیٚؤ چھٕ آوےٚ  \nیٕمبر زل، یٕمبر زل،  \nخٲندٕزٕ گٲلِی یٕسِٹڑھی۔",
+  "translated_poem": "Narcissus,  \nYou emerge from the earth,  \nWith your beauty shining bright,  \nA delicate presence of grace,  \nNarcissus, Narcissus,  \nA flower of gentle light.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8867,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "یٕمبر زل",
+          "پٲدَرتھ پٲوےٚ منٕ زل",
+          "بٕکھری یٕشور چھٕ آوےٚ",
+          "پرینٕ زٲند پٲیٚؤ چھٕ آوےٚ",
+          "یٕمبر زل، یٕمبر زل،",
+          "خٲندٕزٕ گٲلِی یٕسِٹڑھی۔"
+        ],
+        "translated_lines": [
+          "Narcissus,",
+          "You emerge from the earth,",
+          "With your beauty shining bright,",
+          "A delicate presence of grace,",
+          "Narcissus, Narcissus,",
+          "A flower of gentle light."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "wonder to gentle celebration",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "یٕمبر زل",
+          "پٲدَرتھ پٲوےٚ منٕ زل",
+          "بٕکھری یٕشور چھٕ آوےٚ",
+          "پرینٕ زٲند پٲیٚؤ چھٕ آوےٚ",
+          "یٕمبر زل، یٕمبر زل،",
+          "خٲندٕزٕ گٲلِی یٕسِٹڑھی۔"
+        ],
+        "translated_lines": [
+          "Narcissus,",
+          "You emerge from the earth,",
+          "With your beauty shining bright,",
+          "A delicate presence of grace,",
+          "Narcissus, Narcissus,",
+          "A flower of gentle light."
+        ],
+        "emotion": "celebration",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "یٕمبر زل (yemberzal/narcissus) is the state flower of Kashmir and a deeply embedded symbol of spring's arrival in Kashmiri poetry, carrying associations with Habba Khatoon's verse and the renewal of the valley after harsh winters; the translation renders it as a generic 'narcissus' without conveying this cultural weight. The closing phrase خٲندٕزٕ گٲلِی یٕسِٹڑھی (a flower of gentle, laughing light) contains the verb root for laughter/smiling which gives the narcissus a joyful, almost personified agency that 'gentle light' does not capture.",
+        "metaphor_spans": [
+          {
+            "source_term": "پٲدَرتھ پٲوےٚ منٕ زل",
+            "abstract_meaning": "spring's emergence as an act of quiet earth-born courage"
+          },
+          {
+            "source_term": "خٲندٕزٕ گٲلِی یٕسِٹڑھی",
+            "abstract_meaning": "the narcissus's bloom as a laughing, luminous presence defying winter's end"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "یٕمبر زل",
+        "romanization": "yemberzal",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "The narcissus is the state flower of Kashmir and a canonical symbol in Kashmiri lyric poetry from Habba Khatoon onward, signifying spring's return to the valley; the translation preserves the botanical name but loses the deep cultural and literary resonance."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8867,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

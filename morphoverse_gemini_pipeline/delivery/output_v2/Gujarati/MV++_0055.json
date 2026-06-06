@@ -1,0 +1,116 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0055",
+  "poem_title": "Mara Pranad",
+  "language": "Gujarati",
+  "original_poem": "मारा प्राणाद\nमारा प्राणाद, सदा संग छे,\nजीवन ना हर एक रंग छे।\nआँखो मा सपना, दिल मा उमंग,\nजीवन ना हर एक रंग छे।",
+  "translated_poem": "My Life\nMy life, always with me,\nEvery color of life.\nIn my eyes, dreams, in my heart, enthusiasm,\nEvery color of life.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9478,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "मारा प्राणाद",
+          "मारा प्राणाद, सदा संग छे,",
+          "जीवन ना हर एक रंग छे।",
+          "आँखो मा सपना, दिल मा उमंग,",
+          "जीवन ना हर एक रंग छे।"
+        ],
+        "translated_lines": [
+          "My Life",
+          "My life, always with me,",
+          "Every color of life.",
+          "In my eyes, dreams, in my heart, enthusiasm,",
+          "Every color of life."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "quiet joy through life's fullness",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "मारा प्राणाद",
+          "मारा प्राणाद, सदा संग छे,",
+          "जीवन ना हर एक रंग छे।",
+          "आँखो मा सपना, दिल मा उमंग,",
+          "जीवन ना हर एक रंग छे।"
+        ],
+        "translated_lines": [
+          "My Life",
+          "My life, always with me,",
+          "Every color of life.",
+          "In my eyes, dreams, in my heart, enthusiasm,",
+          "Every color of life."
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "प्राणाद (pranad) is not merely 'life' but the Gujarati-Vaishnava concept of prana as vital breath and animating theological force; 'my life' collapses this into a secular personal statement. उमंग (umang) rendered as 'enthusiasm' loses the specifically Gujarati devotional register where umang denotes the upsurge of bhakti joy.",
+        "metaphor_spans": [
+          {
+            "source_term": "जीवन ना हर एक रंग",
+            "abstract_meaning": "the full spectrum of lived experience as inseparable from the self"
+          },
+          {
+            "source_term": "आँखो मा सपना",
+            "abstract_meaning": "inner vision as the seat of hope and aspiration"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "प्राणाद",
+        "romanization": "Pranad",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Rendered as 'life' — loses the prana/vital-force theology rooted in Gujarati Vaishnava bhakti tradition."
+      },
+      {
+        "term": "उमंग",
+        "romanization": "Umang",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Rendered as 'enthusiasm' — loses the devotional bhakti-joy register specific to Gujarati Vaishnava poetry."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9478,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

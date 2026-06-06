@@ -1,0 +1,116 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1271",
+  "poem_title": "Aagaya Gangai",
+  "language": "Tamil",
+  "original_poem": "ஆகாய கங்கை, என்னைச் சூழும்  \nஅந்தி நிலா நெஞ்சில் ஊரும்  \nவிண்ணின் நீர் பூமியில் சேரும்  \nகண்ணின் பாசம் காதலாய் தோன்றும்",
+  "translated_poem": "The sky river surrounds me,  \nThe twilight moon seeps into my heart.  \nThe water from the sky meets the earth,  \nLove blossoms in the bonds of the eyes.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8615,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ஆகாய கங்கை, என்னைச் சூழும்",
+          "அந்தி நிலா நெஞ்சில் ஊரும்",
+          "விண்ணின் நீர் பூமியில் சேரும்",
+          "கண்ணின் பாசம் காதலாய் தோன்றும்"
+        ],
+        "translated_lines": [
+          "The sky river surrounds me,",
+          "The twilight moon seeps into my heart.",
+          "The water from the sky meets the earth,",
+          "Love blossoms in the bonds of the eyes."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "wonder dissolving into tender longing",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ஆகாய கங்கை, என்னைச் சூழும்",
+          "அந்தி நிலா நெஞ்சில் ஊரும்",
+          "விண்ணின் நீர் பூமியில் சேரும்",
+          "கண்ணின் பாசம் காதலாய் தோன்றும்"
+        ],
+        "translated_lines": [
+          "The sky river surrounds me,",
+          "The twilight moon seeps into my heart.",
+          "The water from the sky meets the earth,",
+          "Love blossoms in the bonds of the eyes."
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "ஆகாய கங்கை (Aagaya Gangai) is not merely 'sky river' but a specific Tamil epithet for the Milky Way and also an invocation of the celestial Ganga descending from the heavens — a cosmological image rooted in Puranic tradition; the translation flattens this into a generic natural image.",
+        "metaphor_spans": [
+          {
+            "source_term": "அந்தி நிலா நெஞ்சில் ஊரும்",
+            "abstract_meaning": "twilight longing slowly pervading the interior self"
+          },
+          {
+            "source_term": "விண்ணின் நீர் பூமியில் சேரும்",
+            "abstract_meaning": "the divine descending to unite with the earthly beloved"
+          },
+          {
+            "source_term": "கண்ணின் பாசம் காதலாய் தோன்றும்",
+            "abstract_meaning": "the gaze as the threshold where attachment becomes love"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ஆகாய கங்கை",
+        "romanization": "Aagaya Gangai",
+        "category": "SACRED_RIVER",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Rendered as 'sky river' — loses the Puranic resonance of the celestial Ganga descending from the heavens and its Tamil epithet for the Milky Way as a sacred cosmological entity."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8615,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 4,
+        "metaphors_dropped": 1
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 1,
+      "confidence": "high"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[1].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "ஆகாய கங்கை என்னைச் சூழும்",
+      "note": "metaphor_source_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

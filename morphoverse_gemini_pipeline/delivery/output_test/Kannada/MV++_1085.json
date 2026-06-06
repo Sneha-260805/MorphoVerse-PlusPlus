@@ -1,0 +1,115 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1085",
+  "poem_title": "Krishna Ki Chetavani",
+  "language": "Kannada",
+  "original_poem": "कृष्ण ने कहा था—\nहरि काज करत गोधूलि में\nतुम हो ना इसमें, तुम्हीं हो,  \nहर ऋतु हर भू पर छा गया  \nमेरे परम संदेश का साया।  \nयह जो तुम आकर करते हो  \nवो मैं तुम्हारे दिल में करता हूँ।",
+  "translated_poem": "Krishna had said—\nIn the twilight, doing the work of God,  \nYou are in it, you are it,  \nIn every season, on every land,  \nThe shadow of my supreme message spreads.  \nWhat you come and do,  \nI do within your heart.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 7,
+        "source_lines": [
+          "कृष्ण ने कहा था—",
+          "हरि काज करत गोधूलि में",
+          "तुम हो ना इसमें, तुम्हीं हो,",
+          "हर ऋतु हर भू पर छा गया",
+          "मेरे परम संदेश का साया।",
+          "यह जो तुम आकर करते हो",
+          "वो मैं तुम्हारे दिल में करता हूँ।"
+        ],
+        "translated_lines": [
+          "Krishna had said—",
+          "In the twilight, doing the work of God,",
+          "You are in it, you are it,",
+          "In every season, on every land,",
+          "The shadow of my supreme message spreads.",
+          "What you come and do,",
+          "I do within your heart."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "reflective",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 7,
+        "source_lines": [
+          "कृष्ण ने कहा था—",
+          "हरि काज करत गोधूलि में",
+          "तुम हो ना इसमें, तुम्हीं हो,",
+          "हर ऋतु हर भू पर छा गया",
+          "मेरे परम संदेश का साया।",
+          "यह जो तुम आकर करते हो",
+          "वो मैं तुम्हारे दिल में करता हूँ।"
+        ],
+        "translated_lines": [
+          "Krishna had said—",
+          "In the twilight, doing the work of God,",
+          "You are in it, you are it,",
+          "In every season, on every land,",
+          "The shadow of my supreme message spreads.",
+          "What you come and do,",
+          "I do within your heart."
+        ],
+        "emotion": "devotion",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "कृष्ण",
+        "romanization": "Krishna",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Supreme deity speaks divine truth"
+      },
+      {
+        "term": "हरि",
+        "romanization": "Hari",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Vishnu epithet denoting divine work"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1434",
+  "poem_title": "Anumantha Vamsam",
+  "language": "Telugu",
+  "original_poem": "అనుమంత వంశం దారి తీస్తున్నది, \nఅంతులేని శక్తి, పితామహుల నుండి. \nసముద్రాన్ని చీల్చి వెళ్ళిన\nవీరుల వేర్లు ఈ నేలలో గాఢం,\nఅదిగో వాటి చిహ్నాలు.",
+  "translated_poem": "The ancestral line leads the way, \nUnfathomable strength, passed down from forefathers. \nRoots of heroes who crossed the ocean, \nDeeply embedded in this soil, \nThere lie their marks.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8552,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "అనుమంత వంశం దారి తీస్తున్నది,",
+          "అంతులేని శక్తి, పితామహుల నుండి.",
+          "సముద్రాన్ని చీల్చి వెళ్ళిన",
+          "వీరుల వేర్లు ఈ నేలలో గాఢం,",
+          "అదిగో వాటి చిహ్నాలు."
+        ],
+        "translated_lines": [
+          "The ancestral line leads the way,",
+          "Unfathomable strength, passed down from forefathers.",
+          "Roots of heroes who crossed the ocean,",
+          "Deeply embedded in this soil,",
+          "There lie their marks."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "pride through ancestral resilience",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "అనుమంత వంశం దారి తీస్తున్నది,",
+          "అంతులేని శక్తి, పితామహుల నుండి.",
+          "సముద్రాన్ని చీల్చి వెళ్ళిన",
+          "వీరుల వేర్లు ఈ నేలలో గాఢం,",
+          "అదిగో వాటి చిహ్నాలు."
+        ],
+        "translated_lines": [
+          "The ancestral line leads the way,",
+          "Unfathomable strength, passed down from forefathers.",
+          "Roots of heroes who crossed the ocean,",
+          "Deeply embedded in this soil,",
+          "There lie their marks."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "సముద్రాన్ని చీల్చి వెళ్ళిన (those who split/crossed the ocean) carries a specific mythological resonance in Telugu cultural memory — possibly evoking the Ramayana crossing of the sea — rendered as generic 'crossed the ocean', the heroic-mythological weight is softened.",
+        "metaphor_spans": [
+          {
+            "source_term": "సముద్రాన్ని చీల్చి వెళ్ళిన వీరుల వేర్లు",
+            "abstract_meaning": "ancestral heroic legacy deeply rooted in the land"
+          },
+          {
+            "source_term": "దారి తీస్తున్నది",
+            "abstract_meaning": "lineage as a living guide for the present generation"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "అనుమంత వంశం",
+        "romanization": "Anumantha Vamsam",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Vamsam (lineage/clan) is a culturally specific Telugu-Sanskrit term for ancestral lineage with ritual and social significance; rendered as 'ancestral line', the clan-identity weight is partially lost."
+      },
+      {
+        "term": "పితామహుల",
+        "romanization": "pitamahula",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Pitamahulu (forefathers/patriarchal ancestors) carries a Sanskrit-rooted reverential register in Telugu culture; 'forefathers' approximates but loses the patrilineal-sacred connotation."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8552,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

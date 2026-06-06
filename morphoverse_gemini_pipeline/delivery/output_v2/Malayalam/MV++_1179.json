@@ -1,0 +1,114 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1179",
+  "poem_title": "Bharatheeyam",
+  "language": "Malayalam",
+  "original_poem": "ഭാരതീയം  \nപൊടിഞ്ഞ പാതകളിൽ  \nമറഞ്ഞുപോയ  \nസമാധാനം,  \nഅവശേഷിക്കുന്ന  \nപലകതാണീ  \nമണ്ണിന്റെ മണമായ്‌.",
+  "translated_poem": "Indianism,  \nOn dusty paths,  \nThe lost peace,  \nRemains as  \nA lingering fragrance  \nOf this land.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.95,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 7,
+        "source_lines": [
+          "ഭാരതീയം",
+          "പൊടിഞ്ഞ പാതകളിൽ",
+          "മറഞ്ഞുപോയ",
+          "സമാധാനം,",
+          "അവശേഷിക്കുന്ന",
+          "പലകതാണീ",
+          "മണ്ണിന്റെ മണമായ്‌."
+        ],
+        "translated_lines": [
+          "Indianism,",
+          "On dusty paths,",
+          "The lost peace,",
+          "Remains as",
+          "A lingering fragrance",
+          "Of this land."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "loss yielding to quiet resilience",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 7,
+        "source_lines": [
+          "ഭാരതീയം",
+          "പൊടിഞ്ഞ പാതകളിൽ",
+          "മറഞ്ഞുപോയ",
+          "സമാധാനം,",
+          "അവശേഷിക്കുന്ന",
+          "പലകതാണീ",
+          "മണ്ണിന്റെ മണമായ്‌."
+        ],
+        "translated_lines": [
+          "Indianism,",
+          "On dusty paths,",
+          "The lost peace,",
+          "Remains as",
+          "A lingering fragrance",
+          "Of this land."
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "പലകതാണീ (palakathani) carries a layered sense of an enduring plank or remnant-board, suggesting something barely surviving; 'lingering fragrance' softens this structural image of bare survival.",
+        "metaphor_spans": [
+          {
+            "source_term": "പൊടിഞ്ഞ പാതകളിൽ",
+            "abstract_meaning": "crumbling roads as the erosion of India's shared civic and moral fabric"
+          },
+          {
+            "source_term": "മണ്ണിന്റെ മണമായ്‌",
+            "abstract_meaning": "the scent of the earth as the last surviving trace of a nation's lost peace"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ഭാരതീയം",
+        "romanization": "Bharatheeyam",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Bharatheeyam connotes a civilisational and philosophical identity rooted in Bharata; 'Indianism' is a pale functional equivalent."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.95,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

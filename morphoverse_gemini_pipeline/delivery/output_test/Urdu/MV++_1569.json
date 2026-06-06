@@ -1,0 +1,373 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1569",
+  "poem_title": "Yeh Daag Daag Ujala",
+  "language": "Urdu",
+  "original_poem": "یہ داغ داغ اجالا، یہ شب گزیدہ سحر\nوہ انتظار تھا جس کا، یہ وہ سحر تو نہیں\n\nیہ وہ سحر تو نہیں جس کی آرزو لے کر\nچلے تھے یار کہ مل جائے گی کہیں نہ کہیں\n\nفلک کے دشت میں تاروں کی آخری منزل\nکہیں تو ہو گا شبِ سست موج کا ساحل\n\nکہیں تو جا کے رکے گا سفینۂ غمِ دل\nجواں لہو کی پر اسرار شاہراہوں سے\n\nچلے جو یار تو دامن پہ کتنے ہاتھ پڑے\nدیارِ حسن کی بے صبر خواب گاہوں سے\n\nپکارتی رہیں بانہیں بدن بلاتے رہے\nبہت عزیز تھی لیکن رخِ سحر کی لگن\n\nبہت قریں تھا حسینانِ نور کا دامن\nسنا ہے ہو بھی چکا ہے فراقِ ظلمت و نور\n\nسنا ہے ہو بھی چکا ہے وصالِ منزل و گام\nبدل چکا ہے بہت اہلِ درد کا دستور\n\nنئے خراج نئے دشت و جبل میں لے کے چلو\nچلو کہ دشت میں صحرا کی بیکرانی ہے",
+  "translated_poem": "This stained dawn, this night-bitten morning—\nThis is not that long-awaited morning.\n\nThis is not the morning for which we set out,\nHoping we would find it somewhere, someday.\n\nSomewhere in the wilderness of the skies\nThe stars would stop, the night’s slow-rising tide would abate,\n\nSomewhere, the boat of the heart’s torment would anchor.\nWhen friends set out, countless hands came to hold them back.\n\nFrom the yearning beds of beauty’s province,\nArms kept calling, bodies pulled them back.\n\nBut much-loved was the lure of dawn’s face,\nAnd close was the lure of the beauties of light.\n\nIt is heard that the division between dark and light has been completed,\nAnd the pain of separation ended in meeting.\n\nThe tradition of the suffering ones has changed,\nBring the new offering in the new desert and mountains.\n\nLet us go on, for there is vast wilderness ahead.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 9,
+    "source_stanza_count": 9,
+    "translated_stanza_count": 9,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.822,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "یہ داغ داغ اجالا، یہ شب گزیدہ سحر",
+          "وہ انتظار تھا جس کا، یہ وہ سحر تو نہیں"
+        ],
+        "translated_lines": [
+          "This stained dawn, this night-bitten morning—",
+          "This is not that long-awaited morning."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "یہ وہ سحر تو نہیں جس کی آرزو لے کر",
+          "چلے تھے یار کہ مل جائے گی کہیں نہ کہیں"
+        ],
+        "translated_lines": [
+          "This is not the morning for which we set out,",
+          "Hoping we would find it somewhere, someday."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "فلک کے دشت میں تاروں کی آخری منزل",
+          "کہیں تو ہو گا شبِ سست موج کا ساحل"
+        ],
+        "translated_lines": [
+          "Somewhere in the wilderness of the skies",
+          "The stars would stop, the night’s slow-rising tide would abate,"
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 2,
+        "source_lines": [
+          "کہیں تو جا کے رکے گا سفینۂ غمِ دل",
+          "جواں لہو کی پر اسرار شاہراہوں سے"
+        ],
+        "translated_lines": [
+          "Somewhere, the boat of the heart’s torment would anchor.",
+          "When friends set out, countless hands came to hold them back."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 2,
+        "source_lines": [
+          "چلے جو یار تو دامن پہ کتنے ہاتھ پڑے",
+          "دیارِ حسن کی بے صبر خواب گاہوں سے"
+        ],
+        "translated_lines": [
+          "From the yearning beds of beauty’s province,",
+          "Arms kept calling, bodies pulled them back."
+        ]
+      },
+      {
+        "stanza_index": 6,
+        "line_count": 2,
+        "source_lines": [
+          "پکارتی رہیں بانہیں بدن بلاتے رہے",
+          "بہت عزیز تھی لیکن رخِ سحر کی لگن"
+        ],
+        "translated_lines": [
+          "But much-loved was the lure of dawn’s face,",
+          "And close was the lure of the beauties of light."
+        ]
+      },
+      {
+        "stanza_index": 7,
+        "line_count": 2,
+        "source_lines": [
+          "بہت قریں تھا حسینانِ نور کا دامن",
+          "سنا ہے ہو بھی چکا ہے فراقِ ظلمت و نور"
+        ],
+        "translated_lines": [
+          "It is heard that the division between dark and light has been completed,",
+          "And the pain of separation ended in meeting."
+        ]
+      },
+      {
+        "stanza_index": 8,
+        "line_count": 2,
+        "source_lines": [
+          "سنا ہے ہو بھی چکا ہے وصالِ منزل و گام",
+          "بدل چکا ہے بہت اہلِ درد کا دستور"
+        ],
+        "translated_lines": [
+          "The tradition of the suffering ones has changed,",
+          "Bring the new offering in the new desert and mountains."
+        ]
+      },
+      {
+        "stanza_index": 9,
+        "line_count": 2,
+        "source_lines": [
+          "نئے خراج نئے دشت و جبل میں لے کے چلو",
+          "چلو کہ دشت میں صحرا کی بیکرانی ہے"
+        ],
+        "translated_lines": [
+          "Let us go on, for there is vast wilderness ahead."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "grief to resilience",
+    "translation_fidelity_score": 0.555556,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "یہ داغ داغ اجالا، یہ شب گزیدہ سحر",
+          "وہ انتظار تھا جس کا، یہ وہ سحر تو نہیں"
+        ],
+        "translated_lines": [
+          "This stained dawn, this night-bitten morning—",
+          "This is not that long-awaited morning."
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "یہ وہ سحر تو نہیں جس کی آرزو لے کر",
+          "چلے تھے یار کہ مل جائے گی کہیں نہ کہیں"
+        ],
+        "translated_lines": [
+          "This is not the morning for which we set out,",
+          "Hoping we would find it somewhere, someday."
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "فلک کے دشت میں تاروں کی آخری منزل",
+          "کہیں تو ہو گا شبِ سست موج کا ساحل"
+        ],
+        "translated_lines": [
+          "Somewhere in the wilderness of the skies",
+          "The stars would stop, the night’s slow-rising tide would abate,"
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "tide metaphor shifted",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 2,
+        "source_lines": [
+          "کہیں تو جا کے رکے گا سفینۂ غمِ دل",
+          "جواں لہو کی پر اسرار شاہراہوں سے"
+        ],
+        "translated_lines": [
+          "Somewhere, the boat of the heart’s torment would anchor.",
+          "When friends set out, countless hands came to hold them back."
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "lost",
+        "loss_note": "anchor line context lost",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 2,
+        "source_lines": [
+          "چلے جو یار تو دامن پہ کتنے ہاتھ پڑے",
+          "دیارِ حسن کی بے صبر خواب گاہوں سے"
+        ],
+        "translated_lines": [
+          "From the yearning beds of beauty’s province,",
+          "Arms kept calling, bodies pulled them back."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "beds rendered as arms",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 6,
+        "line_count": 2,
+        "source_lines": [
+          "پکارتی رہیں بانہیں بدن بلاتے رہے",
+          "بہت عزیز تھی لیکن رخِ سحر کی لگن"
+        ],
+        "translated_lines": [
+          "But much-loved was the lure of dawn’s face,",
+          "And close was the lure of the beauties of light."
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "partial",
+        "loss_note": "lure repeated awkwardly",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 7,
+        "line_count": 2,
+        "source_lines": [
+          "بہت قریں تھا حسینانِ نور کا دامن",
+          "سنا ہے ہو بھی چکا ہے فراقِ ظلمت و نور"
+        ],
+        "translated_lines": [
+          "It is heard that the division between dark and light has been completed,",
+          "And the pain of separation ended in meeting."
+        ],
+        "emotion": "peace",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "meeting ending omitted",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 8,
+        "line_count": 2,
+        "source_lines": [
+          "سنا ہے ہو بھی چکا ہے وصالِ منزل و گام",
+          "بدل چکا ہے بہت اہلِ درد کا دستور"
+        ],
+        "translated_lines": [
+          "The tradition of the suffering ones has changed,",
+          "Bring the new offering in the new desert and mountains."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "lost",
+        "loss_note": "stanza meaning inverted",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 9,
+        "line_count": 2,
+        "source_lines": [
+          "نئے خراج نئے دشت و جبل میں لے کے چلو",
+          "چلو کہ دشت میں صحرا کی بیکرانی ہے"
+        ],
+        "translated_lines": [
+          "Let us go on, for there is vast wilderness ahead."
+        ],
+        "emotion": "resilience",
+        "tone": "defiance",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "سحر",
+        "romanization": "sahar",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "dawn as spiritual awakening symbol"
+      },
+      {
+        "term": "فلک",
+        "romanization": "falak",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 3,
+        "preserved": false,
+        "translation_note": "sky as divine expanse"
+      },
+      {
+        "term": "شبِ سست موج",
+        "romanization": "shab-e-sust mauj",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 3,
+        "preserved": false,
+        "translation_note": "slow night tide of spiritual waiting"
+      },
+      {
+        "term": "دیارِ حسن",
+        "romanization": "diyar-e-husn",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 5,
+        "preserved": false,
+        "translation_note": "realm of beauty divine province"
+      },
+      {
+        "term": "حسینانِ نور",
+        "romanization": "husnan-e-noor",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 7,
+        "preserved": false,
+        "translation_note": "beauties of light divine figures"
+      },
+      {
+        "term": "فراقِ ظلمت و نور",
+        "romanization": "firaq-e-zulmat-o-noor",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 7,
+        "preserved": false,
+        "translation_note": "separation of darkness and light"
+      },
+      {
+        "term": "اہلِ درد",
+        "romanization": "ahl-e-dard",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 8,
+        "preserved": false,
+        "translation_note": "community of the suffering ones"
+      },
+      {
+        "term": "دشت و جبل",
+        "romanization": "dasht-o-jabal",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 9,
+        "preserved": true,
+        "translation_note": "wilderness and mountains as journey"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.822,
+      "source_term_checks": {
+        "entities_total": 8,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

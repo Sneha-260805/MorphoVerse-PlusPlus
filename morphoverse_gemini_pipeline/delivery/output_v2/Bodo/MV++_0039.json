@@ -1,0 +1,108 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0039",
+  "poem_title": "Bodo Rakhang",
+  "language": "Bodo",
+  "original_poem": "बोडो राखंग\nबोडो राखंग, तुमार पहिचान\nसंस्कृति, धरोहर, मोर गर्व,\nमोर हृदयले गुनगुन\nजन्मभूमि जिवित।",
+  "translated_poem": "Bodo Identity\nBodo Identity, your recognition\nCulture, heritage, my pride,\nIn my heart, a hum\nOf my birthplace alive.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8885,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "बोडो राखंग",
+          "बोडो राखंग, तुमार पहिचान",
+          "संस्कृति, धरोहर, मोर गर्व,",
+          "मोर हृदयले गुनगुन",
+          "जन्मभूमि जिवित।"
+        ],
+        "translated_lines": [
+          "Bodo Identity",
+          "Bodo Identity, your recognition",
+          "Culture, heritage, my pride,",
+          "In my heart, a hum",
+          "Of my birthplace alive."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "pride through belonging",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "बोडो राखंग",
+          "बोडो राखंग, तुमार पहिचान",
+          "संस्कृति, धरोहर, मोर गर्व,",
+          "मोर हृदयले गुनगुन",
+          "जन्मभूमि जिवित।"
+        ],
+        "translated_lines": [
+          "Bodo Identity",
+          "Bodo Identity, your recognition",
+          "Culture, heritage, my pride,",
+          "In my heart, a hum",
+          "Of my birthplace alive."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "राखंग (Rakhang) carries a culturally specific Bodo sense of identity rooted in ethnic and territorial belonging; rendered as 'identity', it loses the communal and ancestral weight of the term.",
+        "metaphor_spans": [
+          {
+            "source_term": "मोर हृदयले गुनगुन",
+            "abstract_meaning": "cultural memory quietly sustaining the speaker from within"
+          },
+          {
+            "source_term": "जन्मभूमि जिवित",
+            "abstract_meaning": "ancestral land as a living, breathing presence"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "बोडो राखंग",
+        "romanization": "Bodo Rakhang",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Rendered as 'Bodo Identity' — Rakhang denotes a deeper ethnic-territorial sense of Bodo selfhood not captured by the generic English 'identity'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8885,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1559",
+  "poem_title": "Mujhse Pehli Si Mohabbat",
+  "language": "Urdu",
+  "original_poem": "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ\nمیں نے سمجھا تھا کہ تو ہے تو درخشاں ہے حیات\nتیرا غم ہے تو غمِ دہر کا جھگڑا کیا ہے\nتیری صورت سے ہے عالم میں بہاروں کو ثبات\nتیری آنکھوں کے سوا دنیا میں رکھا کیا ہے؟\n  \nتو جو مل جائے تو تقدیر نگوں ہو جائے\nیوں نہ تھا میں نے فقط چاہا تھا یوں ہو جائے\nاور بھی دکھ ہیں زمانے میں محبت کے سوا\nراحتیں اور بھی ہیں وصل کی راحت کے سوا\n  \nان گنت صدیوں کے تاریک بہیمانہ طلسم\nریشم و اطلس و کمخواب میں بنوائے ہوئے\nجا بجا بکتے ہوئے کوچہ و بازار میں جسم\nخاک میں لتھڑے ہوئے خون میں نہلائے ہوئے\n  \nجسم نکلے ہوئے امراض کے تنوروں سے\nپیتے ہوئے لہو، بجاتی ہوئی نقاروں میں\nلوٹ جاتی ہے ادھر کو بھی نظر کیا کیجیے\nاب بھی دلکش ہے ترا حسن مگر کیا کیجیے\n  \nاور بھی دکھ ہیں زمانے میں محبت کے سوا\nراحتیں اور بھی ہیں وصل کی راحت کے سوا\nمجھ سے پہلی سی محبت مرے محبوب نہ مانگ",
+  "translated_poem": "Do not ask of me, my love, that love I once had for you.\nThere was a time when life was bright, because you were\nWhat I wanted above all else, or so I thought.  \nYour sorrow was mine, and so was the world’s anguish.\n\nYour beauty gave permanence to every spring,\nYour eyes were all that mattered to me.\nIf you could be mine, fate would bow to me.\n\nThat was a fantasy, you know it wasn’t real.\nThere are other sorrows in this world,\nComforts beyond love.\n\nIn the world’s abattoirs, the dark magic of centuries,\nBody counts of silk, brocade, and satin,\nMerchandise in blood-stained alleys,\nBodies sold, caked in dust, bathed in blood,\nSprung from the ovens of diseases,\nDriven by thirst into trumpeting drums.\n\nWho can turn away from such sights?\nEven now, your beauty still enchants,\nBut what can I do?\n\nThere are other sorrows in this world,\nComforts beyond love.\nDo not ask of me, my love, that love I once had for you.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 6,
+    "alignment_status": "aligned_low",
+    "alignment_confidence": 0.7832,
+    "alignment_note": "Alignment acceptable but not high (confidence=0.7832).",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ",
+          "میں نے سمجھا تھا کہ تو ہے تو درخشاں ہے حیات",
+          "تیرا غم ہے تو غمِ دہر کا جھگڑا کیا ہے",
+          "تیری صورت سے ہے عالم میں بہاروں کو ثبات",
+          "تیری آنکھوں کے سوا دنیا میں رکھا کیا ہے؟"
+        ],
+        "translated_lines": [
+          "Do not ask of me, my love, that love I once had for you.",
+          "There was a time when life was bright, because you were",
+          "What I wanted above all else, or so I thought.",
+          "Your sorrow was mine, and so was the world’s anguish."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "تو جو مل جائے تو تقدیر نگوں ہو جائے",
+          "یوں نہ تھا میں نے فقط چاہا تھا یوں ہو جائے",
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا"
+        ],
+        "translated_lines": [
+          "Your beauty gave permanence to every spring,",
+          "Your eyes were all that mattered to me.",
+          "If you could be mine, fate would bow to me."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "ان گنت صدیوں کے تاریک بہیمانہ طلسم",
+          "ریشم و اطلس و کمخواب میں بنوائے ہوئے",
+          "جا بجا بکتے ہوئے کوچہ و بازار میں جسم",
+          "خاک میں لتھڑے ہوئے خون میں نہلائے ہوئے"
+        ],
+        "translated_lines": [
+          "That was a fantasy, you know it wasn’t real.",
+          "There are other sorrows in this world,",
+          "Comforts beyond love."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "جسم نکلے ہوئے امراض کے تنوروں سے",
+          "پیتے ہوئے لہو، بجاتی ہوئی نقاروں میں",
+          "لوٹ جاتی ہے ادھر کو بھی نظر کیا کیجیے",
+          "اب بھی دلکش ہے ترا حسن مگر کیا کیجیے"
+        ],
+        "translated_lines": [
+          "In the world’s abattoirs, the dark magic of centuries,",
+          "Body counts of silk, brocade, and satin,",
+          "Merchandise in blood-stained alleys,",
+          "Bodies sold, caked in dust, bathed in blood,",
+          "Sprung from the ovens of diseases,",
+          "Driven by thirst into trumpeting drums."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 3,
+        "source_lines": [
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا",
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ"
+        ],
+        "translated_lines": [
+          "Who can turn away from such sights?",
+          "Even now, your beauty still enchants,",
+          "But what can I do?"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "lament",
+    "emotional_arc": "From personal longing to social anguish",
+    "translation_fidelity_score": 0.4,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ",
+          "میں نے سمجھا تھا کہ تو ہے تو درخشاں ہے حیات",
+          "تیرا غم ہے تو غمِ دہر کا جھگڑا کیا ہے",
+          "تیری صورت سے ہے عالم میں بہاروں کو ثبات",
+          "تیری آنکھوں کے سوا دنیا میں رکھا کیا ہے؟"
+        ],
+        "translated_lines": [
+          "Do not ask of me, my love, that love I once had for you.",
+          "There was a time when life was bright, because you were",
+          "What I wanted above all else, or so I thought.",
+          "Your sorrow was mine, and so was the world’s anguish."
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "spring beauty permanence lost",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "تو جو مل جائے تو تقدیر نگوں ہو جائے",
+          "یوں نہ تھا میں نے فقط چاہا تھا یوں ہو جائے",
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا"
+        ],
+        "translated_lines": [
+          "Your beauty gave permanence to every spring,",
+          "Your eyes were all that mattered to me.",
+          "If you could be mine, fate would bow to me."
+        ],
+        "emotion": "longing",
+        "tone": "declaration",
+        "translation_quality": "lost",
+        "loss_note": "fate bow union omitted",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "ان گنت صدیوں کے تاریک بہیمانہ طلسم",
+          "ریشم و اطلس و کمخواب میں بنوائے ہوئے",
+          "جا بجا بکتے ہوئے کوچہ و بازار میں جسم",
+          "خاک میں لتھڑے ہوئے خون میں نہلائے ہوئے"
+        ],
+        "translated_lines": [
+          "That was a fantasy, you know it wasn’t real.",
+          "There are other sorrows in this world,",
+          "Comforts beyond love."
+        ],
+        "emotion": "grief",
+        "tone": "whisper",
+        "translation_quality": "lost",
+        "loss_note": "centuries dark magic omitted",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "جسم نکلے ہوئے امراض کے تنوروں سے",
+          "پیتے ہوئے لہو، بجاتی ہوئی نقاروں میں",
+          "لوٹ جاتی ہے ادھر کو بھی نظر کیا کیجیے",
+          "اب بھی دلکش ہے ترا حسن مگر کیا کیجیے"
+        ],
+        "translated_lines": [
+          "In the world’s abattoirs, the dark magic of centuries,",
+          "Body counts of silk, brocade, and satin,",
+          "Merchandise in blood-stained alleys,",
+          "Bodies sold, caked in dust, bathed in blood,",
+          "Sprung from the ovens of diseases,",
+          "Driven by thirst into trumpeting drums."
+        ],
+        "emotion": "grief",
+        "tone": "defiance",
+        "translation_quality": "partial",
+        "loss_note": "disease ovens drums context lost",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 3,
+        "source_lines": [
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا",
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ"
+        ],
+        "translated_lines": [
+          "Who can turn away from such sights?",
+          "Even now, your beauty still enchants,",
+          "But what can I do?"
+        ],
+        "emotion": "resilience",
+        "tone": "lament",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned_low",
+      "alignment_confidence": 0.7832,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

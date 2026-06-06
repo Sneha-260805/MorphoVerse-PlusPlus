@@ -1,0 +1,108 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1153",
+  "poem_title": "Ghazal",
+  "language": "Kashmiri",
+  "original_poem": "تٕو آدرِس پٲٹھ چھٕ کتھ پٲنچھ کھسےٚ وْٹھی؟  \nخانہ خرَبات سنی سیٚتھ چھیُ وچھیُ؟  \nزوٚنِم بَرٔ تہِ یوٚدُر بٲپتھ پٲٹھ وچھ وٚوٚدم  \nکٹھیُم غِبار سڑُ، پٲٹھ خرےٚ دریشہٚس کۄچھٲی؟",
+  "translated_poem": "I went looking for you—where did you vanish?  \nThe tavern was deserted—have you left it too?  \nI went from street to street in search of you,  \nAll I found was dust—where is the door to your house?",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9138,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "تٕو آدرِس پٲٹھ چھٕ کتھ پٲنچھ کھسےٚ وْٹھی؟",
+          "خانہ خرَبات سنی سیٚتھ چھیُ وچھیُ؟",
+          "زوٚنِم بَرٔ تہِ یوٚدُر بٲپتھ پٲٹھ وچھ وٚوٚدم",
+          "کٹھیُم غِبار سڑُ، پٲٹھ خرےٚ دریشہٚس کۄچھٲی؟"
+        ],
+        "translated_lines": [
+          "I went looking for you—where did you vanish?",
+          "The tavern was deserted—have you left it too?",
+          "I went from street to street in search of you,",
+          "All I found was dust—where is the door to your house?"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "lament",
+    "emotional_arc": "longing deepens to desolate absence",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "تٕو آدرِس پٲٹھ چھٕ کتھ پٲنچھ کھسےٚ وْٹھی؟",
+          "خانہ خرَبات سنی سیٚتھ چھیُ وچھیُ؟",
+          "زوٚنِم بَرٔ تہِ یوٚدُر بٲپتھ پٲٹھ وچھ وٚوٚدم",
+          "کٹھیُم غِبار سڑُ، پٲٹھ خرےٚ دریشہٚس کۄچھٲی؟"
+        ],
+        "translated_lines": [
+          "I went looking for you—where did you vanish?",
+          "The tavern was deserted—have you left it too?",
+          "I went from street to street in search of you,",
+          "All I found was dust—where is the door to your house?"
+        ],
+        "emotion": "longing",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "خانہ خرَبات (khāna-e-kharābāt) is a Sufi technical term meaning the tavern of ruin — a sacred space of spiritual dissolution and divine intoxication in the Rishi-Sufi tradition; the translation renders it merely as 'deserted tavern', losing the mystical register entirely.",
+        "metaphor_spans": [
+          {
+            "source_term": "خانہ خرَبات",
+            "abstract_meaning": "the Sufi tavern of spiritual ruin where the seeker dissolves into the divine"
+          },
+          {
+            "source_term": "غِبار سڑُ",
+            "abstract_meaning": "the dust of futile searching left behind by the absent beloved"
+          },
+          {
+            "source_term": "دریشہٚس کۄچھٲی",
+            "abstract_meaning": "the threshold of the divine that remains forever out of reach"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "خانہ خرَبات",
+        "romanization": "khāna-e-kharābāt",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "In Kashmiri Sufi poetry rooted in the Rishi order and Sheikh Nooruddin's tradition, the kharābāt is not a literal tavern but the sacred space of ego-annihilation and mystical intoxication; 'deserted tavern' strips this of its spiritual meaning."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9138,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

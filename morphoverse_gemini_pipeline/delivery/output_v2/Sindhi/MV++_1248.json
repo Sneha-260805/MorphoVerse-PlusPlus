@@ -1,0 +1,193 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1248",
+  "poem_title": "Utho Jaago",
+  "language": "Sindhi",
+  "original_poem": "اُٿو جاگو سڀڪا،  \nرات جاڳي وڃي،  \nجي جڳ سڄو سمهي پيو،  \nڪير خبر ڏيئي؟  \nروئندي روئندي گهميا،  \nاوڙکيا عجيب،  \nجي ۾ ٿيندا جيءَ ۾،  \nسي ساهه وڻيندا.\n\nاُٿو جاگو هرهڪ،  \nرات وڃائي ٿي،  \nاو جاڳڻ واريون،  \nڏيهه ڇڏي ويون،  \nچپ رهڻ سان پاڻ ۾،  \nڏينهن گڏي نٿو.",
+  "translated_poem": "Arise and awaken, every one of you,  \nThe night is slipping away,  \nWhile the world sleeps,  \nWho will bear witness?  \nWandering and weeping,  \nThe strange travelers,  \nWhat stirs in the soul,  \nWill delight the breath.\n\nArise and awaken, every one,  \nThe night is passing by,  \nThose who stay awake,  \nHave already left this land,  \nIn silence, by yourself,  \nYou cannot summon the dawn.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7631,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 8,
+        "source_lines": [
+          "اُٿو جاگو سڀڪا،",
+          "رات جاڳي وڃي،",
+          "جي جڳ سڄو سمهي پيو،",
+          "ڪير خبر ڏيئي؟",
+          "روئندي روئندي گهميا،",
+          "اوڙکيا عجيب،",
+          "جي ۾ ٿيندا جيءَ ۾،",
+          "سي ساهه وڻيندا."
+        ],
+        "translated_lines": [
+          "Arise and awaken, every one of you,",
+          "The night is slipping away,",
+          "While the world sleeps,",
+          "Who will bear witness?",
+          "Wandering and weeping,",
+          "The strange travelers,",
+          "What stirs in the soul,",
+          "Will delight the breath."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 6,
+        "source_lines": [
+          "اُٿو جاگو هرهڪ،",
+          "رات وڃائي ٿي،",
+          "او جاڳڻ واريون،",
+          "ڏيهه ڇڏي ويون،",
+          "چپ رهڻ سان پاڻ ۾،",
+          "ڏينهن گڏي نٿو."
+        ],
+        "translated_lines": [
+          "Arise and awaken, every one,",
+          "The night is passing by,",
+          "Those who stay awake,",
+          "Have already left this land,",
+          "In silence, by yourself,",
+          "You cannot summon the dawn."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "urgency through grief to collective loss",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 8,
+        "source_lines": [
+          "اُٿو جاگو سڀڪا،",
+          "رات جاڳي وڃي،",
+          "جي جڳ سڄو سمهي پيو،",
+          "ڪير خبر ڏيئي؟",
+          "روئندي روئندي گهميا،",
+          "اوڙکيا عجيب،",
+          "جي ۾ ٿيندا جيءَ ۾،",
+          "سي ساهه وڻيندا."
+        ],
+        "translated_lines": [
+          "Arise and awaken, every one of you,",
+          "The night is slipping away,",
+          "While the world sleeps,",
+          "Who will bear witness?",
+          "Wandering and weeping,",
+          "The strange travelers,",
+          "What stirs in the soul,",
+          "Will delight the breath."
+        ],
+        "emotion": "grief",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "'اوڙکيا عجيب' (strange wanderers/strangers) carries displacement and exile resonance lost in 'strange travelers'.",
+        "metaphor_spans": [
+          {
+            "source_term": "رات جاڳي وڃي",
+            "abstract_meaning": "the night of spiritual or communal heedlessness slipping away unredeemed"
+          },
+          {
+            "source_term": "جڳ سڄو سمهي پيو",
+            "abstract_meaning": "collective unconsciousness as the world's failure to witness its own crisis"
+          },
+          {
+            "source_term": "اوڙکيا عجيب",
+            "abstract_meaning": "displaced wanderers whose strangeness marks the cost of collective sleep"
+          },
+          {
+            "source_term": "ساهه وڻيندا",
+            "abstract_meaning": "inner stirrings of the soul as the only breath worth living"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 6,
+        "source_lines": [
+          "اُٿو جاگو هرهڪ،",
+          "رات وڃائي ٿي،",
+          "او جاڳڻ واريون،",
+          "ڏيهه ڇڏي ويون،",
+          "چپ رهڻ سان پاڻ ۾،",
+          "ڏينهن گڏي نٿو."
+        ],
+        "translated_lines": [
+          "Arise and awaken, every one,",
+          "The night is passing by,",
+          "Those who stay awake,",
+          "Have already left this land,",
+          "In silence, by yourself,",
+          "You cannot summon the dawn."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "'ڏيهه ڇڏي ويون' (left this land/homeland) carries partition-era displacement weight not conveyed by 'left this land'.",
+        "metaphor_spans": [
+          {
+            "source_term": "رات وڃائي ٿي",
+            "abstract_meaning": "time of awakening being squandered by communal inaction"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ڏيهه",
+        "romanization": "deh",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 2,
+        "preserved": false,
+        "translation_note": "Sindhi homeland with partition-era resonance reduced to generic 'land'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7631,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 7,
+        "metaphors_dropped": 2
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 2,
+      "confidence": "high"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[2].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "جاڳڻ واريون ڏيهه ڇڏي ويون",
+      "note": "metaphor_source_term_not_in_source"
+    },
+    {
+      "field_path": "annotation.stanzas[2].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "چپ رهڻ سان ڏينهن گڏي نٿو",
+      "note": "metaphor_source_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

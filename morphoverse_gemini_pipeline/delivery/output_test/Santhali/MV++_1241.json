@@ -1,0 +1,169 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1241",
+  "poem_title": "Madhur Bhanwar",
+  "language": "Santhali",
+  "original_poem": "मधुर भंवर में लहराए,  \nसपनों के पलंग सजाए।  \nफूलों की महक में खो जाए,  \nदिल की बातें सुनाए।\n\nचाँदनी रात में जादू भरे,  \nसपनों के रंग में सजे।  \nमधुर बंसी की धुन सुनाए,  \nदिल की बातों को जगाए।\n\nसुख-दुख की बातें साझा करें,  \nखुशियों की राह में चलें।  \nमधुर भंवर में खो जाएं,  \nसपनों की दुनिया बसाएं।",
+  "translated_poem": "In sweet whispers, waves sway,  \nAdorned with dreams, they lay.  \nLost in the fragrance of flowers,  \nTelling the heart's secrets, hours.\n\nIn the moonlit night, magic fills,  \nDressed in the colors of dreams, it thrills.  \nPlaying the tune of a sweet flute,  \nAwakening the heart's truths absolute.\n\nSharing tales of joy and strife,  \nWalking the path of happiness in life.  \nIn sweet whispers, let us lose,  \nBuilding a world of dreams to choose.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7845,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "मधुर भंवर में लहराए,",
+          "सपनों के पलंग सजाए।",
+          "फूलों की महक में खो जाए,",
+          "दिल की बातें सुनाए।"
+        ],
+        "translated_lines": [
+          "In sweet whispers, waves sway,",
+          "Adorned with dreams, they lay.",
+          "Lost in the fragrance of flowers,",
+          "Telling the heart's secrets, hours."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "चाँदनी रात में जादू भरे,",
+          "सपनों के रंग में सजे।",
+          "मधुर बंसी की धुन सुनाए,",
+          "दिल की बातों को जगाए।"
+        ],
+        "translated_lines": [
+          "In the moonlit night, magic fills,",
+          "Dressed in the colors of dreams, it thrills.",
+          "Playing the tune of a sweet flute,",
+          "Awakening the heart's truths absolute."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "सुख-दुख की बातें साझा करें,",
+          "खुशियों की राह में चलें।",
+          "मधुर भंवर में खो जाएं,",
+          "सपनों की दुनिया बसाएं।"
+        ],
+        "translated_lines": [
+          "Sharing tales of joy and strife,",
+          "Walking the path of happiness in life.",
+          "In sweet whispers, let us lose,",
+          "Building a world of dreams to choose."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "longing to peace",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "मधुर भंवर में लहराए,",
+          "सपनों के पलंग सजाए।",
+          "फूलों की महक में खो जाए,",
+          "दिल की बातें सुनाए।"
+        ],
+        "translated_lines": [
+          "In sweet whispers, waves sway,",
+          "Adorned with dreams, they lay.",
+          "Lost in the fragrance of flowers,",
+          "Telling the heart's secrets, hours."
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "चाँदनी रात में जादू भरे,",
+          "सपनों के रंग में सजे।",
+          "मधुर बंसी की धुन सुनाए,",
+          "दिल की बातों को जगाए।"
+        ],
+        "translated_lines": [
+          "In the moonlit night, magic fills,",
+          "Dressed in the colors of dreams, it thrills.",
+          "Playing the tune of a sweet flute,",
+          "Awakening the heart's truths absolute."
+        ],
+        "emotion": "peace",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "सुख-दुख की बातें साझा करें,",
+          "खुशियों की राह में चलें।",
+          "मधुर भंवर में खो जाएं,",
+          "सपनों की दुनिया बसाएं।"
+        ],
+        "translated_lines": [
+          "Sharing tales of joy and strife,",
+          "Walking the path of happiness in life.",
+          "In sweet whispers, let us lose,",
+          "Building a world of dreams to choose."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "बंसी",
+        "romanization": "bansi",
+        "category": "MUSICAL_TRADITION",
+        "stanza_index": 2,
+        "preserved": false,
+        "translation_note": "sacred flute lost in translation"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7845,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1185",
+  "poem_title": "Eigi Ningthem",
+  "language": "Manipuri",
+  "original_poem": "एगी निंगथेम सिरंग ईरा,  \nहेंगु सनेगी फन्नबा मनोरा।  \nईमली नांगबा एमदी खंगब,  \nनुमिदां चेंबा थागेब हांबा।\n\nनिंगोल ईरेईबा निंगथोंबा,  \nइयुंपुरंगई शिंगमशुंबा।  \nफिरमदेंगबा हुमपीडंग,  \nइरेईबा तीरोंग थोंबा।\n\nमारूम संगई पुंगिंग मारा,  \nसिरिंग ईरेई थोंगबा पारा।  \nपुंगकपी नुम्बा पंगनींगबा,  \nएगी निंगथेम इरेई थोंबा।",
+  "translated_poem": "My beloved, a blossom in spring,  \nA joy that no other love could bring.  \nIn your eyes, I find a dream,  \nThat flows like a river, a timeless stream.\n\nYour laughter, like a gentle breeze,  \nFills my heart and puts me at ease.  \nIn your embrace, I feel complete,  \nA warmth that makes my soul retreat.\n\nUnder the moon, our love shall grow,  \nA bond like no other, forever to show.  \nMy beloved, you are my all,  \nWith you, I rise; with you, I fall.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7988,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "एगी निंगथेम सिरंग ईरा,",
+          "हेंगु सनेगी फन्नबा मनोरा।",
+          "ईमली नांगबा एमदी खंगब,",
+          "नुमिदां चेंबा थागेब हांबा।"
+        ],
+        "translated_lines": [
+          "My beloved, a blossom in spring,",
+          "A joy that no other love could bring.",
+          "In your eyes, I find a dream,",
+          "That flows like a river, a timeless stream."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "निंगोल ईरेईबा निंगथोंबा,",
+          "इयुंपुरंगई शिंगमशुंबा।",
+          "फिरमदेंगबा हुमपीडंग,",
+          "इरेईबा तीरोंग थोंबा।"
+        ],
+        "translated_lines": [
+          "Your laughter, like a gentle breeze,",
+          "Fills my heart and puts me at ease.",
+          "In your embrace, I feel complete,",
+          "A warmth that makes my soul retreat."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "मारूम संगई पुंगिंग मारा,",
+          "सिरिंग ईरेई थोंगबा पारा।",
+          "पुंगकपी नुम्बा पंगनींगबा,",
+          "एगी निंगथेम इरेई थोंबा।"
+        ],
+        "translated_lines": [
+          "Under the moon, our love shall grow,",
+          "A bond like no other, forever to show.",
+          "My beloved, you are my all,",
+          "With you, I rise; with you, I fall."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "longing through devotion to union",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "एगी निंगथेम सिरंग ईरा,",
+          "हेंगु सनेगी फन्नबा मनोरा।",
+          "ईमली नांगबा एमदी खंगब,",
+          "नुमिदां चेंबा थागेब हांबा।"
+        ],
+        "translated_lines": [
+          "My beloved, a blossom in spring,",
+          "A joy that no other love could bring.",
+          "In your eyes, I find a dream,",
+          "That flows like a river, a timeless stream."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "Siring's Manipuri seasonal-renewal connotation and the specific visual imagery of 'nangba' (eyes/gaze) are flattened.",
+        "metaphor_spans": [
+          {
+            "source_term": "सिरंग ईरा",
+            "abstract_meaning": "beloved as the living embodiment of spring's renewal and fragrance"
+          },
+          {
+            "source_term": "नुमिदां चेंबा थागेब हांबा",
+            "abstract_meaning": "love as a timeless current that cannot be crossed or exhausted"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "निंगोल ईरेईबा निंगथोंबा,",
+          "इयुंपुरंगई शिंगमशुंबा।",
+          "फिरमदेंगबा हुमपीडंग,",
+          "इरेईबा तीरोंग थोंबा।"
+        ],
+        "translated_lines": [
+          "Your laughter, like a gentle breeze,",
+          "Fills my heart and puts me at ease.",
+          "In your embrace, I feel complete,",
+          "A warmth that makes my soul retreat."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "Ningol's social-relational weight in Meitei culture and 'shingmashumba' (completeness/fullness) are reduced to generic comfort.",
+        "metaphor_spans": [
+          {
+            "source_term": "निंगोल ईरेईबा निंगथोंबा",
+            "abstract_meaning": "beloved's laughter as a force that restores inner equilibrium"
+          },
+          {
+            "source_term": "इयुंपुरंगई शिंगमशुंबा",
+            "abstract_meaning": "embrace as the state of being wholly filled and made whole"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "मारूम संगई पुंगिंग मारा,",
+          "सिरिंग ईरेई थोंगबा पारा।",
+          "पुंगकपी नुम्बा पंगनींगबा,",
+          "एगी निंगथेम इरेई थोंबा।"
+        ],
+        "translated_lines": [
+          "Under the moon, our love shall grow,",
+          "A bond like no other, forever to show.",
+          "My beloved, you are my all,",
+          "With you, I rise; with you, I fall."
+        ],
+        "emotion": "devotion",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "Marum Sangai's specific Manipuri cultural resonance — the dancing deer of Keibul Lamjao as a symbol of rare, sacred beauty — is lost.",
+        "metaphor_spans": [
+          {
+            "source_term": "मारूम संगई पुंगिंग मारा",
+            "abstract_meaning": "love growing under the moon as rare and sacred as the dancing deer"
+          },
+          {
+            "source_term": "एगी निंगथेम इरेई थोंबा",
+            "abstract_meaning": "beloved as the singular axis around which the speaker's entire existence turns"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "संगई",
+        "romanization": "Sangai",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 3,
+        "preserved": false,
+        "translation_note": "Sangai, the endangered brow-antlered deer of Keibul Lamjao and Manipur's state animal, is not identified in the translation."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7988,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 6,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

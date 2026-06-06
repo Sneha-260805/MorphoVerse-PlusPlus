@@ -1,0 +1,90 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1172",
+  "poem_title": "Nashik Zatam",
+  "language": "Konkani",
+  "original_poem": "नाशिक जातं  \nसंपूर्ण मनाने,  \nआसमानाच्या रंगात  \nलपलेली नक्षत्रं,  \nतुला घेऊन.",
+  "translated_poem": "Going to Nashik,  \nWith all my heart,  \nIn the colors of the sky,  \nStars hidden,  \nCarrying you with me.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8258,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "नाशिक जातं",
+          "संपूर्ण मनाने,",
+          "आसमानाच्या रंगात",
+          "लपलेली नक्षत्रं,",
+          "तुला घेऊन."
+        ],
+        "translated_lines": [
+          "Going to Nashik,",
+          "With all my heart,",
+          "In the colors of the sky,",
+          "Stars hidden,",
+          "Carrying you with me."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "longing",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "नाशिक जातं",
+          "संपूर्ण मनाने,",
+          "आसमानाच्या रंगात",
+          "लपलेली नक्षत्रं,",
+          "तुला घेऊन."
+        ],
+        "translated_lines": [
+          "Going to Nashik,",
+          "With all my heart,",
+          "In the colors of the sky,",
+          "Stars hidden,",
+          "Carrying you with me."
+        ],
+        "emotion": "longing",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8258,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

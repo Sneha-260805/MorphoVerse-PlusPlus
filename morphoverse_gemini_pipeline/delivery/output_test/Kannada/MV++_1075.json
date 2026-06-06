@@ -1,0 +1,152 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1075",
+  "poem_title": "Panchhi Nadiyan Pawan Ke Jhonke",
+  "language": "Kannada",
+  "original_poem": "पंछी, नदियाँ, पवन के झोंके,  \nकोई सरहद न इन्हें रोके,  \nसरहदें इंसानों के लिए हैं,  \nसोचो, तुमने और मैंने क्या पाया इंसान होकर।  \n\nदूरियों का ग़म नहीं था,  \nतुमसे मिलकर फिर से जीना है,  \nदिल से दिल के दरमियाँ,  \nदीवारें क्यों बनाई इंसान ने खुदा बनकर।  \n\nपंछी, नदियाँ, पवन के झोंके,  \nकोई सरहद न इन्हें रोके।",
+  "translated_poem": "Birds, rivers, gusts of wind,  \nNo borders to halt them or bind,  \nBorders are made for humankind;  \nThink, you and I—what have we gained as mankind?  \n\nDistances never weighed us down,  \nMeeting you gave life anew to drown.  \nWhy do hearts need walls to stay,  \nWhen man himself becomes God in the way?  \n\nBirds, rivers, gusts of wind,  \nNo borders to halt them or bind.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8885,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके,",
+          "सरहदें इंसानों के लिए हैं,",
+          "सोचो, तुमने और मैंने क्या पाया इंसान होकर।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind,",
+          "Borders are made for humankind;",
+          "Think, you and I—what have we gained as mankind?"
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "दूरियों का ग़म नहीं था,",
+          "तुमसे मिलकर फिर से जीना है,",
+          "दिल से दिल के दरमियाँ,",
+          "दीवारें क्यों बनाई इंसान ने खुदा बनकर।"
+        ],
+        "translated_lines": [
+          "Distances never weighed us down,",
+          "Meeting you gave life anew to drown.",
+          "Why do hearts need walls to stay,",
+          "When man himself becomes God in the way?"
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "longing to resilience",
+    "translation_fidelity_score": 0.833333,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके,",
+          "सरहदें इंसानों के लिए हैं,",
+          "सोचो, तुमने और मैंने क्या पाया इंसान होकर।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind,",
+          "Borders are made for humankind;",
+          "Think, you and I—what have we gained as mankind?"
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "दूरियों का ग़म नहीं था,",
+          "तुमसे मिलकर फिर से जीना है,",
+          "दिल से दिल के दरमियाँ,",
+          "दीवारें क्यों बनाई इंसान ने खुदा बनकर।"
+        ],
+        "translated_lines": [
+          "Distances never weighed us down,",
+          "Meeting you gave life anew to drown.",
+          "Why do hearts need walls to stay,",
+          "When man himself becomes God in the way?"
+        ],
+        "emotion": "grief",
+        "tone": "defiance",
+        "translation_quality": "partial",
+        "loss_note": "man becomes God nuance lost",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "पंछी, नदियाँ, पवन के झोंके,",
+          "कोई सरहद न इन्हें रोके।"
+        ],
+        "translated_lines": [
+          "Birds, rivers, gusts of wind,",
+          "No borders to halt them or bind."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8885,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

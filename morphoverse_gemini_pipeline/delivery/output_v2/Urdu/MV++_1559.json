@@ -1,0 +1,233 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1559",
+  "poem_title": "Mujhse Pehli Si Mohabbat",
+  "language": "Urdu",
+  "original_poem": "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ\nمیں نے سمجھا تھا کہ تو ہے تو درخشاں ہے حیات\nتیرا غم ہے تو غمِ دہر کا جھگڑا کیا ہے\nتیری صورت سے ہے عالم میں بہاروں کو ثبات\nتیری آنکھوں کے سوا دنیا میں رکھا کیا ہے؟\n  \nتو جو مل جائے تو تقدیر نگوں ہو جائے\nیوں نہ تھا میں نے فقط چاہا تھا یوں ہو جائے\nاور بھی دکھ ہیں زمانے میں محبت کے سوا\nراحتیں اور بھی ہیں وصل کی راحت کے سوا\n  \nان گنت صدیوں کے تاریک بہیمانہ طلسم\nریشم و اطلس و کمخواب میں بنوائے ہوئے\nجا بجا بکتے ہوئے کوچہ و بازار میں جسم\nخاک میں لتھڑے ہوئے خون میں نہلائے ہوئے\n  \nجسم نکلے ہوئے امراض کے تنوروں سے\nپیتے ہوئے لہو، بجاتی ہوئی نقاروں میں\nلوٹ جاتی ہے ادھر کو بھی نظر کیا کیجیے\nاب بھی دلکش ہے ترا حسن مگر کیا کیجیے\n  \nاور بھی دکھ ہیں زمانے میں محبت کے سوا\nراحتیں اور بھی ہیں وصل کی راحت کے سوا\nمجھ سے پہلی سی محبت مرے محبوب نہ مانگ",
+  "translated_poem": "Do not ask of me, my love, that love I once had for you.\nThere was a time when life was bright, because you were\nWhat I wanted above all else, or so I thought.  \nYour sorrow was mine, and so was the world’s anguish.\n\nYour beauty gave permanence to every spring,\nYour eyes were all that mattered to me.\nIf you could be mine, fate would bow to me.\n\nThat was a fantasy, you know it wasn’t real.\nThere are other sorrows in this world,\nComforts beyond love.\n\nIn the world’s abattoirs, the dark magic of centuries,\nBody counts of silk, brocade, and satin,\nMerchandise in blood-stained alleys,\nBodies sold, caked in dust, bathed in blood,\nSprung from the ovens of diseases,\nDriven by thirst into trumpeting drums.\n\nWho can turn away from such sights?\nEven now, your beauty still enchants,\nBut what can I do?\n\nThere are other sorrows in this world,\nComforts beyond love.\nDo not ask of me, my love, that love I once had for you.",
+  "status": "failed",
+  "model": "gemini-3-flash",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 6,
+    "alignment_status": "aligned_low",
+    "alignment_confidence": 0.7832,
+    "alignment_note": "Alignment acceptable but not high (confidence=0.7832).",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ",
+          "میں نے سمجھا تھا کہ تو ہے تو درخشاں ہے حیات",
+          "تیرا غم ہے تو غمِ دہر کا جھگڑا کیا ہے",
+          "تیری صورت سے ہے عالم میں بہاروں کو ثبات",
+          "تیری آنکھوں کے سوا دنیا میں رکھا کیا ہے؟"
+        ],
+        "translated_lines": [
+          "Do not ask of me, my love, that love I once had for you.",
+          "There was a time when life was bright, because you were",
+          "What I wanted above all else, or so I thought.",
+          "Your sorrow was mine, and so was the world’s anguish."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "تو جو مل جائے تو تقدیر نگوں ہو جائے",
+          "یوں نہ تھا میں نے فقط چاہا تھا یوں ہو جائے",
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا"
+        ],
+        "translated_lines": [
+          "Your beauty gave permanence to every spring,",
+          "Your eyes were all that mattered to me.",
+          "If you could be mine, fate would bow to me."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "ان گنت صدیوں کے تاریک بہیمانہ طلسم",
+          "ریشم و اطلس و کمخواب میں بنوائے ہوئے",
+          "جا بجا بکتے ہوئے کوچہ و بازار میں جسم",
+          "خاک میں لتھڑے ہوئے خون میں نہلائے ہوئے"
+        ],
+        "translated_lines": [
+          "That was a fantasy, you know it wasn’t real.",
+          "There are other sorrows in this world,",
+          "Comforts beyond love."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "جسم نکلے ہوئے امراض کے تنوروں سے",
+          "پیتے ہوئے لہو، بجاتی ہوئی نقاروں میں",
+          "لوٹ جاتی ہے ادھر کو بھی نظر کیا کیجیے",
+          "اب بھی دلکش ہے ترا حسن مگر کیا کیجیے"
+        ],
+        "translated_lines": [
+          "In the world’s abattoirs, the dark magic of centuries,",
+          "Body counts of silk, brocade, and satin,",
+          "Merchandise in blood-stained alleys,",
+          "Bodies sold, caked in dust, bathed in blood,",
+          "Sprung from the ovens of diseases,",
+          "Driven by thirst into trumpeting drums."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 3,
+        "source_lines": [
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا",
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ"
+        ],
+        "translated_lines": [
+          "Who can turn away from such sights?",
+          "Even now, your beauty still enchants,",
+          "But what can I do?"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "",
+    "emotional_arc": "",
+    "translation_fidelity_score": 0.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ",
+          "میں نے سمجھا تھا کہ تو ہے تو درخشاں ہے حیات",
+          "تیرا غم ہے تو غمِ دہر کا جھگڑا کیا ہے",
+          "تیری صورت سے ہے عالم میں بہاروں کو ثبات",
+          "تیری آنکھوں کے سوا دنیا میں رکھا کیا ہے؟"
+        ],
+        "translated_lines": [
+          "Do not ask of me, my love, that love I once had for you.",
+          "There was a time when life was bright, because you were",
+          "What I wanted above all else, or so I thought.",
+          "Your sorrow was mine, and so was the world’s anguish."
+        ],
+        "emotion": "",
+        "tone": "",
+        "translation_quality": "",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "تو جو مل جائے تو تقدیر نگوں ہو جائے",
+          "یوں نہ تھا میں نے فقط چاہا تھا یوں ہو جائے",
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا"
+        ],
+        "translated_lines": [
+          "Your beauty gave permanence to every spring,",
+          "Your eyes were all that mattered to me.",
+          "If you could be mine, fate would bow to me."
+        ],
+        "emotion": "",
+        "tone": "",
+        "translation_quality": "",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "ان گنت صدیوں کے تاریک بہیمانہ طلسم",
+          "ریشم و اطلس و کمخواب میں بنوائے ہوئے",
+          "جا بجا بکتے ہوئے کوچہ و بازار میں جسم",
+          "خاک میں لتھڑے ہوئے خون میں نہلائے ہوئے"
+        ],
+        "translated_lines": [
+          "That was a fantasy, you know it wasn’t real.",
+          "There are other sorrows in this world,",
+          "Comforts beyond love."
+        ],
+        "emotion": "",
+        "tone": "",
+        "translation_quality": "",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "جسم نکلے ہوئے امراض کے تنوروں سے",
+          "پیتے ہوئے لہو، بجاتی ہوئی نقاروں میں",
+          "لوٹ جاتی ہے ادھر کو بھی نظر کیا کیجیے",
+          "اب بھی دلکش ہے ترا حسن مگر کیا کیجیے"
+        ],
+        "translated_lines": [
+          "In the world’s abattoirs, the dark magic of centuries,",
+          "Body counts of silk, brocade, and satin,",
+          "Merchandise in blood-stained alleys,",
+          "Bodies sold, caked in dust, bathed in blood,",
+          "Sprung from the ovens of diseases,",
+          "Driven by thirst into trumpeting drums."
+        ],
+        "emotion": "",
+        "tone": "",
+        "translation_quality": "",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 3,
+        "source_lines": [
+          "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+          "راحتیں اور بھی ہیں وصل کی راحت کے سوا",
+          "مجھ سے پہلی سی محبت مرے محبوب نہ مانگ"
+        ],
+        "translated_lines": [
+          "Who can turn away from such sights?",
+          "Even now, your beauty still enchants,",
+          "But what can I do?"
+        ],
+        "emotion": "",
+        "tone": "",
+        "translation_quality": "",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned_low",
+      "alignment_confidence": 0.7832,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "low"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "status": "empty_response",
+    "discard_reason": "empty_response: model returned empty content",
+    "raw_text": "{\"recitation_style\":\"lament\",\"emotional_arc\":\"The poem opens with intimate romantic address and gradually expands outward into collective social suffering, returning at the close to the personal refrain — a movement from private longing to political conscience and back, leaving the beloved and the speaker both transformed by what has been witnessed.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"The Urdu carries a precise philosophical weight: 'درخشاں ہے حیات' (life is radiant) and 'غمِ دہر' (the sorrow of the age/cosmos) are Rekhta-register terms that the translation flattens into paraphrase. 'ثبات' (permanence, constancy) is lost entirely.\",\"metaphor_spans\":[{\"source_term\":\"درخشاں ہے حیات\",\"abstract_meaning\":\"Life rendered luminous by the presence of the beloved — a classical Urdu trope where the beloved is the source of existential light\"},{\"source_term\":\"غمِ دہر\",\"abstract_meaning\":\"The accumulated grief of historical time and cosmic suffering, distinct from personal sorrow — a philosophical concept in Urdu poetry\"},{\"source_term\":\"بہاروں کو ثبات\",\"abstract_meaning\":\"The beloved's face as the anchor of seasonal beauty — spring itself requires her presence to persist\"}]},{\"index\":2,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"'تقدیر نگوں ہو جائے' (fate would bow its head/be overturned) is a powerful image of destiny being humbled that the translation reduces. 'وصل کی راحت' (the comfort of union/visaal) is a Sufi-inflected term whose spiritual register is absent in translation.\",\"metaphor_spans\":[{\"source_term\":\"تقدیر نگوں ہو جائے\",\"abstract_meaning\":\"Fate rendered prostrate — the beloved's union imagined as a force capable of inverting cosmic order\"},{\"source_term\":\"وصل کی راحت\",\"abstract_meaning\":\"The comfort of union (visaal) — in Urdu poetic tradition this carries both erotic and Sufi-mystical resonance of the soul's reunion with the divine\"}]},{\"index\":3,\"emotion\":\"anger\",\"tone\":\"defiance\",\"translation_quality\":\"lost\",\"loss_note\":\"The translation is entirely misaligned with the source stanza. The Urdu describes 'تاریک بہیمانہ طلسم' (dark bestial enchantment of countless centuries), bodies woven into silk and brocade, sold in alleys, caked in dust and bathed in blood — a searing indictment of class exploitation and commodification of the human body. The translation renders a different stanza's content.\",\"metaphor_spans\":[{\"source_term\":\"تاریک بہیمانہ طلسم\",\"abstract_meaning\":\"The dark bestial spell of centuries — systemic oppression figured as an ancient malevolent enchantment that has persisted across historical time\"},{\"source_term\":\"ریشم و اطلس و کمخواب میں بنوائے ہوئے\",\"abstract_meaning\":\"Bodies of the poor woven into luxury fabrics — the labour of the oppressed made invisible within the commodities of the elite\"},{\"source_term\":\"کوچہ و بازار میں جسم\",\"abstract_meaning\":\"Human bodies sold in lanes and markets — a direct image of prostitution and bonded labour as products of systemic poverty\"}]},{\"index\":4,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"'تنوروں سے' (from furnaces/ovens) evokes both industrial exploitation and possibly Partition cremation imagery. 'نقاروں میں' (in the beating of war-drums/nagara) is a specific Mughal-era percussion instrument associated with royal proclamation and martial summons, lost in 'trumpeting drums'. The final couplet's resigned tenderness — 'اب بھی دلکش ہے ترا حسن مگر کیا کیجیے' — is the poem's pivot and is only partially"
+  }
+}

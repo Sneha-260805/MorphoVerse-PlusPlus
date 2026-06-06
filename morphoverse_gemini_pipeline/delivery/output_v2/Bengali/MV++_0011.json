@@ -1,0 +1,246 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0011",
+  "poem_title": "O Amar Desher Mati",
+  "language": "Bengali",
+  "original_poem": "ও আমার দেশের মাটি,\nতোমার কল্যাণে চাহি,\nপ্রাণে প্রাণে মিলে যেতে,\nগানের সুরে চাহি।\n\nস্নেহের বৃষ্টি নামে,\nবৃষ্টি মাথার উপর।\nজীবনের পথ চলে,\nশান্তির আলো তোলে।\n\nসৃষ্টির খোঁজে যাই,\nতুমি আমার শিকড়।\nদেশের মাটির সুরে,\nপেতে চাই তোমার টান।\n\nও আমার দেশের মাটি,\nঅশ্রুর নদী flows,\nমা তুমি, মাটি তুমি,\nসুখে থাকুক সারা জীবন।",
+  "translated_poem": "O soil of my country,\nIn your welfare, I seek,\nTo blend together in life,\nIn the melody of songs.\n\nThe rains of affection fall,\nRaining upon my head.\nThe path of life travels,\nBringing forth the light of peace.\n\nI go in search of creation,\nYou are my roots.\nIn the tune of the soil,\nI long for your embrace.\n\nO soil of my country,\nThe river of tears flows,\nMother, you are the land,\nMay you be happy all your life.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 4,
+    "source_stanza_count": 4,
+    "translated_stanza_count": 4,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8417,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "তোমার কল্যাণে চাহি,",
+          "প্রাণে প্রাণে মিলে যেতে,",
+          "গানের সুরে চাহি।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "In your welfare, I seek,",
+          "To blend together in life,",
+          "In the melody of songs."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "স্নেহের বৃষ্টি নামে,",
+          "বৃষ্টি মাথার উপর।",
+          "জীবনের পথ চলে,",
+          "শান্তির আলো তোলে।"
+        ],
+        "translated_lines": [
+          "The rains of affection fall,",
+          "Raining upon my head.",
+          "The path of life travels,",
+          "Bringing forth the light of peace."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সৃষ্টির খোঁজে যাই,",
+          "তুমি আমার শিকড়।",
+          "দেশের মাটির সুরে,",
+          "পেতে চাই তোমার টান।"
+        ],
+        "translated_lines": [
+          "I go in search of creation,",
+          "You are my roots.",
+          "In the tune of the soil,",
+          "I long for your embrace."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "অশ্রুর নদী flows,",
+          "মা তুমি, মাটি তুমি,",
+          "সুখে থাকুক সারা জীবন।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "The river of tears flows,",
+          "Mother, you are the land,",
+          "May you be happy all your life."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "longing through devotion to grief",
+    "translation_fidelity_score": 0.75,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "তোমার কল্যাণে চাহি,",
+          "প্রাণে প্রাণে মিলে যেতে,",
+          "গানের সুরে চাহি।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "In your welfare, I seek,",
+          "To blend together in life,",
+          "In the melody of songs."
+        ],
+        "emotion": "longing",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "গানের সুরে",
+            "abstract_meaning": "song as the medium through which the self dissolves into the motherland"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "স্নেহের বৃষ্টি নামে,",
+          "বৃষ্টি মাথার উপর।",
+          "জীবনের পথ চলে,",
+          "শান্তির আলো তোলে।"
+        ],
+        "translated_lines": [
+          "The rains of affection fall,",
+          "Raining upon my head.",
+          "The path of life travels,",
+          "Bringing forth the light of peace."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "স্নেহের বৃষ্টি",
+            "abstract_meaning": "rainfall as the motherland's nurturing love descending on the speaker"
+          },
+          {
+            "source_term": "শান্তির আলো",
+            "abstract_meaning": "light as the promise of harmony emerging from the journey of life"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সৃষ্টির খোঁজে যাই,",
+          "তুমি আমার শিকড়।",
+          "দেশের মাটির সুরে,",
+          "পেতে চাই তোমার টান।"
+        ],
+        "translated_lines": [
+          "I go in search of creation,",
+          "You are my roots.",
+          "In the tune of the soil,",
+          "I long for your embrace."
+        ],
+        "emotion": "longing",
+        "tone": "prayer",
+        "translation_quality": "partial",
+        "loss_note": "'তোমার টান' literally means your pull or gravitational draw — a visceral, almost physical longing; 'embrace' softens this into something gentler and loses the sense of irresistible rootward pull.",
+        "metaphor_spans": [
+          {
+            "source_term": "তুমি আমার শিকড়",
+            "abstract_meaning": "the soil as the speaker's existential anchor and origin"
+          },
+          {
+            "source_term": "তোমার টান",
+            "abstract_meaning": "the motherland's gravitational pull on the displaced or searching self"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "অশ্রুর নদী flows,",
+          "মা তুমি, মাটি তুমি,",
+          "সুখে থাকুক সারা জীবন।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "The river of tears flows,",
+          "Mother, you are the land,",
+          "May you be happy all your life."
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "The mixed-language line 'অশ্রুর নদী flows' (Bengali noun phrase + English verb) is a deliberate formal rupture signalling cultural and emotional displacement; the translation normalises it to plain English, erasing this signal entirely.",
+        "metaphor_spans": [
+          {
+            "source_term": "অশ্রুর নদী",
+            "abstract_meaning": "tears figured as a river — grief for the motherland flowing without end"
+          },
+          {
+            "source_term": "মা তুমি, মাটি তুমি",
+            "abstract_meaning": "the equation of mother and soil as the poem's central devotional identification"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "দেশের মাটি",
+        "romanization": "desher mati",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Desher mati — the soil of one's country — is a charged symbol in Bengali patriotic and devotional poetry, evoking Tagore's 'Amar Sonar Bangla'; 'soil of my country' preserves the literal meaning adequately."
+      },
+      {
+        "term": "মা তুমি, মাটি তুমি",
+        "romanization": "ma tumi, mati tumi",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 4,
+        "preserved": false,
+        "translation_note": "The identification of mother (মা) with soil (মাটি) is a foundational devotional concept in Bengali matribhumi worship; the translation separates them into two clauses and loses the theological equation embedded in the parallelism."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8417,
+      "source_term_checks": {
+        "entities_total": 2,
+        "entities_dropped": 0,
+        "metaphors_total": 7,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

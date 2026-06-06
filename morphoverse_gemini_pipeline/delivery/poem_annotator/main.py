@@ -18,6 +18,7 @@ from .config import (
     SUMMARY_FILENAME,
     HUMAN_REVIEW_FILENAME,
     GEMINI_PRIMARY,
+    USE_CHUNKED_GEMINI,
     SCHEMA_VERSION,
     PROMPT_VERSION,
     SUPPORTED_LANGUAGES,
@@ -78,14 +79,48 @@ def _load_language_data(language: str):
     return getattr(mod, "EXAMPLES", []), getattr(mod, "LANGUAGE_NOTE", "")
 
 
+_PROMPT_CHAR_LIMIT = 8_500    # sys + user chars above which we strip EXAMPLES section
+
+
+def _strip_examples(user_prompt: str) -> str:
+    """Remove the EXAMPLES section from a user prompt to shorten long-poem requests."""
+    marker = "\nEXAMPLES:\n"
+    idx = user_prompt.find(marker)
+    if idx == -1:
+        return user_prompt
+    return user_prompt[:idx].rstrip()
+
+
 def build_prompt_bundle(poem: PreprocessedPoem, semantic_context: dict) -> tuple[str, str, str]:
-    examples, note = _load_language_data(poem.language)
-    return build_shared_bundle(poem, examples, note)
+    package = __package__ or "poem_annotator"
+    module_stem = _LANGUAGE_MODULES.get(poem.language, "generic")
+    try:
+        mod = importlib.import_module(f"{package}.languages.{module_stem}")
+        if hasattr(mod, "build_prompt_bundle_for_model"):
+            sys_p, usr_p, rep_p = mod.build_prompt_bundle_for_model(poem, GEMINI_PRIMARY, semantic_context)
+        else:
+            raise AttributeError("no build_prompt_bundle_for_model")
+    except Exception:
+        examples, note = _load_language_data(poem.language)
+        sys_p, usr_p, rep_p = build_shared_bundle(poem, examples, note, semantic_context=semantic_context)
+
+    # For long poems whose total prompt would exceed the proxy's token ceiling,
+    # drop the EXAMPLES section to free up output budget.
+    if len(sys_p) + len(usr_p) > _PROMPT_CHAR_LIMIT:
+        usr_p = _strip_examples(usr_p)
+
+    return sys_p, usr_p, rep_p
 
 
 def get_context(record: dict[str, str]) -> dict[str, Any]:
-    # Advisory IndicBERT hints are disabled by default and never written to output.
-    return {}
+    """Try to get IndicBERT semantic hints; fall back to {} on any error.
+    Returns {} when torch/sentence-transformers are unavailable (e.g. broken DLL).
+    """
+    try:
+        from .indic_bert_context import get_context_safe
+        return get_context_safe(record)
+    except Exception:
+        return {}
 
 
 # ── Token / selection helpers ─────────────────────────────────────────────────
@@ -171,7 +206,9 @@ def should_skip_output(path: Path) -> bool:
         return False
     if not is_output_current(existing):
         return False
-    return existing.get("status") not in (None, "pending")
+    # Only skip poems that already have a valid terminal annotation.
+    # "failed" and "pending" must be retried, not silently skipped.
+    return existing.get("status") in (STATUS_COMPLETED, STATUS_SALVAGED)
 
 
 # ── Core processing (Gemini only) ─────────────────────────────────────────────
@@ -185,9 +222,15 @@ async def process_poem(record, *, token, base_url, output_dir, request_fn=None) 
     pending = build_pending_output(poem)
     write_json_file(out_path, pending)
 
-    system_prompt, user_prompt, repair_prompt = build_prompt_bundle(poem, semantic_context)
-    result = await fetch_gemini_annotation(poem, system_prompt, user_prompt, repair_prompt,
-                                           token, base_url, request_fn=request_fn)
+    # Gemini-only chunked path (default). The one-shot path is kept for tests that
+    # inject a request_fn, and is selectable via USE_CHUNKED_GEMINI=0.
+    if USE_CHUNKED_GEMINI and request_fn is None:
+        from .gemini_chunked import annotate_poem_chunked
+        result = await asyncio.to_thread(annotate_poem_chunked, poem, token, base_url)
+    else:
+        system_prompt, user_prompt, repair_prompt = build_prompt_bundle(poem, semantic_context)
+        result = await fetch_gemini_annotation(poem, system_prompt, user_prompt, repair_prompt,
+                                               token, base_url, request_fn=request_fn)
 
     if result["status"] != "valid":
         failed = pending | {
@@ -210,6 +253,7 @@ async def process_poem(record, *, token, base_url, output_dir, request_fn=None) 
         gate_review_items=gate["review_items"],
         status=status,
         model=result["model"],
+        poem_record=record,
     )
 
     completed = pending | {
@@ -244,7 +288,7 @@ async def run_pipeline(config: "RuntimeConfig", request_fn=None) -> list[dict[st
             result = await process_poem(record, token=token, base_url=config.base_url,
                                         output_dir=output_dir, request_fn=request_fn)
             all_results.append(result)
-            print(f"  → {result.get('status', 'unknown')} (confidence="
+            print(f"  -> {result.get('status', 'unknown')} (confidence="
                   f"{result.get('annotation', {}).get('annotation_stats', {}).get('confidence', '?')})")
         all_datasets.extend(dataset)
 

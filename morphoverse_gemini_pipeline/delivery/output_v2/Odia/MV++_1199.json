@@ -1,0 +1,128 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1199",
+  "poem_title": "Bande Utkala Janani",
+  "language": "Odia",
+  "original_poem": "ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ  \nମାଟି ଭାରସା  \nସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି  \nମୁ ନାଚିବା ପାଇଁ  \nତୁମର ଗର୍ବ ଉଠାଉଛି।",
+  "translated_poem": "Salute to Utkala Mother,  \nThe earth is heavy,  \nSeeing the sun and moon,  \nI am here to dance,  \nYour pride rises within me.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8035,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ",
+          "ମାଟି ଭାରସା",
+          "ସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି",
+          "ମୁ ନାଚିବା ପାଇଁ",
+          "ତୁମର ଗର୍ବ ଉଠାଉଛି।"
+        ],
+        "translated_lines": [
+          "Salute to Utkala Mother,",
+          "The earth is heavy,",
+          "Seeing the sun and moon,",
+          "I am here to dance,",
+          "Your pride rises within me."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "reverence rising to proud declaration",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ",
+          "ମାଟି ଭାରସା",
+          "ସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି",
+          "ମୁ ନାଚିବା ପାଇଁ",
+          "ତୁମର ଗର୍ବ ଉଠାଉଛି।"
+        ],
+        "translated_lines": [
+          "Salute to Utkala Mother,",
+          "The earth is heavy,",
+          "Seeing the sun and moon,",
+          "I am here to dance,",
+          "Your pride rises within me."
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "ମାଟି ଭାରସା carries the weight of sacred trust in the motherland's soil, reduced to 'the earth is heavy'.",
+        "metaphor_spans": [
+          {
+            "source_term": "ମାଟି ଭାରସା",
+            "abstract_meaning": "the sacred burden of belonging to Utkala's soil"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ଉତ୍କଳ ଜନନୀ",
+        "romanization": "Utkala Janani",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Utkala is the ancient name of Odisha; Janani as divine mother figure partially preserved as 'Utkala Mother'."
+      },
+      {
+        "term": "ସୂର୍ଯ୍ୟ",
+        "romanization": "Surya",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      },
+      {
+        "term": "ଚନ୍ଦ୍ର",
+        "romanization": "Chandra",
+        "category": "DEITY",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8035,
+      "source_term_checks": {
+        "entities_total": 3,
+        "entities_dropped": 0,
+        "metaphors_total": 2,
+        "metaphors_dropped": 1
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 1,
+      "confidence": "high"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[1].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "ସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି ନାଚିବା",
+      "note": "metaphor_source_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

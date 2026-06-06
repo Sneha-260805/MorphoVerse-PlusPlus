@@ -1,0 +1,116 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1231",
+  "poem_title": "Rangila Rajasthan",
+  "language": "Rajasthani",
+  "original_poem": "रंगीलो राजस्थान, रंगीलो रे थार।\nपधारो म्हारे देश, खुशीयां सांचो बारां।",
+  "translated_poem": "Colorful Rajasthan, the colorful Thar.  \nCome to my land, happiness here is never far.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8988,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "रंगीलो राजस्थान, रंगीलो रे थार।",
+          "पधारो म्हारे देश, खुशीयां सांचो बारां।"
+        ],
+        "translated_lines": [
+          "Colorful Rajasthan, the colorful Thar.",
+          "Come to my land, happiness here is never far."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "celebratory",
+    "emotional_arc": "The stanza opens with vibrant pride in Rajasthan and the Thar desert, sustaining a joyful, welcoming tone throughout, culminating in an open invitation expressing abundant happiness.",
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "रंगीलो राजस्थान, रंगीलो रे थार।",
+          "पधारो म्हारे देश, खुशीयां सांचो बारां।"
+        ],
+        "translated_lines": [
+          "Colorful Rajasthan, the colorful Thar.",
+          "Come to my land, happiness here is never far."
+        ],
+        "emotion": "celebration",
+        "tone": "declaration",
+        "translation_quality": "partial",
+        "loss_note": "The Rajasthani word 'सांचो' carries a culturally specific sense of 'true' or 'genuine' happiness rooted in local authenticity, which the English rendering 'never far' reduces to mere proximity, losing the connotation of sincerity and abundance.",
+        "metaphor_spans": [
+          {
+            "source_term": "रंगीलो",
+            "abstract_meaning": "Vibrancy and cultural richness of Rajasthani life, evoking festivals, textiles, and folk traditions rather than literal color."
+          },
+          {
+            "source_term": "थार",
+            "abstract_meaning": "The Thar desert as a symbol of Rajasthani identity, resilience, and the harsh yet beautiful homeland."
+          },
+          {
+            "source_term": "खुशीयां सांचो बारां",
+            "abstract_meaning": "Genuine, overflowing happiness as an intrinsic quality of the land, not merely an incidental presence."
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "राजस्थान",
+        "romanization": "Rajasthan",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Rendered as 'Rajasthan' in translation, preserving the proper name without loss."
+      },
+      {
+        "term": "थार",
+        "romanization": "Thar",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Rendered as 'Thar' in translation, preserving the desert's identity as a cultural and geographic emblem of Rajasthan."
+      },
+      {
+        "term": "पधारो म्हारे देश",
+        "romanization": "Padharo Mhare Desh",
+        "category": "SOCIAL_CUSTOM",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Translated as 'Come to my land', losing the formal Rajasthani hospitality register of 'padharo', which implies a reverential, ceremonial welcome deeply embedded in local social custom."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8988,
+      "source_term_checks": {
+        "entities_total": 3,
+        "entities_dropped": 0,
+        "metaphors_total": 3,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "repair",
+    "retry_count": 1
+  }
+}

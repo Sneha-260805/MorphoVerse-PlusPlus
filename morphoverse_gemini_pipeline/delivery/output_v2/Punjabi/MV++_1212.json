@@ -1,0 +1,226 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1212",
+  "poem_title": "Ajj Aakhaan Waris Shah Nu",
+  "language": "Punjabi",
+  "original_poem": "ਅੱਜ ਆਖਾਂ ਵਾਰਿਸ ਸ਼ਾਹ ਨੂੰ, ਕਿਤੋਂ ਕਬਰਾਂ ਵਿੱਚੋਂ ਬੋਲ\nਤੇ ਅੱਜ ਕਿਤਾਬ-ਏ-ਇਸ਼ਕ ਦਾ, ਕੋਈ ਅਗਲਾ ਵਰਕਾ ਫੋਲ\n\nਇੱਕ ਰੋਈ ਸੀ ਧੀ ਪੰਜਾਬ ਦੀ, ਤੂੰ ਲਿਖ ਲਿਖ ਮਾਰੇ ਵੈਨ\nਅੱਜ ਲੱਖਾਂ ਧੀਆਂ ਰੋ ਰਹੀਆਂ, ਤੈਨੂੰ ਵਾਰਿਸ ਸ਼ਾਹ ਨੂੰ ਕਹਿਨ\n\nਉਠ ਦਰਦਮੰਦਾਂ ਦੀ ਦਰਦ ਦੀ, ਤੂੰ ਲਿਖ ਲਿਖ ਸਾਹ ਨੰਵੇਂ\nਅੱਜ ਦੇ ਖੂਨ ਰੰਗੇ ਖੇਤਾਂ ਤੋਂ, ਵਾਰਿਸ ਸ਼ਾਹ ਕਈਆਂ ਨਵੇਂ\n\nਰੋਹਾਂ ਡਿੱਲਾਂ ਪਿਆਰੀਆਂ, ਦੇ ਇਸ਼ਕਾਂ ਸੱਜਣਾਂ ਦੀ\nਅੱਜ ਤਰਸ ਵਿੰਡੀ ਆਂਵਣੀ, ਫਿਰਦੀ ਪਿੰਡਾਂ ਸਜਣਾਂ ਦੀ\n\nਧਰਤੀ ਤੇ ਕੁਹੜੇ ਵੇਲਾਂ, ਕੁਝ ਭੀ ਦਿਲ ਤੋਂ ਮਿੱਟਦੇ ਨਹੀਂ\nਇਕ ਵਾਰ ਵਾਰਿਸ ਸ਼ਾਹ, ਤੂੰ ਵਾਰਿਸ ਸ਼ਾਹ ਨਹੀਂ ਲਿਖਿਆ ਤਾਂਹੀ!",
+  "translated_poem": "Today, I call Waris Shah, speak from your grave\nAnd turn to the next page of the book of love\n\nOnce, a daughter of Punjab wept, and you wrote a long saga of pain\nToday, a million daughters cry to you, Waris Shah, speak up again\n\nRise, O compassionate soul, and look at your Punjab\nFields are lined with corpses and blood rains through the sky\n\nThe beloveds once adorned by your songs now wander homeless and forlorn\nThe land of love is barren, and despair looms large in every home\n\nThe callousness that has taken root will not be erased so soon\nOnly you, Waris Shah, can write again the tale of a broken hearted world.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 5,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8587,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "ਅੱਜ ਆਖਾਂ ਵਾਰਿਸ ਸ਼ਾਹ ਨੂੰ, ਕਿਤੋਂ ਕਬਰਾਂ ਵਿੱਚੋਂ ਬੋਲ",
+          "ਤੇ ਅੱਜ ਕਿਤਾਬ-ਏ-ਇਸ਼ਕ ਦਾ, ਕੋਈ ਅਗਲਾ ਵਰਕਾ ਫੋਲ"
+        ],
+        "translated_lines": [
+          "Today, I call Waris Shah, speak from your grave",
+          "And turn to the next page of the book of love"
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ਇੱਕ ਰੋਈ ਸੀ ਧੀ ਪੰਜਾਬ ਦੀ, ਤੂੰ ਲਿਖ ਲਿਖ ਮਾਰੇ ਵੈਨ",
+          "ਅੱਜ ਲੱਖਾਂ ਧੀਆਂ ਰੋ ਰਹੀਆਂ, ਤੈਨੂੰ ਵਾਰਿਸ ਸ਼ਾਹ ਨੂੰ ਕਹਿਨ"
+        ],
+        "translated_lines": [
+          "Once, a daughter of Punjab wept, and you wrote a long saga of pain",
+          "Today, a million daughters cry to you, Waris Shah, speak up again"
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "ਉਠ ਦਰਦਮੰਦਾਂ ਦੀ ਦਰਦ ਦੀ, ਤੂੰ ਲਿਖ ਲਿਖ ਸਾਹ ਨੰਵੇਂ",
+          "ਅੱਜ ਦੇ ਖੂਨ ਰੰਗੇ ਖੇਤਾਂ ਤੋਂ, ਵਾਰਿਸ ਸ਼ਾਹ ਕਈਆਂ ਨਵੇਂ"
+        ],
+        "translated_lines": [
+          "Rise, O compassionate soul, and look at your Punjab",
+          "Fields are lined with corpses and blood rains through the sky"
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 2,
+        "source_lines": [
+          "ਰੋਹਾਂ ਡਿੱਲਾਂ ਪਿਆਰੀਆਂ, ਦੇ ਇਸ਼ਕਾਂ ਸੱਜਣਾਂ ਦੀ",
+          "ਅੱਜ ਤਰਸ ਵਿੰਡੀ ਆਂਵਣੀ, ਫਿਰਦੀ ਪਿੰਡਾਂ ਸਜਣਾਂ ਦੀ"
+        ],
+        "translated_lines": [
+          "The beloveds once adorned by your songs now wander homeless and forlorn",
+          "The land of love is barren, and despair looms large in every home"
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 2,
+        "source_lines": [
+          "ਧਰਤੀ ਤੇ ਕੁਹੜੇ ਵੇਲਾਂ, ਕੁਝ ਭੀ ਦਿਲ ਤੋਂ ਮਿੱਟਦੇ ਨਹੀਂ",
+          "ਇਕ ਵਾਰ ਵਾਰਿਸ ਸ਼ਾਹ, ਤੂੰ ਵਾਰਿਸ ਸ਼ਾਹ ਨਹੀਂ ਲਿਖਿਆ ਤਾਂਹੀ!"
+        ],
+        "translated_lines": [
+          "The callousness that has taken root will not be erased so soon",
+          "Only you, Waris Shah, can write again the tale of a broken hearted world."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "lament",
+    "emotional_arc": "grief deepening into desperate invocation",
+    "translation_fidelity_score": 0.4,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "ਅੱਜ ਆਖਾਂ ਵਾਰਿਸ ਸ਼ਾਹ ਨੂੰ, ਕਿਤੋਂ ਕਬਰਾਂ ਵਿੱਚੋਂ ਬੋਲ",
+          "ਤੇ ਅੱਜ ਕਿਤਾਬ-ਏ-ਇਸ਼ਕ ਦਾ, ਕੋਈ ਅਗਲਾ ਵਰਕਾ ਫੋਲ"
+        ],
+        "translated_lines": [
+          "Today, I call Waris Shah, speak from your grave",
+          "And turn to the next page of the book of love"
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "ਕਿਤਾਬ-ਏ-ਇਸ਼ਕ is not a generic 'book of love' but a direct invocation of Waris Shah's Heer Ranjha as Punjab's sacred literary monument; ਵਰਕਾ ਫੋਲ (turn a page) carries the specific weight of continuing an unfinished sacred text, lost in translation.",
+        "metaphor_spans": [
+          {
+            "source_term": "ਕਿਤਾਬ-ਏ-ਇਸ਼ਕ",
+            "abstract_meaning": "Heer Ranjha as the unfinished sacred record of Punjab's suffering"
+          },
+          {
+            "source_term": "ਕਬਰਾਂ ਵਿੱਚੋਂ ਬੋਲ",
+            "abstract_meaning": "summoning the dead poet as the only witness capable of bearing this new grief"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ਇੱਕ ਰੋਈ ਸੀ ਧੀ ਪੰਜਾਬ ਦੀ, ਤੂੰ ਲਿਖ ਲਿਖ ਮਾਰੇ ਵੈਨ",
+          "ਅੱਜ ਲੱਖਾਂ ਧੀਆਂ ਰੋ ਰਹੀਆਂ, ਤੈਨੂੰ ਵਾਰਿਸ ਸ਼ਾਹ ਨੂੰ ਕਹਿਨ"
+        ],
+        "translated_lines": [
+          "Once, a daughter of Punjab wept, and you wrote a long saga of pain",
+          "Today, a million daughters cry to you, Waris Shah, speak up again"
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "ਵੈਨ is a specific Punjabi women's oral mourning form, not merely a 'saga of pain'; ਧੀ ਪੰਜਾਬ ਦੀ refers specifically to Heer, whose singular grief Waris Shah immortalised, and the contrast with ਲੱਖਾਂ ਧੀਆਂ (a million daughters) is the poem's central partition wound.",
+        "metaphor_spans": [
+          {
+            "source_term": "ਧੀ ਪੰਜਾਬ ਦੀ",
+            "abstract_meaning": "Heer as the singular embodiment of Punjab's pre-partition grief"
+          },
+          {
+            "source_term": "ਲੱਖਾਂ ਧੀਆਂ",
+            "abstract_meaning": "the mass violation of women during the 1947 partition massacres"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "ਉਠ ਦਰਦਮੰਦਾਂ ਦੀ ਦਰਦ ਦੀ, ਤੂੰ ਲਿਖ ਲਿਖ ਸਾਹ ਨੰਵੇਂ",
+          "ਅੱਜ ਦੇ ਖੂਨ ਰੰਗੇ ਖੇਤਾਂ ਤੋਂ, ਵਾਰਿਸ ਸ਼ਾਹ ਕਈਆਂ ਨਵੇਂ"
+        ],
+        "translated_lines": [
+          "Rise, O compassionate soul, and look at your Punjab",
+          "Fields are lined with corpses and blood rains through the sky"
+        ],
+        "emotion": "grief",
+        "tone": "declaration",
+        "translation_quality": "lost",
+        "loss_note": "The translation abandons the source almost entirely; ਦਰਦਮੰਦਾਂ ਦੀ ਦਰਦ (the pain of the pain-bearers) is a Sufi devotional register invoking Waris Shah's own compassionate tradition, and ਖੂਨ ਰੰਗੇ ਖੇਤਾਂ (blood-soaked fields) is a concrete partition image rendered abstractly as 'blood rains through the sky'.",
+        "metaphor_spans": [
+          {
+            "source_term": "ਖੂਨ ਰੰਗੇ ਖੇਤਾਂ",
+            "abstract_meaning": "Punjab's agricultural heartland turned into a site of partition massacre"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 2,
+        "source_lines": [
+          "ਰੋਹਾਂ ਡਿੱਲਾਂ ਪਿਆਰੀਆਂ, ਦੇ ਇਸ਼ਕਾਂ ਸੱਜਣਾਂ ਦੀ",
+          "ਅੱਜ ਤਰਸ ਵਿੰਡੀ ਆਂਵਣੀ, ਫਿਰਦੀ ਪਿੰਡਾਂ ਸਜਣਾਂ ਦੀ"
+        ],
+        "translated_lines": [
+          "The beloveds once adorned by your songs now wander homeless and forlorn",
+          "The land of love is barren, and despair looms large in every home"
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "partial",
+        "loss_note": "ਰੋਹਾਂ ਡਿੱਲਾਂ are specific geographical place-names in Punjab associated with the landscape of Heer Ranjha, not merely abstract 'beloveds adorned by songs'; their loss signals the erasure of a named homeland.",
+        "metaphor_spans": [
+          {
+            "source_term": "ਰੋਹਾਂ ਡਿੱਲਾਂ",
+            "abstract_meaning": "named Punjabi villages as the now-lost geography of Waris Shah's love epic"
+          },
+          {
+            "source_term": "ਤਰਸ ਵਿੰਡੀ ਆਂਵਣੀ",
+            "abstract_meaning": "desolation wandering through villages like a ghost after partition"
+          }
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 2,
+        "source_lines": [
+          "ਧਰਤੀ ਤੇ ਕੁਹੜੇ ਵੇਲਾਂ, ਕੁਝ ਭੀ ਦਿਲ ਤੋਂ ਮਿੱਟਦੇ ਨਹੀਂ",
+          "ਇਕ ਵਾਰ ਵਾਰਿਸ ਸ਼ਾਹ, ਤੂੰ ਵਾਰਿਸ ਸ਼ਾਹ ਨਹੀਂ ਲਿਖਿਆ ਤਾਂਹੀ!"
+        ],
+        "translated_lines": [
+          "The callousness that has taken root will not be erased so soon",
+          "Only you, Waris Shah, can write again the tale of a broken hearted world."
+        ],
+        "emotion": "grief",
+        "tone": "defiance",
+        "translation_quality": "partial",
+        "loss_note": "ਕੁਹੜੇ ਵੇਲਾਂ (",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8587,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 7,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

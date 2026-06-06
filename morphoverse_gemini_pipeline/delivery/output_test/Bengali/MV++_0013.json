@@ -1,0 +1,185 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_0013",
+  "poem_title": "Anondolokey",
+  "language": "Bengali",
+  "original_poem": "আনন্দলোকেতে অঙ্গন ফল।\nবুলবুলের গানে গাইছে,\nজাদুর খেলা মূর্ছনাতে,\nসেথা প্রেমের পরশ।\n\nআনন্দলোকেতে অঙ্গন ফল।\nমেঘের বুকে খেলে যায়,\nজলের প্রবাহে ভাসে,\nসেথা প্রেমের পরশ।\n\nসন্ধ্যাবেলা পাখির গান,\nনদীর তীরে মনের গান।\nআনন্দলোকেতে অঙ্গন ফল,\nবুলবুলের গানে গাইছে।",
+  "translated_poem": "In the land of joy, the courtyard is full of fruits.\nThe bulbul sings,\nIn the enchantment of magic,\nThere, the touch of love.\n\nIn the land of joy, the courtyard is full of fruits.\nIt plays on the back of the clouds,\nFloats in the flow of water,\nThere, the touch of love.\n\nIn the evening, the bird sings,\nOn the riverbank, the song of the heart.\nIn the land of joy, the courtyard is full,\nThe bulbul sings.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7657,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "বুলবুলের গানে গাইছে,",
+          "জাদুর খেলা মূর্ছনাতে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "The bulbul sings,",
+          "In the enchantment of magic,",
+          "There, the touch of love."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "মেঘের বুকে খেলে যায়,",
+          "জলের প্রবাহে ভাসে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "It plays on the back of the clouds,",
+          "Floats in the flow of water,",
+          "There, the touch of love."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সন্ধ্যাবেলা পাখির গান,",
+          "নদীর তীরে মনের গান।",
+          "আনন্দলোকেতে অঙ্গন ফল,",
+          "বুলবুলের গানে গাইছে।"
+        ],
+        "translated_lines": [
+          "In the evening, the bird sings,",
+          "On the riverbank, the song of the heart.",
+          "In the land of joy, the courtyard is full,",
+          "The bulbul sings."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "devotional",
+    "emotional_arc": "celebratory",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "বুলবুলের গানে গাইছে,",
+          "জাদুর খেলা মূর্ছনাতে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "The bulbul sings,",
+          "In the enchantment of magic,",
+          "There, the touch of love."
+        ],
+        "emotion": "devotion",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "মেঘের বুকে খেলে যায়,",
+          "জলের প্রবাহে ভাসে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "It plays on the back of the clouds,",
+          "Floats in the flow of water,",
+          "There, the touch of love."
+        ],
+        "emotion": "peace",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সন্ধ্যাবেলা পাখির গান,",
+          "নদীর তীরে মনের গান।",
+          "আনন্দলোকেতে অঙ্গন ফল,",
+          "বুলবুলের গানে গাইছে।"
+        ],
+        "translated_lines": [
+          "In the evening, the bird sings,",
+          "On the riverbank, the song of the heart.",
+          "In the land of joy, the courtyard is full,",
+          "The bulbul sings."
+        ],
+        "emotion": "celebration",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "বুলবুলের",
+        "romanization": "bulbuler",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "bulbul bird symbol of lyric song"
+      },
+      {
+        "term": "বুলবুলের",
+        "romanization": "bulbuler",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 3,
+        "preserved": true,
+        "translation_note": "bulbul bird symbol of lyric song"
+      },
+      {
+        "term": "নদীর",
+        "romanization": "nadir",
+        "category": "SACRED_RIVER",
+        "stanza_index": 3,
+        "preserved": false,
+        "translation_note": "river as devotional landscape symbol"
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7657,
+      "source_term_checks": {
+        "entities_total": 3,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1570",
+  "poem_title": "Kaifiyaat",
+  "language": "Urdu",
+  "original_poem": "تاروں کی روشنی میں چمکتے ہیں خواب میرے\nہر سانس میں اک خواب، دلکش جواب میرے\n\nخاموشیوں کا شور، کچھ کہنے کو تیار ہے\nلب بستہ کہانی ہے، خاموش آداب میرے\n\nوقت کے قید خانے میں قید ہو گئے ہیں ہم\nہر لمحہ جیسے ایک زخم، بے حساب میرے\n\nکبھی ہنسی، کبھی آنسو، کبھی سکوت کا رنگ\nرنگ برنگی دنیا کے عجیب و غریب خواب میرے",
+  "translated_poem": "In the light of the stars, my dreams gleam,\nIn every breath, a dream, a captivating theme.\n\nA tumult of silence, eager to say,\nLips sealed, yet a story, in my quiet way.\n\nImprisoned in the dungeon of time, I stay,\nEach moment, like a wound, unfathomable sway.\n\nSometimes laughter, sometimes tears, sometimes calm,\nA world of colors, strange dreams that charm.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 4,
+    "source_stanza_count": 4,
+    "translated_stanza_count": 4,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.9007,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "تاروں کی روشنی میں چمکتے ہیں خواب میرے",
+          "ہر سانس میں اک خواب، دلکش جواب میرے"
+        ],
+        "translated_lines": [
+          "In the light of the stars, my dreams gleam,",
+          "In every breath, a dream, a captivating theme."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "خاموشیوں کا شور، کچھ کہنے کو تیار ہے",
+          "لب بستہ کہانی ہے، خاموش آداب میرے"
+        ],
+        "translated_lines": [
+          "A tumult of silence, eager to say,",
+          "Lips sealed, yet a story, in my quiet way."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "وقت کے قید خانے میں قید ہو گئے ہیں ہم",
+          "ہر لمحہ جیسے ایک زخم، بے حساب میرے"
+        ],
+        "translated_lines": [
+          "Imprisoned in the dungeon of time, I stay,",
+          "Each moment, like a wound, unfathomable sway."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 2,
+        "source_lines": [
+          "کبھی ہنسی، کبھی آنسو، کبھی سکوت کا رنگ",
+          "رنگ برنگی دنیا کے عجیب و غریب خواب میرے"
+        ],
+        "translated_lines": [
+          "Sometimes laughter, sometimes tears, sometimes calm,",
+          "A world of colors, strange dreams that charm."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "dreams yield to imprisoned sorrow then acceptance",
+    "translation_fidelity_score": 0.875,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "تاروں کی روشنی میں چمکتے ہیں خواب میرے",
+          "ہر سانس میں اک خواب، دلکش جواب میرے"
+        ],
+        "translated_lines": [
+          "In the light of the stars, my dreams gleam,",
+          "In every breath, a dream, a captivating theme."
+        ],
+        "emotion": "longing",
+        "tone": "wonder",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "خاموشیوں کا شور، کچھ کہنے کو تیار ہے",
+          "لب بستہ کہانی ہے، خاموش آداب میرے"
+        ],
+        "translated_lines": [
+          "A tumult of silence, eager to say,",
+          "Lips sealed, yet a story, in my quiet way."
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "وقت کے قید خانے میں قید ہو گئے ہیں ہم",
+          "ہر لمحہ جیسے ایک زخم، بے حساب میرے"
+        ],
+        "translated_lines": [
+          "Imprisoned in the dungeon of time, I stay,",
+          "Each moment, like a wound, unfathomable sway."
+        ],
+        "emotion": "grief",
+        "tone": "lament",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": []
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 2,
+        "source_lines": [
+          "کبھی ہنسی، کبھی آنسو، کبھی سکوت کا رنگ",
+          "رنگ برنگی دنیا کے عجیب و غریب خواب میرے"
+        ],
+        "translated_lines": [
+          "Sometimes laughter, sometimes tears, sometimes calm,",
+          "A world of colors, strange dreams that charm."
+        ],
+        "emotion": "resilience",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "strange dreams charm understated",
+        "metaphor_spans": []
+      }
+    ],
+    "cultural_entities": [],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.9007,
+      "source_term_checks": {
+        "entities_total": 0,
+        "entities_dropped": 0,
+        "metaphors_total": 0,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

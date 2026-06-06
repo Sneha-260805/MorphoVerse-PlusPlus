@@ -1,0 +1,284 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1237",
+  "poem_title": "Dalkhata",
+  "language": "Santhali",
+  "original_poem": "नदी की लहरों में,  \nबैठा एक डालखाता,  \nफंदे में फंसी मछलियाँ,  \nउसका सपना पूरा कर जाता।\n\nचंचल जल की धारा,  \nसपने सजाए ले जाता,  \nगाँव की गरीबी से  \nखुद को निकाल लाता।\n\nहर सुबह उठता,  \nसपने में बसता,  \nहर लहर की आवाज़ में,  \nजीवन का संगीत गाता।\n\nपल भर की खुशी,  \nआने वाले कल का जोश,  \nडालखाता की मेहनत,  \nकभी न होगी निराश।\n\nहर ठंडी रात में,  \nजो जीवन की रेखाएँ बुनता,  \nएक डालखाता की कहानी,  \nसपनों को सच करता।",
+  "translated_poem": "In the waves of the river,  \nSits a fisherman,  \nCaught in his net,  \nHe fulfills his dream once again.\n\nThe playful stream carries,  \nHis dreams along its flow,  \nFrom the village's poverty,  \nHe strives to break the woe.\n\nEvery morning he rises,  \nLiving within his dreams,  \nIn the sound of each wave,  \nHe sings life’s joyful themes.\n\nA moment of happiness,  \nWith hopes for tomorrow,  \nThe fisherman’s hard work,  \nWill never bring him sorrow.\n\nOn every cold night,  \nWeaving the threads of life,  \nA fisherman’s tale,  \nTurns dreams into reality's strife.",
+  "status": "completed",
+  "model": "claude",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 5,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.8223,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "नदी की लहरों में,",
+          "बैठा एक डालखाता,",
+          "फंदे में फंसी मछलियाँ,",
+          "उसका सपना पूरा कर जाता।"
+        ],
+        "translated_lines": [
+          "In the waves of the river,",
+          "Sits a fisherman,",
+          "Caught in his net,",
+          "He fulfills his dream once again."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "चंचल जल की धारा,",
+          "सपने सजाए ले जाता,",
+          "गाँव की गरीबी से",
+          "खुद को निकाल लाता।"
+        ],
+        "translated_lines": [
+          "The playful stream carries,",
+          "His dreams along its flow,",
+          "From the village's poverty,",
+          "He strives to break the woe."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "हर सुबह उठता,",
+          "सपने में बसता,",
+          "हर लहर की आवाज़ में,",
+          "जीवन का संगीत गाता।"
+        ],
+        "translated_lines": [
+          "Every morning he rises,",
+          "Living within his dreams,",
+          "In the sound of each wave,",
+          "He sings life’s joyful themes."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "पल भर की खुशी,",
+          "आने वाले कल का जोश,",
+          "डालखाता की मेहनत,",
+          "कभी न होगी निराश।"
+        ],
+        "translated_lines": [
+          "A moment of happiness,",
+          "With hopes for tomorrow,",
+          "The fisherman’s hard work,",
+          "Will never bring him sorrow."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "हर ठंडी रात में,",
+          "जो जीवन की रेखाएँ बुनता,",
+          "एक डालखाता की कहानी,",
+          "सपनों को सच करता।"
+        ],
+        "translated_lines": [
+          "On every cold night,",
+          "Weaving the threads of life,",
+          "A fisherman’s tale,",
+          "Turns dreams into reality's strife."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "reflective",
+    "emotional_arc": "hardship through hope to resilience",
+    "translation_fidelity_score": 0.7,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "नदी की लहरों में,",
+          "बैठा एक डालखाता,",
+          "फंदे में फंसी मछलियाँ,",
+          "उसका सपना पूरा कर जाता।"
+        ],
+        "translated_lines": [
+          "In the waves of the river,",
+          "Sits a fisherman,",
+          "Caught in his net,",
+          "He fulfills his dream once again."
+        ],
+        "emotion": "peace",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "Dalkhata is a specific Santhali folk archetype; 'fisherman' loses the cultural identity marker.",
+        "metaphor_spans": [
+          {
+            "source_term": "फंदे में फंसी मछलियाँ",
+            "abstract_meaning": "the net's catch as the tangible fulfillment of a marginal life's fragile dream"
+          },
+          {
+            "source_term": "सपना पूरा कर जाता",
+            "abstract_meaning": "each catch as a momentary realization of an otherwise deferred hope"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "चंचल जल की धारा,",
+          "सपने सजाए ले जाता,",
+          "गाँव की गरीबी से",
+          "खुद को निकाल लाता।"
+        ],
+        "translated_lines": [
+          "The playful stream carries,",
+          "His dreams along its flow,",
+          "From the village's poverty,",
+          "He strives to break the woe."
+        ],
+        "emotion": "longing",
+        "tone": "whisper",
+        "translation_quality": "partial",
+        "loss_note": "गाँव की गरीबी carries specific communal poverty of a Santhali village; 'village's poverty' flattens this.",
+        "metaphor_spans": [
+          {
+            "source_term": "चंचल जल की धारा",
+            "abstract_meaning": "the river's playful current as the only vehicle carrying the fisherman's aspirations forward"
+          },
+          {
+            "source_term": "सपने सजाए ले जाता",
+            "abstract_meaning": "dreams adorned and borne away by the stream, beyond the reach of poverty"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "हर सुबह उठता,",
+          "सपने में बसता,",
+          "हर लहर की आवाज़ में,",
+          "जीवन का संगीत गाता।"
+        ],
+        "translated_lines": [
+          "Every morning he rises,",
+          "Living within his dreams,",
+          "In the sound of each wave,",
+          "He sings life’s joyful themes."
+        ],
+        "emotion": "resilience",
+        "tone": "tenderness",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "हर लहर की आवाज़ में",
+            "abstract_meaning": "the rhythm of each wave as the daily score of a life lived in labour and hope"
+          },
+          {
+            "source_term": "जीवन का संगीत गाता",
+            "abstract_meaning": "the act of singing as the fisherman's assertion that his life holds meaning despite hardship"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "पल भर की खुशी,",
+          "आने वाले कल का जोश,",
+          "डालखाता की मेहनत,",
+          "कभी न होगी निराश।"
+        ],
+        "translated_lines": [
+          "A moment of happiness,",
+          "With hopes for tomorrow,",
+          "The fisherman’s hard work,",
+          "Will never bring him sorrow."
+        ],
+        "emotion": "resilience",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "आने वाले कल का जोश",
+            "abstract_meaning": "tomorrow's energy as the fuel that sustains the fisherman through present deprivation"
+          }
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "हर ठंडी रात में,",
+          "जो जीवन की रेखाएँ बुनता,",
+          "एक डालखाता की कहानी,",
+          "सपनों को सच करता।"
+        ],
+        "translated_lines": [
+          "On every cold night,",
+          "Weaving the threads of life,",
+          "A fisherman’s tale,",
+          "Turns dreams into reality's strife."
+        ],
+        "emotion": "resilience",
+        "tone": "tenderness",
+        "translation_quality": "partial",
+        "loss_note": "जीवन की रेखाएँ बुनता evokes weaving as a Santhali craft metaphor; 'threads of life' partially preserves but loses craft-specific resonance.",
+        "metaphor_spans": [
+          {
+            "source_term": "जीवन की रेखाएँ बुनता",
+            "abstract_meaning": "the cold night's labour as the slow weaving of a life's pattern, stitch by stitch"
+          },
+          {
+            "source_term": "सपनों को सच करता",
+            "abstract_meaning": "the fisherman's tale as proof that persistent effort can materialise what was only dreamed"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "डालखाता",
+        "romanization": "Dalkhata",
+        "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1,
+        "preserved": false,
+        "translation_note": "Specific Santhali folk archetype of the river fisherman reduced to generic 'fisherman'."
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.8223,
+      "source_term_checks": {
+        "entities_total": 1,
+        "entities_dropped": 0,
+        "metaphors_total": 9,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 0,
+      "confidence": "high"
+    }
+  },
+  "review_items": [],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

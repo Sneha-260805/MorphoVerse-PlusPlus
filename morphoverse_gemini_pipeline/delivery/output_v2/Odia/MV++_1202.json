@@ -1,0 +1,120 @@
+{
+  "schema_version": 5,
+  "prompt_version": 6,
+  "poem_id": "MV++_1202",
+  "poem_title": "Bhagavad Gita",
+  "language": "Odia",
+  "original_poem": "भगवद्गीता  \nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।  \nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
+  "translated_poem": "The Bhagavad Gita  \nIn the field of righteousness, in Kurukshetra, gathered to battle,  \nMy sons and the sons of Pandu, what did they do, O Sanjaya?",
+  "status": "salvaged",
+  "model": "claude",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_confidence": 0.7718,
+    "alignment_note": "Stanza counts match and alignment confidence is high.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 3,
+        "source_lines": [
+          "भगवद्गीता",
+          "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।",
+          "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥"
+        ],
+        "translated_lines": [
+          "The Bhagavad Gita",
+          "In the field of righteousness, in Kurukshetra, gathered to battle,",
+          "My sons and the sons of Pandu, what did they do, O Sanjaya?"
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": "declarative",
+    "emotional_arc": "anxious inquiry before righteous war",
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 3,
+        "source_lines": [
+          "भगवद्गीता",
+          "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।",
+          "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥"
+        ],
+        "translated_lines": [
+          "The Bhagavad Gita",
+          "In the field of righteousness, in Kurukshetra, gathered to battle,",
+          "My sons and the sons of Pandu, what did they do, O Sanjaya?"
+        ],
+        "emotion": "fear",
+        "tone": "declaration",
+        "translation_quality": "faithful",
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "source_term": "धर्मक्षेत्रे",
+            "abstract_meaning": "the battlefield recast as the arena of moral and cosmic order"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "कुरुक्षेत्रे",
+        "romanization": "Kurukshetra",
+        "category": "MYTHOLOGICAL_EVENT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      },
+      {
+        "term": "धर्मक्षेत्रे",
+        "romanization": "Dharmakshetra",
+        "category": "DEVOTIONAL_CONCEPT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": "Rendered as 'field of righteousness', preserving the dharmic connotation."
+      },
+      {
+        "term": "सञ्जय",
+        "romanization": "Sanjaya",
+        "category": "MYTHOLOGICAL_EVENT",
+        "stanza_index": 1,
+        "preserved": true,
+        "translation_note": ""
+      }
+    ],
+    "annotation_stats": {
+      "model": "claude",
+      "alignment_status": "aligned",
+      "alignment_confidence": 0.7718,
+      "source_term_checks": {
+        "entities_total": 4,
+        "entities_dropped": 1,
+        "metaphors_total": 1,
+        "metaphors_dropped": 0
+      },
+      "low_confidence_stanza_count": 0,
+      "review_item_count": 1,
+      "confidence": "low"
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities",
+      "severity": "medium",
+      "resolved_value": "dropped",
+      "model_value": "पाण्डवाः",
+      "note": "entity_term_not_in_source"
+    }
+  ],
+  "_raw": {
+    "prompt_kind": "primary",
+    "retry_count": 0
+  }
+}

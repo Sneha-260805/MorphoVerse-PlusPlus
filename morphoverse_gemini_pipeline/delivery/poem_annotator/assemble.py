@@ -3,6 +3,10 @@
 There is no ensemble, so there is no majority vote, no tie-break, and no
 per-field source-model selection. Confidence is derived from evidence quality
 (alignment, source-term pass rate, translation mix) — never auto-"high".
+
+IndicBERT post-validation is attempted here; it adds advisory review items when
+LaBSE detects emotion or alignment discrepancies.  Degrades gracefully when
+torch is unavailable.
 """
 from __future__ import annotations
 
@@ -12,6 +16,15 @@ from .dataset import PreprocessedPoem
 from .schema import ALIGNMENT_RISK
 
 TRANSLATION_SCORE = {"faithful": 1.0, "partial": 0.5, "lost": 0.0}
+
+
+def _indic_validate(poem_record: dict, annotation: dict) -> list[dict]:
+    """Safe wrapper around IndicBERT post-validation."""
+    try:
+        from .indic_bert_context import validate_annotation
+        return validate_annotation(poem_record, annotation)
+    except Exception:
+        return []
 
 
 def confidence_label(alignment_conf: float, status: str, dropped_entities: int, low_stanza_ratio: float) -> str:
@@ -30,6 +43,7 @@ def assemble_annotation(
     gate_review_items: list[dict[str, Any]],
     status: str,
     model: str,
+    poem_record: dict | None = None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]], bool, str]:
     review_items: list[dict[str, Any]] = list(gate_review_items)
     alignment_risk = poem.alignment_status == ALIGNMENT_RISK
@@ -81,6 +95,17 @@ def assemble_annotation(
     stanza_count = max(len(poem.stanzas), 1)
     low_stanza_ratio = low_conf_stanzas / stanza_count
     dropped_entities = source_term_checks.get("entities_dropped", 0)
+
+    # IndicBERT post-validation (advisory; degrades silently when torch unavailable)
+    if poem_record:
+        partial_annotation = {
+            "recitation_style": gated_payload["recitation_style"],
+            "emotional_arc": gated_payload["emotional_arc"],
+            "stanzas": [{"index": s["stanza_index"], "emotion": s["emotion"],
+                         "translation_quality": s["translation_quality"]}
+                        for s in resolved_stanzas],
+        }
+        review_items.extend(_indic_validate(poem_record, partial_annotation))
 
     needs_human_review = (
         status in ("failed", "salvaged")
