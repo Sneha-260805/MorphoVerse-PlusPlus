@@ -8,7 +8,7 @@
   "translated_poem": "A cold wind suddenly hit me\n\nYou know why I came, but look my way\n\nThat moment in retrospect is the sweetest moment of any life.                                                                                                                                                If the words come to my eyelids, I will say that you are the lightning that has bitten my eyes.\n\nYou shook the mind coldly, knocked and woke up... you disappeared in the end\n\nO blue moon... this is your Maye Suma..!!",
   "status": "completed",
   "model": "gemini-chunked",
-  "needs_human_review": false,
+  "needs_human_review": true,
   "preprocessing": {
     "stanza_count": 6,
     "source_stanza_count": 6,
@@ -275,7 +275,7 @@
       },
       "low_confidence_stanza_count": 0,
       "review_item_count": 1,
-      "confidence": "medium"
+      "confidence": "low"
     }
   },
   "review_items": [

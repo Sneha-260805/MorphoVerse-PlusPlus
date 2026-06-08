@@ -8,7 +8,7 @@
   "translated_poem": "The song of freedom, a song of longing,  \nAn endless song, a song of dreams,  \nA song that sheds the weariness,  \nA song yearning for new light.  \n\nThe light will never fade,  \nThe lamp that has been lit will not end,  \nLike a dream, it will not cease,  \nThis song of longing speaks!  \n\nA song from full hearts, never ending,  \nA song of dreams bursting with light,  \nA sweet song the darkness craves,  \nA child smiling in the song!",
   "status": "completed",
   "model": "gemini-chunked",
-  "needs_human_review": false,
+  "needs_human_review": true,
   "preprocessing": {
     "stanza_count": 3,
     "source_stanza_count": 3,
@@ -189,7 +189,7 @@
       },
       "low_confidence_stanza_count": 0,
       "review_item_count": 1,
-      "confidence": "high"
+      "confidence": "low"
     }
   },
   "review_items": [

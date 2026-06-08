@@ -8,7 +8,7 @@
   "translated_poem": "The Brahmaputra\nO Brahmaputra, your flow\nMoves in the depths of the heart,\nIn the melody of my thoughts\nFlows your rhythm.",
   "status": "completed",
   "model": "gemini-chunked",
-  "needs_human_review": false,
+  "needs_human_review": true,
   "preprocessing": {
     "stanza_count": 1,
     "source_stanza_count": 1,
@@ -88,7 +88,7 @@
       },
       "low_confidence_stanza_count": 0,
       "review_item_count": 2,
-      "confidence": "high"
+      "confidence": "low"
     }
   },
   "review_items": [

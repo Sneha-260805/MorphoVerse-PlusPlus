@@ -8,7 +8,7 @@
   "translated_poem": "Life\nLife, you are a history\nAmidst the darkest clouds,\nGifted in the love of dreams,\nThe flute of the heart's affection.",
   "status": "completed",
   "model": "gemini-chunked",
-  "needs_human_review": false,
+  "needs_human_review": true,
   "preprocessing": {
     "stanza_count": 1,
     "source_stanza_count": 1,
@@ -105,7 +105,7 @@
       },
       "low_confidence_stanza_count": 0,
       "review_item_count": 1,
-      "confidence": "high"
+      "confidence": "low"
     }
   },
   "review_items": [
