@@ -10,6 +10,75 @@ from .dataset import PreprocessedPoem
 from .schema import STATUS_PENDING
 
 
+def normalize_review_state(output: dict[str, Any]) -> bool:
+    """Re-derive needs_human_review and confidence from the FINAL stored state.
+
+    This is the safety net required by the human-review invariant: it recomputes
+    both fields from the annotation that is actually on disk, so an output can
+    never end up with review_items present but needs_human_review=False (which
+    would hide those items from the queue), nor with a confidence label that
+    contradicts dropped content / review items / low fidelity.
+
+    Recomputation uses only already-stored stats (no model calls), so it is safe
+    to run over previously written outputs. Returns True if anything changed.
+    """
+    from .assemble import confidence_label  # local import avoids any import cycle
+
+    if output.get("status") == STATUS_PENDING:
+        return False
+
+    ann = output.get("annotation", {})
+    stats = ann.get("annotation_stats", {})
+    checks = stats.get("source_term_checks", {})
+    review_items = output.get("review_items", []) or []
+    review_count = len(review_items)
+
+    status = output.get("status", "")
+    model = output.get("model", "")
+    dropped_entities = int(checks.get("entities_dropped", 0) or 0)
+    dropped_metaphors = int(checks.get("metaphors_dropped", 0) or 0)
+    low_conf_stanzas = int(stats.get("low_confidence_stanza_count", 0) or 0)
+    stanza_count = max(len(ann.get("stanzas", [])) or output.get("preprocessing", {}).get("stanza_count", 0), 1)
+    low_stanza_ratio = low_conf_stanzas / stanza_count
+    fidelity = float(ann.get("translation_fidelity_score", 0.0) or 0.0)
+    alignment_conf = float(
+        stats.get("alignment_confidence",
+                  output.get("preprocessing", {}).get("alignment_confidence", 0.0)) or 0.0
+    )
+    alignment_risk = output.get("preprocessing", {}).get("alignment_status") == "alignment_risk"
+
+    new_needs_review = (
+        status in ("failed", "salvaged")
+        or alignment_risk
+        or dropped_entities > 0
+        or dropped_metaphors > 0
+        or review_count > 0
+        or low_stanza_ratio > 0.5
+        or model == "gemini-3-flash"
+    )
+    new_confidence = confidence_label(
+        alignment_conf=alignment_conf,
+        status=status,
+        dropped_entities=dropped_entities,
+        dropped_metaphors=dropped_metaphors,
+        review_items_count=review_count,
+        translation_fidelity_score=fidelity,
+        low_stanza_ratio=low_stanza_ratio,
+    )
+
+    changed = False
+    if output.get("needs_human_review") != new_needs_review:
+        output["needs_human_review"] = new_needs_review
+        changed = True
+    if stats.get("confidence") != new_confidence:
+        stats["confidence"] = new_confidence
+        changed = True
+    if stats.get("review_item_count") != review_count:
+        stats["review_item_count"] = review_count
+        changed = True
+    return changed
+
+
 def write_json_file(path: Path, payload: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
@@ -108,10 +177,17 @@ def build_summary_rows(outputs: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def build_review_rows(outputs: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Export EVERY review item, regardless of the needs_human_review flag.
+
+    Invariant: the number of queue rows for a poem equals len(review_items) in
+    that poem's annotation. We deliberately do NOT gate on needs_human_review —
+    gating there is what previously hid review items from the queue. assemble.py
+    already guarantees needs_human_review=True whenever review_items is non-empty;
+    exporting unconditionally here makes silent loss impossible even for older or
+    externally-edited annotation files.
+    """
     rows = []
     for out in outputs:
-        if not out.get("needs_human_review"):
-            continue
         for item in out.get("review_items", []):
             rows.append({
                 "poem_id": out.get("poem_id", ""),

@@ -27,8 +27,43 @@ def _indic_validate(poem_record: dict, annotation: dict) -> list[dict]:
         return []
 
 
-def confidence_label(alignment_conf: float, status: str, dropped_entities: int, low_stanza_ratio: float) -> str:
-    if status in ("failed", "salvaged") or dropped_entities or alignment_conf < 0.60 or low_stanza_ratio > 0.5:
+def confidence_label(
+    alignment_conf: float,
+    status: str,
+    dropped_entities: int,
+    dropped_metaphors: int,
+    review_items_count: int,
+    translation_fidelity_score: float,
+    low_stanza_ratio: float,
+) -> str:
+    """Compute the confidence label from the FINAL quality of the annotation.
+
+    Hard rules (any one forces "low" — high confidence is never allowed):
+      - translation_fidelity_score <= 0.5
+      - any cultural entity dropped
+      - any metaphor dropped
+      - any review item present
+      - status in (failed, salvaged)
+      - alignment_confidence < 0.60
+      - low-confidence stanza ratio > 0.5
+
+    Soft rule (only reached when every hard rule passes):
+      - alignment_confidence < 0.75 -> "medium"
+      - otherwise                   -> "high"
+
+    High confidence is therefore allowed only when alignment is good, translation
+    fidelity is good, nothing was dropped, no review items exist, and no stanza is
+    low-confidence.
+    """
+    if (
+        translation_fidelity_score <= 0.5
+        or dropped_entities > 0
+        or dropped_metaphors > 0
+        or review_items_count > 0
+        or status in ("failed", "salvaged")
+        or alignment_conf < 0.60
+        or low_stanza_ratio > 0.5
+    ):
         return "low"
     if alignment_conf < 0.75:
         return "medium"
@@ -95,6 +130,7 @@ def assemble_annotation(
     stanza_count = max(len(poem.stanzas), 1)
     low_stanza_ratio = low_conf_stanzas / stanza_count
     dropped_entities = source_term_checks.get("entities_dropped", 0)
+    dropped_metaphors = source_term_checks.get("metaphors_dropped", 0)
 
     # IndicBERT post-validation (advisory; degrades silently when torch unavailable)
     if poem_record:
@@ -107,15 +143,28 @@ def assemble_annotation(
         }
         review_items.extend(_indic_validate(poem_record, partial_annotation))
 
+    # Invariant: review_items is FINAL here (gate items + alignment-risk items +
+    # IndicBERT advisory items are all already appended). If anything is queued for
+    # review, the poem MUST be flagged so every item reaches human_review_queue.csv.
     needs_human_review = (
         status in ("failed", "salvaged")
         or alignment_risk
         or dropped_entities > 0
+        or dropped_metaphors > 0
+        or len(review_items) > 0
         or low_stanza_ratio > 0.5
         or model == "gemini-3-flash"
     )
 
-    confidence = confidence_label(poem.alignment_confidence, status, dropped_entities, low_stanza_ratio)
+    confidence = confidence_label(
+        alignment_conf=poem.alignment_confidence,
+        status=status,
+        dropped_entities=dropped_entities,
+        dropped_metaphors=dropped_metaphors,
+        review_items_count=len(review_items),
+        translation_fidelity_score=fidelity_sum / stanza_count,
+        low_stanza_ratio=low_stanza_ratio,
+    )
 
     annotation = {
         "recitation_style": gated_payload["recitation_style"],

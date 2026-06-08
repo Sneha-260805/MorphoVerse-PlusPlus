@@ -38,6 +38,7 @@ from .output import (
     build_summary_rows,
     build_review_rows,
     write_csv_rows,
+    normalize_review_state,
 )
 
 # ── Excluded poems (skipped) ──────────────────────────────────────────────────
@@ -301,15 +302,21 @@ async def run_pipeline(config: "RuntimeConfig", request_fn=None) -> list[dict[st
 
 
 def collect_existing_outputs(dataset, output_dir: Path) -> list[dict[str, Any]]:
+    """Load every existing output, re-deriving needs_human_review + confidence from
+    its final stored state (and persisting any correction) so the summary/queue
+    CSVs and the on-disk JSON can never disagree with the review-item invariant."""
     outputs = []
     for rec in dataset:
         path = output_path_for_poem(rec["poem_id"], output_dir, language=rec["language"])
         if not path.exists():
             continue
         try:
-            outputs.append(load_json_file(path))
+            out = load_json_file(path)
         except (json.JSONDecodeError, OSError):
             continue
+        if normalize_review_state(out):
+            write_json_file(path, out)
+        outputs.append(out)
     return outputs
 
 
