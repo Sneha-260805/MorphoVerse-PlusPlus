@@ -1,0 +1,61 @@
+{
+  "language": "Bodo",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_0036",
+      "language": "Bodo",
+      "cultural_region": "East India",
+      "poem_title": "Bodo Gwsing",
+      "translated_title": "Bodo Song",
+      "poet": "Bodo Bwisagu",
+      "translator": "Anup Boro",
+      "original_poem": "बोडो ग्वसिंग\nबोडो ग्वसिंग, तुमार धुन\nसंगीत भरी गुथा,\nमोर मनत ठोर ठोर\nसपना गितार उठी।",
+      "translated_poem": "Bodo Song\nBodo Gwsing, your tune\nWoven with music,\nIn my heart, every beat\nDreams rise like melodies."
+    },
+    {
+      "poem_id": "MV++_0037",
+      "language": "Bodo",
+      "cultural_region": "East India",
+      "poem_title": "Phul Gwsing",
+      "translated_title": "Flower Song",
+      "poet": "Rakesh Bodo",
+      "translator": "Pratik Ghosh",
+      "original_poem": "फुल ग्वसिंग\nफुल ग्वसिंग, तुमार सुगंध\nमोन गुथा, हृदय भरि,\nमोर सपना गितार\nसंगीत गुनगुन।",
+      "translated_poem": "Flower Song\nFlower song, your fragrance\nWeaves in my heart,\nIn my dreams,\nMelodies hum."
+    },
+    {
+      "poem_id": "MV++_0038",
+      "language": "Bodo",
+      "cultural_region": "East India",
+      "poem_title": "Kokrajhar",
+      "translated_title": "Kokrajhar",
+      "poet": "Anil Bodo",
+      "translator": "R. Kumar",
+      "original_poem": "कोकराजहार\nकोकराजहार, तुमार माटि\nधुन शान्ति, मोर स्वप्न,\nमोर हृदय माटित\nजीवन बरजारी।",
+      "translated_poem": "Kokrajhar\nKokrajhar, your soil\nSings of peace, my dream,\nIn my heart’s earth\nLife flows beautifully."
+    },
+    {
+      "poem_id": "MV++_0039",
+      "language": "Bodo",
+      "cultural_region": "East India",
+      "poem_title": "Bodo Rakhang",
+      "translated_title": "Bodo Identity",
+      "poet": "Kameswar Bodo",
+      "translator": "A. D. Boro",
+      "original_poem": "बोडो राखंग\nबोडो राखंग, तुमार पहिचान\nसंस्कृति, धरोहर, मोर गर्व,\nमोर हृदयले गुनगुन\nजन्मभूमि जिवित।",
+      "translated_poem": "Bodo Identity\nBodo Identity, your recognition\nCulture, heritage, my pride,\nIn my heart, a hum\nOf my birthplace alive."
+    },
+    {
+      "poem_id": "MV++_0042",
+      "language": "Bodo",
+      "cultural_region": "East India",
+      "poem_title": "Dharma",
+      "translated_title": "Religion",
+      "poet": "Rakesh Bodo",
+      "translator": "S. R. Dutta",
+      "original_poem": "धर्म\nधर्म, तुमार मार्ग\nजीवनले सिखावै,\nमोर हृदयले बिचार\nसत्य गुथा।",
+      "translated_poem": "Religion\nReligion, your path\nTeaches life,\nIn my heart, thoughts\nWoven with truth."
+    }
+  ]
+}

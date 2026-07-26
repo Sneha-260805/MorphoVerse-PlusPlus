@@ -1,0 +1,29 @@
+{
+  "batch": "batch_000",
+  "rows": [
+    {
+      "poem_id": "MV++_0004",
+      "field_path": "annotation.stanzas[1].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "তোমাৰ স্রোত / হৃদয়ৰ গভীৰতাত বয়",
+      "note": "metaphor_source_term_not_in_source"
+    },
+    {
+      "poem_id": "MV++_0004",
+      "field_path": "annotation.stanzas[1].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "মোৰ চিন্তাৰ সঙ্গীতত / বহা তোমাৰ গতি",
+      "note": "metaphor_source_term_not_in_source"
+    },
+    {
+      "poem_id": "MV++_0006",
+      "field_path": "annotation.stanzas[1].metaphor_spans",
+      "severity": "low",
+      "resolved_value": "dropped",
+      "model_value": "জীৱন তুমি এক বুৰঞ্জী",
+      "note": "metaphor_source_term_not_in_source"
+    }
+  ]
+}

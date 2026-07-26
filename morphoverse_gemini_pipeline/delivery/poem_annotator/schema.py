@@ -37,6 +37,30 @@ STANZA_KEYS = frozenset({"index", "emotion", "tone", "translation_quality", "los
 METAPHOR_KEYS = frozenset({"source_term", "abstract_meaning"})
 ENTITY_KEYS = frozenset({"term", "romanization", "category", "stanza_index", "preserved", "translation_note"})
 
+# ── MorphoVerse++ Schema v1.1 extensions ─────────────────────────────────────
+SCHEMA_VERSION_V1_1 = "1.1"
+
+ALLOWED_VISUAL_PRIORITIES = ("essential", "supporting", "optional", "non_visual")
+ALLOWED_EXPRESSION_TYPES = (
+    "metaphor", "simile", "idiom", "symbolism",
+    "personification", "allusion", "proverb", "other",
+)
+ALLOWED_CULTURAL_SPECIFICITY_LEVELS = ("high", "medium", "low")
+ALLOWED_VISUALIZATION_DIFFICULTY = ("easy", "moderate", "hard")
+
+# Required v1.1 keys (pilot fields remain optional).
+METAPHOR_KEYS_V1_1 = frozenset({
+    "source_term", "abstract_meaning", "expression_type",
+    "literal_meaning", "metaphor_mapping",
+})
+ENTITY_KEYS_V1_1 = frozenset({
+    "term", "romanization", "category", "stanza_index", "preserved", "translation_note",
+    "source_span_original", "source_span_translation",
+    "visual_priority", "acceptable_visual_variants",
+})
+ENTITY_OPTIONAL_PILOT_KEYS = frozenset({"cultural_specificity_level", "visualization_difficulty"})
+ANNOTATION_OPTIONAL_PILOT_KEYS = frozenset({"cultural_specificity_level", "visualization_difficulty"})
+
 # ── Status / confidence vocabularies ─────────────────────────────────────────
 STATUS_COMPLETED = "completed"
 STATUS_SALVAGED = "salvaged"      # valid JSON but hallucinated terms were dropped

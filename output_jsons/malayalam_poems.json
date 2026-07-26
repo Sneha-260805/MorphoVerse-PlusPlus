@@ -1,0 +1,61 @@
+{
+  "language": "Malayalam",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_1174",
+      "language": "Malayalam",
+      "cultural_region": "South India",
+      "poem_title": "Oru Nattu Vakkukaran",
+      "translated_title": "A Village Wordsmith",
+      "poet": "S. Ramesan Nair",
+      "translator": "G. K. Nair",
+      "original_poem": "ഒരു നാട്ടു വാക്കുകാരൻ  \nസത്യത്തിന്റെ ഉള്ളിളക്കം  \nവാക്കുകളിൽ താനായ്കൊണ്ട്  \nകാട്ടിയിടുന്ന  \nവഴിതിരിവ് പോലെ.",
+      "translated_poem": "A village wordsmith,  \nWeaving the tremors of truth,  \nCarving paths,  \nAs if revealing  \nA turn in the road."
+    },
+    {
+      "poem_id": "MV++_1176",
+      "language": "Malayalam",
+      "cultural_region": "South India",
+      "poem_title": "Kaaladi",
+      "translated_title": "The Path",
+      "poet": "K. S. Chithra",
+      "translator": "G. K. Nair",
+      "original_poem": "കാലടി  \nഎന്റെ ജീവിതത്തിന്റെ  \nവഴി,  \nഅവസാനം തേടുന്നു  \nഒരു സൂക്ഷ്മബോധം.",
+      "translated_poem": "The path,  \nOf my life,  \nSeeking the end,  \nIt follows  \nA quiet intuition."
+    },
+    {
+      "poem_id": "MV++_1178",
+      "language": "Malayalam",
+      "cultural_region": "South India",
+      "poem_title": "Nenjathai Killikkurissukal",
+      "translated_title": "The Birds of the Heart",
+      "poet": "B. J. S. Menon",
+      "translator": "G. K. Nair",
+      "original_poem": "നെഞ്ചത്തെ കിളിക്കുരിശുകൾ  \nപറന്നു പോകുന്ന  \nഎന്റെ സ്വപ്നങ്ങൾ,  \nഓർമകളിൽ കുരുക്കി  \nപിടിക്കാനാവാത്തവ.",
+      "translated_poem": "The birds of the heart,  \nFlying away,  \nMy dreams,  \nTangled in memories,  \nImpossible to hold."
+    },
+    {
+      "poem_id": "MV++_1179",
+      "language": "Malayalam",
+      "cultural_region": "South India",
+      "poem_title": "Bharatheeyam",
+      "translated_title": "Indianism",
+      "poet": "M. N. Vijayan",
+      "translator": "K. K. Nair",
+      "original_poem": "ഭാരതീയം  \nപൊടിഞ്ഞ പാതകളിൽ  \nമറഞ്ഞുപോയ  \nസമാധാനം,  \nഅവശേഷിക്കുന്ന  \nപലകതാണീ  \nമണ്ണിന്റെ മണമായ്‌.",
+      "translated_poem": "Indianism,  \nOn dusty paths,  \nThe lost peace,  \nRemains as  \nA lingering fragrance  \nOf this land."
+    },
+    {
+      "poem_id": "MV++_1180",
+      "language": "Malayalam",
+      "cultural_region": "South India",
+      "poem_title": "Nizhalattam",
+      "translated_title": "Shadow Play",
+      "poet": "G. Sankara Kurup",
+      "translator": "K. K. Nair",
+      "original_poem": "നിഴലാട്ടം  \nചിമ്മുന്ന നിലാവിൻ  \nകായലിൽ,  \nഇടറുന്ന ഓർമകൾ  \nമൂടിയ  \nകാളിയാട്ടം.",
+      "translated_poem": "Shadow play,  \nIn the shimmering moonlight  \nOver the backwaters,  \nThe dance of shadows  \nCovered by  \nFading memories."
+    }
+  ]
+}

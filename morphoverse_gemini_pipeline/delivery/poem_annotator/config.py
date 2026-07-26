@@ -9,6 +9,7 @@ from .schema import (  # noqa: F401
     ALLOWED_TONES,
     ALLOWED_TRANSLATION_QUALITIES,
     ALLOWED_ENTITY_CATEGORIES,
+    SCHEMA_VERSION_V1_1,
 )
 
 # ── Dataset & authentication ─────────────────────────────────────────────────
@@ -59,6 +60,24 @@ SUMMARY_FILENAME = "annotation_summary.csv"
 HUMAN_REVIEW_FILENAME = "human_review_queue.csv"
 SCHEMA_VERSION = 5
 PROMPT_VERSION = 9  # Gemini-only chunked annotation (gemini-3.1-pro + gemini-3-flash fallback); replaces claude one-shot
+
+# ── MorphoVerse++ Schema v1.1 migration ──────────────────────────────────────
+MIGRATION_SCHEMA_VERSION = SCHEMA_VERSION_V1_1
+MIGRATION_PROMPT_VERSION = 1  # v1.1 backfill / migration prompts
+MIGRATION_BATCH_SIZE = 5
+MIGRATION_INPUT_FOLDER = "output_jsons"  # repo-root poem bundles (relative to repo root)
+MIGRATION_SOURCE_DIRS = ("output_v3", "output_v2", "output_test")  # prefer first
+MIGRATION_OUTPUT_DIR = "output_v1_1"
+MIGRATION_REPORTS_DIR = "reports"
+
+# ── Vertex AI (Gemini) ───────────────────────────────────────────────────────
+VERTEX_PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT", "automatic-summer-16f3p").strip()
+VERTEX_LOCATION = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1").strip()
+VERTEX_GEMINI_MODEL = os.getenv(
+    "VERTEX_GEMINI_MODEL",
+    "publishers/google/models/gemini-2.5-pro",
+).strip()
+USE_VERTEX_AI = os.getenv("USE_VERTEX_AI", "1") == "1"
 
 # ── Non-cultural entity filters ──────────────────────────────────────────────
 NON_CULTURAL_ENTITY_TERMS: dict[str, set[str]] = {

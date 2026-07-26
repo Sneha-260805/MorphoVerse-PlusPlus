@@ -1,0 +1,61 @@
+{
+  "language": "Kashmiri",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_1152",
+      "language": "Kashmiri",
+      "cultural_region": "North India",
+      "poem_title": "Rinda Posh Maal",
+      "translated_title": "The Fair Maidens Blossom",
+      "poet": "Mahjoor",
+      "translator": "Trilok Kaul",
+      "original_poem": "رِندہ پوشھ مال، گِندہ پوشھ مال  \nریشی واریہ نیاؤ، سہز پوشھ مال  \nہری ساری نوَ باغ، برکھہ دیار نۄندہ چھوک گول  \nہندہ کوسہ پاں لاری، ما زرۄ گندہ پوشھ مال  \nرِندہ پوشھھ مال، گِندہ پوشھھ مال۔",
+      "translated_poem": "The fair maidens blossom, the garden blooms,  \nIn the vale of saints, spring has arrived.  \nEvery garden is green, flowers shower,  \nFragrance spreads from every path, oh dear,  \nThe fair maidens blossom, the garden blooms."
+    },
+    {
+      "poem_id": "MV++_1153",
+      "language": "Kashmiri",
+      "cultural_region": "North India",
+      "poem_title": "Ghazal",
+      "translated_title": "Ghazal",
+      "poet": "Dina Nath Nadim",
+      "translator": "Agha Shahid Ali",
+      "original_poem": "تٕو آدرِس پٲٹھ چھٕ کتھ پٲنچھ کھسےٚ وْٹھی؟  \nخانہ خرَبات سنی سیٚتھ چھیُ وچھیُ؟  \nزوٚنِم بَرٔ تہِ یوٚدُر بٲپتھ پٲٹھ وچھ وٚوٚدم  \nکٹھیُم غِبار سڑُ، پٲٹھ خرےٚ دریشہٚس کۄچھٲی؟",
+      "translated_poem": "I went looking for you—where did you vanish?  \nThe tavern was deserted—have you left it too?  \nI went from street to street in search of you,  \nAll I found was dust—where is the door to your house?"
+    },
+    {
+      "poem_id": "MV++_1154",
+      "language": "Kashmiri",
+      "cultural_region": "North India",
+      "poem_title": "Me Chhum Aash Paghich",
+      "translated_title": "I am Hopeful for Tomorrow",
+      "poet": "Ghulam Ahmad Mahjoor",
+      "translator": "Neerja Mattoo",
+      "original_poem": "مے چھُ امید پٲگٕچ  \nشٲم سہٕل چھس نوَ باغو کُن پٲزہری پٲگٕچ  \nزالُم یٲم گٲم دِلام خٲتِر۔  \nمے چھُ امید پٲگٕچ۔",
+      "translated_poem": "I am hopeful for tomorrow,  \nSpring will once again enter the new garden.  \nCruelty, stop now and have mercy on my heart.  \nI am hopeful for tomorrow."
+    },
+    {
+      "poem_id": "MV++_1155",
+      "language": "Kashmiri",
+      "cultural_region": "North India",
+      "poem_title": "Vuchhum Yaar Gachun",
+      "translated_title": "I Saw My Lover Leave",
+      "poet": "Abdul Ahad Azad",
+      "translator": "H. K. Kaul",
+      "original_poem": "وٛچھُم یار گچٕن  \nکھر منزٕ لُٹ ہند ہار گچٕن  \nبرکھہ تُتھ ؤچھ بوٚن منزٕ بیہٕس  \nوٛچھُم یار گچٕن۔",
+      "translated_poem": "I saw my lover leave,  \nLeaving behind the home adorned with pearls.  \nThe rain fell, and I sat under a tree,  \nI saw my lover leave."
+    },
+    {
+      "poem_id": "MV++_1156",
+      "language": "Kashmiri",
+      "cultural_region": "North India",
+      "poem_title": "Kashmir",
+      "translated_title": "Kashmir",
+      "poet": "Agha Shahid Ali",
+      "translator": "Self-Translated",
+      "original_poem": "کشمیر، کی چھٕ پوٚست آفِس  \nراتی گٕلٕوٚن گٕچھٕ؟  \nچھٕس یٲتٕھ ہند کھیسِت پٲٹھ  \nاور موسمٕ آوٚن چھٕنٕ۔\n\nمیہٕ ژٔند ہٕندٕ ٹُھریٚ  \nہر پتھر چھٕ یِک زٲندَک  \nہند گھرانی چھٕں ٹُرٕن دیٔندٕ  \nبچٕو چھٕں ہنوز وٛچھیٚن۔\n\nمٕنٕس کی زٲند زِندٕرٕ  \nجہاں خاموشی راستۂ سٕرۂِ  \nجہاں سورج سُنٛن نہ کرن  \nاور سایے بےخبر پھلٕن۔",
+      "translated_poem": "Kashmir, is there a post office,  \nFor letters arriving at dusk?  \nWe are waiting to be told the history of snow  \nAnd learn the names of seasons.\n\nMy world is in fragments,  \nEach shard reflects a life,  \nOf families torn by the wind,  \nOf children who still wait to be found.\n\nLet me speak to you of the valley,  \nWhere silence moves through the streets,  \nWhere the sun sets without a sound,  \nAnd shadows fall unnoticed."
+    }
+  ]
+}

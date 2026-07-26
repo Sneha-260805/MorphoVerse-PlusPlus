@@ -1,0 +1,61 @@
+{
+  "language": "Konkani",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_1164",
+      "language": "Konkani",
+      "cultural_region": "West India",
+      "poem_title": "Aamche Sukh Dilem",
+      "translated_title": "I Gave You Happiness",
+      "poet": "Mahabaleshwar Sail",
+      "translator": "J. A. M. Almeida",
+      "original_poem": "आमच्या सुख दिलं  \nतुला,  \nआमच्या प्रेमाचा  \nसंपूर्ण भरत  \nखूप सुख देऊन गेला.",
+      "translated_poem": "I gave you happiness,  \nWith all my love,  \nEnveloping you in  \nThe essence of my heart,  \nBringing you joy anew."
+    },
+    {
+      "poem_id": "MV++_1165",
+      "language": "Konkani",
+      "cultural_region": "West India",
+      "poem_title": "Mhojea Konnan",
+      "translated_title": "To My Beloved",
+      "poet": "N. S. Phadke",
+      "translator": "R. R. Kamat",
+      "original_poem": "माझ्या कोनन  \nतुला,  \nसंपूर्ण जगाचं  \nआसमान गाठून  \nमी प्रेम करतो.",
+      "translated_poem": "To my beloved,  \nI reach the skies,  \nOf the entire world,  \nWith love so vast,  \nI hold you close."
+    },
+    {
+      "poem_id": "MV++_1166",
+      "language": "Konkani",
+      "cultural_region": "West India",
+      "poem_title": "Bhatkar",
+      "translated_title": "The Bhatkar",
+      "poet": "J. D. Kamat",
+      "translator": "M. R. Kulkarni",
+      "original_poem": "भटकऱ  \nतू जसा,  \nसंपूर्ण जगात  \nसारं काही  \nगेलं भटकंतीत.",
+      "translated_poem": "The Bhatkar,  \nJust as you are,  \nWandering through  \nThe entire world,  \nEverything fades in the journey."
+    },
+    {
+      "poem_id": "MV++_1167",
+      "language": "Konkani",
+      "cultural_region": "West India",
+      "poem_title": "Zali Vhalan",
+      "translated_title": "The Lover Came",
+      "poet": "A. L. S. D'Souza",
+      "translator": "J. A. M. Almeida",
+      "original_poem": "झली व्हालं  \nतो आला,  \nसंपूर्ण आकाशाचं  \nगौरव करून  \nतुला प्रिय करतो.",
+      "translated_poem": "The lover came,  \nHonoring the entire sky,  \nI cherish you,  \nIn every whisper,  \nWith love so profound."
+    },
+    {
+      "poem_id": "MV++_1169",
+      "language": "Konkani",
+      "cultural_region": "West India",
+      "poem_title": "Dev Boren",
+      "translated_title": "God Will Save Us",
+      "poet": "K. M. H. D'Souza",
+      "translator": "J. A. M. Almeida",
+      "original_poem": "देव बोरें  \nआम्हां  \nजिवंत ठेवील,  \nसंपूर्ण आकाशात  \nउगवलेली आशा.",
+      "translated_poem": "God will save us,  \nKeeping us alive,  \nIn the vast sky,  \nHope rises anew,  \nFilling our hearts."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "language": "Telugu",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_1429",
+      "language": "Telugu",
+      "cultural_region": "South India",
+      "poem_title": "Mallepuvvu",
+      "translated_title": "Jasmine",
+      "poet": "Sri Sri",
+      "translator": "A. N. Murthy",
+      "original_poem": "మల్లెపువ్వు పూదోటలో\nఅందంగాను ఉంది, వాసనగాను ఉంది\nనిండు చిమ్ముల బువ్వల ముంగిట\nచూపుల నరచి పూదోటలో ఉంది",
+      "translated_poem": "The jasmine blooms in the garden,\nBeautiful it stands, fragrant it lies,\nAmong the full blossoms, where the dew\nSways gently, it blooms in the garden."
+    },
+    {
+      "poem_id": "MV++_1431",
+      "language": "Telugu",
+      "cultural_region": "South India",
+      "poem_title": "Aakasam",
+      "translated_title": "The Sky",
+      "poet": "Vemana",
+      "translator": "J. N. Seshagiri Rao",
+      "original_poem": "ఆకాశం అందం, ఆకాశం అంతం,\nనీకెదురుగా, ఓ దేవుడు నా వంతు\nచూస్తున్న నీ నక్షత్రాలు, ఓ ప్రియతమా\nనీవు నాకన్నా మధురమా మాధవా.",
+      "translated_poem": "The sky is beautiful, the sky is vast,\nBefore you, O God, I stand,\nThe stars watching, dear beloved,\nAre sweeter than you, O Madhava."
+    },
+    {
+      "poem_id": "MV++_1433",
+      "language": "Telugu",
+      "cultural_region": "South India",
+      "poem_title": "Vasanta Rutu",
+      "translated_title": "The Season of Spring",
+      "poet": "Viswanatha Satyanarayana",
+      "translator": "N. S. Raghunath",
+      "original_poem": "వసంత ఋతువు వచ్చె,\nముగ్గురిపిల్లల నడుమ\nమల్లెలు విరియ వేలు వెళ్ళియ, \nవెన్నెలవెలుగు జారె,\nరెండు కళ్లు వెన్నెలవెలుగునొలకలె\nనింగి నిలుపును తాకి, \nపచ్చని అడవి సవాలు వేస్తే.",
+      "translated_poem": "The season of spring arrives,\nAmong three playful children\nThe jasmine blooms and the breeze sways, \nThe moonlight spreads softly,\nTwo eyes glow with the light of the moon,\nReaching to touch the sky, \nThe green forest throws a challenge."
+    },
+    {
+      "poem_id": "MV++_1434",
+      "language": "Telugu",
+      "cultural_region": "South India",
+      "poem_title": "Anumantha Vamsam",
+      "translated_title": "The Ancestral Line",
+      "poet": "Y. K. Suryanarayana",
+      "translator": "K. S. V. Raghavendra Rao",
+      "original_poem": "అనుమంత వంశం దారి తీస్తున్నది, \nఅంతులేని శక్తి, పితామహుల నుండి. \nసముద్రాన్ని చీల్చి వెళ్ళిన\nవీరుల వేర్లు ఈ నేలలో గాఢం,\nఅదిగో వాటి చిహ్నాలు.",
+      "translated_poem": "The ancestral line leads the way, \nUnfathomable strength, passed down from forefathers. \nRoots of heroes who crossed the ocean, \nDeeply embedded in this soil, \nThere lie their marks."
+    },
+    {
+      "poem_id": "MV++_1440",
+      "language": "Telugu",
+      "cultural_region": "South India",
+      "poem_title": "Oh neeli Chandamama",
+      "translated_title": "O blue moon..",
+      "poet": "Tejaswini Naidu",
+      "translator": null,
+      "original_poem": "చల్లగా వీచే గాలి, ఒక్కసారిగా నన్ను తాకి చెప్పింది\n\nనేనెందుకు వచ్చానో తెలుసా, ఐతే నా దారి వైపు గా చూడు యని\n\nతిరిగి చూసిన ఆ క్షణం, ఏ జీవితానికి అదే మధుర క్షణం\n\nకను రెప్పలకే మాటలు వస్తే , ఛెబుతాయేమో నా కళ్ళను కమ్మిన మెరుపు నువ్వే అని\n\nమనసుని చల్లగా కదిలి౦చి, తట్టి మరీ లేపి.. అ౦తలోనే మాయమై పోయావు\n\nఓ నీలి చ౦ద్రమా … ఇది నీ మాయే సుమా..!!",
+      "translated_poem": "A cold wind suddenly hit me\n\nYou know why I came, but look my way\n\nThat moment in retrospect is the sweetest moment of any life.                                                                                                                                                If the words come to my eyelids, I will say that you are the lightning that has bitten my eyes.\n\nYou shook the mind coldly, knocked and woke up... you disappeared in the end\n\nO blue moon... this is your Maye Suma..!!"
+    }
+  ]
+}

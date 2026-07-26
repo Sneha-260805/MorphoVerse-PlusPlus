@@ -1,4 +1,5 @@
 requests>=2.31
+google-genai>=1.0.0
 # Optional (only if USE_SEMANTIC_ALIGNMENT=1 for semantic stanza alignment):
 # torch
 # transformers

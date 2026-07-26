@@ -1,0 +1,17 @@
+{
+  "language": "Gujarati",
+  "poem_count": 1,
+  "poems": [
+    {
+      "poem_id": "MV++_0055",
+      "language": "Gujarati",
+      "cultural_region": "West India",
+      "poem_title": "Mara Pranad",
+      "translated_title": "My Life",
+      "poet": "Narmadashankar Dave",
+      "translator": "Harish K. Khatri",
+      "original_poem": "मारा प्राणाद\nमारा प्राणाद, सदा संग छे,\nजीवन ना हर एक रंग छे।\nआँखो मा सपना, दिल मा उमंग,\nजीवन ना हर एक रंग छे।",
+      "translated_poem": "My Life\nMy life, always with me,\nEvery color of life.\nIn my eyes, dreams, in my heart, enthusiasm,\nEvery color of life."
+    }
+  ]
+}

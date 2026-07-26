@@ -1,0 +1,61 @@
+{
+  "language": "Odia",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_1199",
+      "language": "Odia",
+      "cultural_region": "East India",
+      "poem_title": "Bande Utkala Janani",
+      "translated_title": "Salute to Utkala Mother",
+      "poet": "Bansidhar Mohapatra",
+      "translator": "Pratibha Ray",
+      "original_poem": "ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ  \nମାଟି ଭାରସା  \nସୂର୍ଯ୍ୟ ଚନ୍ଦ୍ର ଦେଖି  \nମୁ ନାଚିବା ପାଇଁ  \nତୁମର ଗର୍ବ ଉଠାଉଛି।",
+      "translated_poem": "Salute to Utkala Mother,  \nThe earth is heavy,  \nSeeing the sun and moon,  \nI am here to dance,  \nYour pride rises within me."
+    },
+    {
+      "poem_id": "MV++_1200",
+      "language": "Odia",
+      "cultural_region": "East India",
+      "poem_title": "Dali Jhia",
+      "translated_title": "The Flower Girl",
+      "poet": "Pratibha Ray",
+      "translator": "Jayanta Mohapatra",
+      "original_poem": "ଡାଳୀ ଝିଆ  \nସୂର୍ଯ୍ୟ ତଳେ ମୋର  \nମୁହୂର୍ତ୍ତ ଆସେ,  \nପ୍ରକୃତିର ଗାନ,  \nଫୁଲର ଝିଙ୍କାର,  \nବେସ୍ବାସ୍ତେ ପାଉଛି।",
+      "translated_poem": "The flower girl,  \nUnder the sun,  \nMoments come,  \nThe song of nature,  \nThe whisper of flowers,  \nI embrace the beauty."
+    },
+    {
+      "poem_id": "MV++_1201",
+      "language": "Odia",
+      "cultural_region": "East India",
+      "poem_title": "Kalinga Gatha",
+      "translated_title": "The Tale of Kalinga",
+      "poet": "K. S. Das",
+      "translator": "Sitaram Mohapatra",
+      "original_poem": "କଳିଙ୍ଗ ଗାଥା  \nଏଠାରେ ଅନୁକ୍ରମ  \nସଂସାରର ସତ୍ୟର ସାକ୍ଷାତ୍କାର,  \nଘରରେ ମୁକୁରା ଏବଂ  \nକୃଷ୍ଣଙ୍କ ସଙ୍ଗରେ।  \nଗହର ଶବ୍ଦ ଓ ଶତକୋଟି ନର ତଥା  \nମାତୃକା ହୃଦୟର ରମ୍ୟା।",
+      "translated_poem": "The tale of Kalinga,  \nHere unfolds a sequence,  \nThe realization of truth in the world,  \nIn the home with the mirror,  \nAnd with Krishna.  \nThe sound of the depths and the countless men,  \nThe beauty of a mother’s heart."
+    },
+    {
+      "poem_id": "MV++_1202",
+      "language": "Odia",
+      "cultural_region": "East India",
+      "poem_title": "Bhagavad Gita",
+      "translated_title": "The Bhagavad Gita",
+      "poet": "Jayadeva",
+      "translator": "R. N. Das",
+      "original_poem": "भगवद्गीता  \nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।  \nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
+      "translated_poem": "The Bhagavad Gita  \nIn the field of righteousness, in Kurukshetra, gathered to battle,  \nMy sons and the sons of Pandu, what did they do, O Sanjaya?"
+    },
+    {
+      "poem_id": "MV++_1204",
+      "language": "Odia",
+      "cultural_region": "East India",
+      "poem_title": "Samudra",
+      "translated_title": "The Ocean",
+      "poet": "Manoj Das",
+      "translator": "Harishankar Parsai",
+      "original_poem": "ସମୁଦ୍ର  \nମୋତେ ଦେଖିଲା ଆମ ଦେଶ  \nସମୁଦ୍ର ସାମ୍ରାଜ୍ୟରେ।  \nତା’ର କ୍ଷୁଦ୍ରତା ନେଇ କିଛି  \nଉଚ୍ଚା ଶିରୋଭାଗରେ।",
+      "translated_poem": "The Ocean  \nI saw my land,  \nIn the empire of the ocean.  \nTaking its smallness,  \nHigh upon the head."
+    }
+  ]
+}

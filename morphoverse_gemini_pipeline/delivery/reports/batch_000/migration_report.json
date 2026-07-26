@@ -1,0 +1,51 @@
+{
+  "batch": "batch_000",
+  "poem_count": 5,
+  "rows": [
+    {
+      "poem_id": "MV++_0001",
+      "language": "Assamese",
+      "action": "backfill",
+      "reasons": "v1_1_field_backfill",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Assamese\\MV++_0001.json"
+    },
+    {
+      "poem_id": "MV++_0003",
+      "language": "Assamese",
+      "action": "backfill",
+      "reasons": "v1_1_field_backfill",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Assamese\\MV++_0003.json"
+    },
+    {
+      "poem_id": "MV++_0004",
+      "language": "Assamese",
+      "action": "human_review",
+      "reasons": "low_confidence;existing_review_items;dropped_terms;v1_1_field_backfill_with_review",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Assamese\\MV++_0004.json"
+    },
+    {
+      "poem_id": "MV++_0006",
+      "language": "Assamese",
+      "action": "human_review",
+      "reasons": "low_confidence;existing_review_items;dropped_terms;v1_1_field_backfill_with_review",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Assamese\\MV++_0006.json"
+    },
+    {
+      "poem_id": "MV++_0007",
+      "language": "Assamese",
+      "action": "backfill",
+      "reasons": "v1_1_field_backfill",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Assamese\\MV++_0007.json"
+    }
+  ]
+}

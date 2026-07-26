@@ -1,0 +1,40 @@
+{
+  "batch": "batch_001",
+  "rows": [
+    {
+      "poem_id": "MV++_0008",
+      "entities": 0,
+      "metaphors": 3,
+      "vertex_calls": 0,
+      "vertex_errors": []
+    },
+    {
+      "poem_id": "MV++_0009",
+      "entities": 6,
+      "metaphors": 12,
+      "vertex_calls": 0,
+      "vertex_errors": []
+    },
+    {
+      "poem_id": "MV++_0010",
+      "entities": 6,
+      "metaphors": 9,
+      "vertex_calls": 0,
+      "vertex_errors": []
+    },
+    {
+      "poem_id": "MV++_0011",
+      "entities": 10,
+      "metaphors": 10,
+      "vertex_calls": 0,
+      "vertex_errors": []
+    },
+    {
+      "poem_id": "MV++_0013",
+      "entities": 6,
+      "metaphors": 7,
+      "vertex_calls": 0,
+      "vertex_errors": []
+    }
+  ]
+}

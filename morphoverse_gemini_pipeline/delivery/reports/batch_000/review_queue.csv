@@ -1,0 +1,4 @@
+poem_id,field_path,severity,resolved_value,model_value,note
+MV++_0004,annotation.stanzas[1].metaphor_spans,low,dropped,তোমাৰ স্রোত / হৃদয়ৰ গভীৰতাত বয়,metaphor_source_term_not_in_source
+MV++_0004,annotation.stanzas[1].metaphor_spans,low,dropped,মোৰ চিন্তাৰ সঙ্গীতত / বহা তোমাৰ গতি,metaphor_source_term_not_in_source
+MV++_0006,annotation.stanzas[1].metaphor_spans,low,dropped,জীৱন তুমি এক বুৰঞ্জী,metaphor_source_term_not_in_source

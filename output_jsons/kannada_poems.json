@@ -1,0 +1,61 @@
+{
+  "language": "Kannada",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_0906",
+      "language": "Kannada",
+      "cultural_region": "South India",
+      "poem_title": "Adaviyu",
+      "translated_title": "The Forest",
+      "poet": "B. N. Srikrishna",
+      "translator": "V. K. Gokak",
+      "original_poem": "ಅಡವಿಯು\nಅದರ ಅಡಗಿದ ಬದುಕಿನಲ್ಲಿ\nಅಂತೆಯೇ ಕಂಡ ಆಕಾಶ\nಬೇಲಿ ಹಾಕಿದ ಚಿತ್ರ, \nಅರಳಿದ ಪಲ್ಲಟ, \nಮಲ್ಲಿಗೆ ಸುತ್ತಿ ತೇಲಿದ\nಅಂದಾದರೇನು ಇಲ್ಲ.\nನಿತ್ಯವೇ ಬದಲಾಗುವುದು,\nಅದರ ದಾರಿಯೆಲ್ಲವೂ;\nಬೇಲಿ ಹಾಕಿದ ಚಿತ್ರವನ್ನು\nಬೇಲಿ ಹಾಕಿದ ಮಗ\nಮರಿಯೇ ಅಲ್ಲ\nಅಂದ ಹಾಗೆ ಹೆಣೆಯಲಾಗಿದೆ.",
+      "translated_poem": "The forest\nIn its hidden life,\nThe sky appears as it is,\nA picture enclosed, \nA flutter of the branches, \nSurrounded by jasmine\nWhat is there to speak of.\nEverything will change,\nAll its paths;\nThe picture enclosed\nIs enclosed by a child\nNot even a tree\nIs drawn that way."
+    },
+    {
+      "poem_id": "MV++_0974",
+      "language": "Kannada",
+      "cultural_region": "South India",
+      "poem_title": "Kaveri",
+      "translated_title": "The River Kaveri",
+      "poet": "K. S. Narasimhaswamy",
+      "translator": null,
+      "original_poem": "ಕಾವೇರಿ, ನೀರಿನ ಕಾವೇರಿ,  \nನಿನ್ನ ಕನಸು, ನಿನ್ನ ಹರಿವಿನ ಸಂಗತಿ,  \nನಿನ್ನ ನೆನೆಪಿನಲ್ಲಿ ಸಾಗುವ,  \nಜೀವನದ ಹರಿದು ಹೋಗುವ ಹಕ್ಕಿ.",
+      "translated_poem": "Kaveri, the river of water,  \nYour dreams, the tale of your flow,  \nMoving in your memory,  \nA bird that drifts through life."
+    },
+    {
+      "poem_id": "MV++_0982",
+      "language": "Kannada",
+      "cultural_region": "South India",
+      "poem_title": "Ganga",
+      "translated_title": "Ganges",
+      "poet": "R. S. Mugali",
+      "translator": null,
+      "original_poem": "ಗಂಗಾ, ನಿನ್ನ ನದಿಯ ಹರಿವಿನಲ್ಲಿ,  \nಭೂಮಿಯ ಮಡಿಯಲ್ಲಿ,  \nಪಾಲು ಬೀರಿದ ಅನುಭವ,  \nಆನಂದದ ಉಕ್ಕಿ ಹರಿಯುತ್ತದೆ.",
+      "translated_poem": "Ganges, in the flow of your river,  \nIn the folds of the earth,  \nAn experience that nurtures,  \nJoy flows abundantly."
+    },
+    {
+      "poem_id": "MV++_0989",
+      "language": "Kannada",
+      "cultural_region": "South India",
+      "poem_title": "Aakasha Deepa",
+      "translated_title": "The Sky Lamp",
+      "poet": "Da Ra Bendre",
+      "translator": "N. S. Lakshminarayana Bhatta",
+      "original_poem": "ಆಕಾಶದ ದೀಪವು ಹೊತ್ತಿಹುದು,  \nಬೀಳದಿರಲಿ ತಂಗಾಳಿ,  \nಅದ್ವಿತೀಯವು ಬೆಳಗಲಿ,  \nಅದಕೆ ನೆರಳಿಲ್ಲದಿರಲಿ.",
+      "translated_poem": "The lamp in the sky is lit,  \nLet the breeze not extinguish it,  \nMay it shine unmatched,  \nMay it have no shadow."
+    },
+    {
+      "poem_id": "MV++_1042",
+      "language": "Kannada",
+      "cultural_region": "South India",
+      "poem_title": "Prithvi Ki Santaan",
+      "translated_title": "Children of the Earth",
+      "poet": "Mahadevi Varma",
+      "translator": "David Rubin",
+      "original_poem": "हम पृथ्वी की संतान हैं,  \nइसकी मिट्टी में जीवन की गाथा है।  \nयह हमें अन्न, जल, और आकाश देती है,  \nहर मौसम में हमें नवजीवन देती है।  \n\nपर्वत, वन, और नदियों का संगीत,  \nहमारी नसों में बहता है।  \nइसकी छाया में हमने स्वप्न संजोए हैं,  \nइसकी गोद में हर दर्द भुलाए हैं।  \n\nओ मातृभूमि, तुझसे हमें शक्ति मिलती है,  \nतेरी सेवा में हमारा जीवन खपता है।  \nतेरी संतानों के रूप में गर्व से जीते हैं,  \nहम पृथ्वी की संतान हैं, अमर बनते हैं।",
+      "translated_poem": "We are the children of the earth,  \nIn its soil lies the story of birth.  \nIt gives us food, water, and sky,  \nIn every season, new life springs high.\n\nThe music of mountains, forests, and streams  \nFlows through our veins, like ancient dreams.  \nIn its shadow, our dreams were spun,  \nIn its embrace, every pain undone.\n\nO Motherland, you give us might,  \nIn your service, our lives ignite.  \nWe live with pride as your kin,  \nChildren of the earth, forever akin."
+    }
+  ]
+}

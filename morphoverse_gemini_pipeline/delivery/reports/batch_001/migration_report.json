@@ -1,0 +1,51 @@
+{
+  "batch": "batch_001",
+  "poem_count": 5,
+  "rows": [
+    {
+      "poem_id": "MV++_0008",
+      "language": "Bengali",
+      "action": "human_review",
+      "reasons": "low_confidence;v1_1_field_backfill_with_review",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Bengali\\MV++_0008.json"
+    },
+    {
+      "poem_id": "MV++_0009",
+      "language": "Bengali",
+      "action": "backfill",
+      "reasons": "v1_1_field_backfill",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Bengali\\MV++_0009.json"
+    },
+    {
+      "poem_id": "MV++_0010",
+      "language": "Bengali",
+      "action": "backfill",
+      "reasons": "v1_1_field_backfill",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Bengali\\MV++_0010.json"
+    },
+    {
+      "poem_id": "MV++_0011",
+      "language": "Bengali",
+      "action": "backfill",
+      "reasons": "v1_1_field_backfill",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Bengali\\MV++_0011.json"
+    },
+    {
+      "poem_id": "MV++_0013",
+      "language": "Bengali",
+      "action": "human_review",
+      "reasons": "low_confidence;v1_1_field_backfill_with_review",
+      "source_found": true,
+      "source_dir": "output_v3",
+      "output_path": "output_v1_1\\Bengali\\MV++_0013.json"
+    }
+  ]
+}

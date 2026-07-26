@@ -1,0 +1,6 @@
+poem_id,language,action,reasons,source_found,source_dir,output_path
+MV++_0008,Bengali,human_review,low_confidence;v1_1_field_backfill_with_review,True,output_v3,output_v1_1\Bengali\MV++_0008.json
+MV++_0009,Bengali,backfill,v1_1_field_backfill,True,output_v3,output_v1_1\Bengali\MV++_0009.json
+MV++_0010,Bengali,backfill,v1_1_field_backfill,True,output_v3,output_v1_1\Bengali\MV++_0010.json
+MV++_0011,Bengali,backfill,v1_1_field_backfill,True,output_v3,output_v1_1\Bengali\MV++_0011.json
+MV++_0013,Bengali,human_review,low_confidence;v1_1_field_backfill_with_review,True,output_v3,output_v1_1\Bengali\MV++_0013.json

@@ -1,0 +1,61 @@
+{
+  "language": "Rajasthani",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_1228",
+      "language": "Rajasthani",
+      "cultural_region": "North India",
+      "poem_title": "Mhari Ghoomar",
+      "translated_title": "My Ghoomar Dance",
+      "poet": "Ramdevji",
+      "translator": "S. B. Shishodia",
+      "original_poem": "म्हारी घूमर, धरती रे रंग री छांव।\nपगला रास रौ झूमत, हिवड़े रो गीत गाव।",
+      "translated_poem": "My Ghoomar, the shade of the earth's colors,  \nDancing in a swirling rhythm, singing a song of the heart."
+    },
+    {
+      "poem_id": "MV++_1230",
+      "language": "Rajasthani",
+      "cultural_region": "North India",
+      "poem_title": "Thar Ri Gathri",
+      "translated_title": "The Bundle of Thar",
+      "poet": "Surajmal Purohit",
+      "translator": "Raghvendra Singh",
+      "original_poem": "थार री गाठरी में सपनां सांचो,\nपधारो म्हारे देश में, मिट्टी में बांचो।",
+      "translated_poem": "In the bundle of Thar, dreams come true,  \nCome to my land, live in the soil’s hue."
+    },
+    {
+      "poem_id": "MV++_1231",
+      "language": "Rajasthani",
+      "cultural_region": "North India",
+      "poem_title": "Rangila Rajasthan",
+      "translated_title": "Colorful Rajasthan",
+      "poet": "Mohan Singh Nirmal",
+      "translator": "Raghvendra Singh",
+      "original_poem": "रंगीलो राजस्थान, रंगीलो रे थार।\nपधारो म्हारे देश, खुशीयां सांचो बारां।",
+      "translated_poem": "Colorful Rajasthan, the colorful Thar.  \nCome to my land, happiness here is never far."
+    },
+    {
+      "poem_id": "MV++_1233",
+      "language": "Rajasthani",
+      "cultural_region": "North India",
+      "poem_title": "Padharo Mhare Desh",
+      "translated_title": "Welcome to My Land",
+      "poet": "Sain Raghunath",
+      "translator": "Dr. Shyam Sundar",
+      "original_poem": "पधारो म्हारे देश,  \nसपनों में रंग भर्यो म्हारो देस।  \nगांवां री गलियां, सुहावणी भूमि,  \nसुरज रा सोने ज्यूं उजेला देस।",
+      "translated_poem": "Welcome to my land,  \nWhere dreams are painted in hues so grand.  \nThe village lanes, the land so sweet,  \nLike the sun’s golden glow, my land’s heartbeat."
+    },
+    {
+      "poem_id": "MV++_1234",
+      "language": "Rajasthani",
+      "cultural_region": "North India",
+      "poem_title": "Kesariya Balam",
+      "translated_title": "Beloved in Saffron",
+      "poet": "Traditional Rajasthani Folk",
+      "translator": "Padmaja Sharma",
+      "original_poem": "केसरिया बालम, पधारो म्हारे देश,  \nमरुधरा री धरती पर, प्रेम रा फेरो।  \nप्यार री पावन बण, रेती री माटी,  \nबांध्यो म्हारी कलाई पर सुहाग री रेगो।",
+      "translated_poem": "Beloved in saffron, come to my land,  \nTo Marudhara's soil, where love makes its stand.  \nA holy bond in sands of gold,  \nA bracelet of love, forever we hold."
+    }
+  ]
+}

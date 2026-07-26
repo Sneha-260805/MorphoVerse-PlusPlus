@@ -1,0 +1,61 @@
+{
+  "language": "Hindi",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_0056",
+      "language": "Hindi",
+      "cultural_region": "North India",
+      "poem_title": "Sri Ramayana",
+      "translated_title": "The Ramayana",
+      "poet": "Tulsidas",
+      "translator": "N. T. Ramachandra Rao",
+      "original_poem": "श्री रामचंद्र कृपालु भजु मन हरण भव भय दारुणं।\nनव कंज लोचन कंज मुख कर कंज पद कंजारुणं॥\n\nकन्दर्प अगणित अमित छवि नव नील नीरद सुन्दरं।\nपट पीत मानहु तडित रूचि शुचि नौमि जनक सुतावरं॥",
+      "translated_poem": "O mind, sing the praises of compassionate Lord Ram, \nThe one who dispels the terrible fear of worldly existence.\nHis eyes, face, hands, and feet resemble fresh lotuses, \nAnd His beauty surpasses countless Cupids.\n\nHe is as charming as a newly formed dark cloud, \nClothed in yellow, like the lightning streak of purity,\nI bow to Him, the noble son-in-law of King Janaka."
+    },
+    {
+      "poem_id": "MV++_0059",
+      "language": "Hindi",
+      "cultural_region": "North India",
+      "poem_title": "Chitthi Aayi Hai",
+      "translated_title": "A Letter Has Arrived",
+      "poet": "Gulzar",
+      "translator": "Keki N. Daruwalla",
+      "original_poem": "चिट्ठी आई है  \nवतन से चिट्ठी आई है  \nबड़े दिनों के बाद  \nहम बेवतन को याद  \nवतन की मिट्टी आई है  \n\nआंखों में पानी लेकर  \nहमने चिट्ठी खोली  \nअपनी छत पर बैठा  \nचांद हमने देखा  \nचिट्ठी आई है  \nवतन से चिट्ठी आई है",
+      "translated_poem": "A letter has arrived  \nA letter from home has arrived  \nAfter many days  \nWe, the exiled, remember  \nThe soil of our homeland has come  \n\nWith tears in our eyes  \nWe opened the letter  \nFrom our rooftop  \nWe saw the moon  \nA letter has arrived  \nA letter from home has arrived"
+    },
+    {
+      "poem_id": "MV++_0061",
+      "language": "Hindi",
+      "cultural_region": "North India",
+      "poem_title": "Agnibeena",
+      "translated_title": "The Lute of Fire",
+      "poet": "Ramdhari Singh Dinkar",
+      "translator": "Anil Sehgal",
+      "original_poem": "वीणा वादिनी, वर दे!  \nप्रिय स्वतंत्र-रवी, वर दे!\nउज्ज्वल गगन का छोर, चीर  \nअग्नि-बाण सा सब ओर वीर  \nविकट प्रलय का कर नाद,  \nखोल दे अब मृतिका के जाल।\n\nधधकता रहे, यह ह्रदय  \nप्रज्वलित प्राणों में, फिर से  \nगाए यह जीवन वीणा,  \nप्रलय में भी अमर हो जाना।",
+      "translated_poem": "O Lute of Fire, grant us your boon!  \nBless us, dear light of freedom's noon!  \nPierce the radiant sky, like flame,  \nA hero’s call, fearless in name,  \nRoar with a fury, with thunder’s might,  \nBreak the chains of death’s endless night.\n\nLet this heart burn, with passion aglow,  \nAnd through all lives, let courage grow,  \nLet the lute of life sing on,  \nEven through the storm, let it live on."
+    },
+    {
+      "poem_id": "MV++_0073",
+      "language": "Hindi",
+      "cultural_region": "North India",
+      "poem_title": "Ek Chadar Maili Si",
+      "translated_title": "A Dirty Blanket",
+      "poet": "Rajendra Singh Bedi",
+      "translator": null,
+      "original_poem": "एक चादर मैली सी\nकोई खड़ी है बगिया में\nबगिया में फूलों से भरी\nबगिया में खुशबू है\nपर चादर की धारियां\nकुचली कुचली सी हैं।\n\nचादर में है धूल\nबगिया की हसीन सुबह में\nसूरज की किरणों में\nचादर की सिलाई को\nवो सब देख रही है।\n\nउसके हाथ में छड़ी\nआँखों में आंसू\nदिमाग में ख्याल\nफूलों की पंखुड़ियों पर\nचादर का साम्राज्य है।\n\nएक चादर मैली सी\nधुंधला सा चेहरा लिए\nहाथ में खुशबू की साड़ी लिए\nहंसने की ख्वाहिश लिए\nसोने की ख्वाहिश लिए।\n\nबगिया की खुशबू में\nधुंधला सा चेहरा है\nचादर की पहचान है\nवो तो एक कहानी है।",
+      "translated_poem": "A dirty blanket\nstands in the garden,\nthe garden filled with flowers,\nthe garden full of fragrance,\nbut the stripes of the blanket\nare crumpled and crushed.\n\nThe blanket is dusty\nin the beautiful morning of the garden,\nin the rays of the sun,\nthe seams of the blanket\nare being watched by all.\n\nIn her hand is a stick,\ntears in her eyes,\nthoughts in her mind,\non the petals of the flowers,\nlies the empire of the blanket.\n\nA dirty blanket\nwith a blurred face,\nholding a fragrant sari\nwith a wish to laugh,\nwith a desire to shine.\n\nIn the fragrance of the garden,\nthere is a blurred face,\nthe blanket has an identity,\nit tells a story."
+    },
+    {
+      "poem_id": "MV++_0084",
+      "language": "Hindi",
+      "cultural_region": "North India",
+      "poem_title": "Sitaron Se Aage Jahan",
+      "translated_title": "A World Beyond the Stars",
+      "poet": "Suryakant Tripathi 'Nirala'",
+      "translator": null,
+      "original_poem": "सितारों से आगे जहाँ और भी हैं,  \nअब तक तेरा ही नाम लूँ,  \nइस राह के हर मोड़ पर,  \nतेरे ही ख़्वाब सजाऊं।  \n\nजिन्हें ख़ुदा ने हमें दिया है,  \nउनसे बड़ा एक और जहाँ है,  \nजहाँ जा कर सजे हैं सपने,  \nअसीमित हो ये आसमान।",
+      "translated_poem": "A world beyond the stars exists,  \nYet, I still call out your name,  \nAt every bend of this path,  \nI weave your dreams anew.  \n\nWhat God has bestowed upon us,  \nIs but a glimpse of another realm,  \nWhere dreams are adorned,  \nIn an infinite sky's embrace."
+    }
+  ]
+}

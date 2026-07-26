@@ -1,0 +1,61 @@
+{
+  "language": "Assamese",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_0001",
+      "language": "Assamese",
+      "cultural_region": "East India",
+      "poem_title": "O Mur Apunar Desh",
+      "translated_title": "O My Native Land",
+      "poet": "Lakshminath Bezbarua",
+      "translator": "Prasanta Kumar Dutta",
+      "original_poem": "ও মুর আপোনাৰ দেশ\nও মুর আপোনাৰ দেশ,\nতাত শান্তি আৰু স্নেহ।\nমোৰ হৃদয়ৰ গহীনত\nমোৰ পুৰণি সপোন।",
+      "translated_poem": "O My Native Land\nO my native land,\nThere is peace and love there.\nIn the depths of my heart,\nLie my old dreams."
+    },
+    {
+      "poem_id": "MV++_0003",
+      "language": "Assamese",
+      "cultural_region": "East India",
+      "poem_title": "Nadi",
+      "translated_title": "The River",
+      "poet": "Bhupen Hazarika",
+      "translator": "Various",
+      "original_poem": "নদী\nনদী, তুঁতৰ বাণী বহে\nপ্ৰবাহিত শান্তিৰ বাটে,\nমোৰ বুকুত তোমাৰ সুৰ\nসাজে যুগে যুগে।",
+      "translated_poem": "The River\nO River, your voice flows\nAlong the path of peace,\nIn my heart, your melody\nPlays through the ages."
+    },
+    {
+      "poem_id": "MV++_0004",
+      "language": "Assamese",
+      "cultural_region": "East India",
+      "poem_title": "Brahmaputra",
+      "translated_title": "The Brahmaputra",
+      "poet": "Hiren Bhattacharya",
+      "translator": "Paulami Ghosh",
+      "original_poem": "ব্ৰহ্মপুত্ৰ\nব্ৰহ্মপুত্ৰ, তোমাৰ স্রোত\nহৃদয়ৰ গভীৰতাত বয়,\nমোৰ চিন্তাৰ সঙ্গীতত\nবহা তোমাৰ গতি।",
+      "translated_poem": "The Brahmaputra\nO Brahmaputra, your flow\nMoves in the depths of the heart,\nIn the melody of my thoughts\nFlows your rhythm."
+    },
+    {
+      "poem_id": "MV++_0006",
+      "language": "Assamese",
+      "cultural_region": "East India",
+      "poem_title": "Jibon",
+      "translated_title": "Life",
+      "poet": "Sananta Tanty",
+      "translator": "S. R. Das",
+      "original_poem": "জীৱন\nজীৱন, তুমি এক বুৰঞ্জী\nঅতি বেয়া মেঘৰ মাজত,\nসপোনৰ মৰমত দিয়া\nহৃদয়ৰ চেনেহৰ বাঁহী।",
+      "translated_poem": "Life\nLife, you are a history\nAmidst the darkest clouds,\nGifted in the love of dreams,\nThe flute of the heart's affection."
+    },
+    {
+      "poem_id": "MV++_0007",
+      "language": "Assamese",
+      "cultural_region": "East India",
+      "poem_title": "Pratima",
+      "translated_title": "The Idol",
+      "poet": "Sahityarathi Bhattacharya",
+      "translator": "Anindita Bhattacharjee",
+      "original_poem": "প্রতিমা\nপ্রতিমা, তুমি এক নিবেদনে\nস্নেহৰ পবনে আহা,\nমোৰ মনৰ প্ৰতিধ্বনি,\nআকাশত বেজে ওঠা।",
+      "translated_poem": "The Idol\nIdol, you come in a dedication\nWith the breeze of affection,\nThe echo of my heart,\nResounding in the sky."
+    }
+  ]
+}

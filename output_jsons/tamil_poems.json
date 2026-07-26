@@ -1,0 +1,61 @@
+{
+  "language": "Tamil",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_1253",
+      "language": "Tamil",
+      "cultural_region": "South India",
+      "poem_title": "Chinnanjiru Kiliye",
+      "translated_title": "My Little Bird",
+      "poet": "Bharathiar",
+      "translator": "Usha Rajagopalan",
+      "original_poem": "சின்னஞ்சிறு கிளியே கண்ணம்மா செந்தென்னை அழகே!\nஎன்னையே கொஞ்சம் பாரு கண்ணம்மா எங்குச் சென்றாய்?\n\nபாடல் விரும்பு வான்சுடர் பெண்ணே செந்தென்னை அழகே!\nபாரதியின் உள்ளத்தில் நிறைந்தே பொங்குதடி மகிழ்ச்சி!\n\nதாயே பிறந்த நாளின் பெருமை உள்ளம் இனிது கண்ணம்மா!",
+      "translated_poem": "My little bird, O Kannamma, beauty like crimson oil!\nJust look at me for a while, Kannamma, where have you gone?\n\nLover of songs, bright as the stars, crimson beauty like oil!\nIn Bharati’s heart, you’ve filled it with overflowing joy!\n\nMother, born on a day of greatness, my heart is sweet with Kannamma!"
+    },
+    {
+      "poem_id": "MV++_1254",
+      "language": "Tamil",
+      "cultural_region": "South India",
+      "poem_title": "Kanne Kalaimaane",
+      "translated_title": "O Beautiful Eyed Girl",
+      "poet": "Kannadasan",
+      "translator": "Shankar Ayyar",
+      "original_poem": "கண்ணே களிமணே, கன்னியே, \nபொண்ணே பொன்னாதக் குழந்தை,\nபாலகமுது சுகம் தரும் மதி மாலையே,\nபறவைகளின் குரல் சொல்லும் மதியம்\nஅன்றென்று நினைவினில் அழுதிருக்கிறேன்.",
+      "translated_poem": "O beautiful-eyed girl,\nGolden child, beloved one,\nYou are the nectar of happiness,\nYour voice a bird's song in the afternoon\nIn memories past, I weep."
+    },
+    {
+      "poem_id": "MV++_1255",
+      "language": "Tamil",
+      "cultural_region": "South India",
+      "poem_title": "Kamba Ramayanam",
+      "translated_title": "The Kamba Ramayanam",
+      "poet": "Kambar",
+      "translator": "P. S. Sundaram",
+      "original_poem": "எண்ணும் இசைமயமாக் கம்பனெழுதின \nமண்ணே யொன்றும் சேராதே.\nநண்ணும் வரவான கங்கை \nபட்டுயர்தருமென்றே.",
+      "translated_poem": "Kambar wrote in music’s sweet rhythm,\nYet, none on this earth shall unite.\nThe Ganges, in its essence,\nWill not dwell in the land of delight."
+    },
+    {
+      "poem_id": "MV++_1257",
+      "language": "Tamil",
+      "cultural_region": "South India",
+      "poem_title": "Azhagiya Tamil Magan",
+      "translated_title": "The Beautiful Tamil Youth",
+      "poet": "Kannadasan",
+      "translator": "S. Muthiah",
+      "original_poem": "அழகிய தமிழ் மகன்\nஅன்னையின் கண்ணீர் நதி\nமனத்தை ஆளும் ஆற்றல்\nஉள்ளத்தில் கொண்டே உளர்மால்.",
+      "translated_poem": "The beautiful Tamil youth\nThe river of a mother’s tears\nThe strength that rules the mind\nResiding in the heart, it sways."
+    },
+    {
+      "poem_id": "MV++_1262",
+      "language": "Tamil",
+      "cultural_region": "South India",
+      "poem_title": "Nalladhor Veenai",
+      "translated_title": "A Well-Tuned Veena",
+      "poet": "Bharathiyar",
+      "translator": null,
+      "original_poem": "நல்லதோர் வீணை செய்வாய்,  \nஅதை நலங்கெடப் புழுதியில் எறிவாய்,  \nகல்லோ நெஞ்சம் உணர்வே,  \nஅதை கதறுதும் காதிலே கேளாய்!",
+      "translated_poem": "You craft a well-tuned veena,  \nOnly to throw it into dust.  \nOh heart made of stone,  \nHear its wailing cries!"
+    }
+  ]
+}

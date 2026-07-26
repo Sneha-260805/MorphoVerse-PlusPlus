@@ -1,0 +1,61 @@
+{
+  "language": "Dogri",
+  "poem_count": 5,
+  "poems": [
+    {
+      "poem_id": "MV++_0046",
+      "language": "Dogri",
+      "cultural_region": "North India",
+      "poem_title": "Sukoon",
+      "translated_title": "Peace",
+      "poet": "Anil Joshi",
+      "translator": "Mohit Bhatia",
+      "original_poem": "सुकून\nसुकून कहां है ओ सजना,\nज़िंदगी दे रस्ते विच\nमिट्टी दे खुशबू दी तरह,\nसावन दे बादलां वांग।",
+      "translated_poem": "Peace\nWhere is peace, dear?\nOn the paths of life,\nLike the scent of soil,\nLike the monsoon clouds."
+    },
+    {
+      "poem_id": "MV++_0048",
+      "language": "Dogri",
+      "cultural_region": "North India",
+      "poem_title": "Chandna",
+      "translated_title": "Moonlight",
+      "poet": "Gulshan Kumar",
+      "translator": "Sanjay Puri",
+      "original_poem": "चांदना\nचांदना दी रौशनी\nपिंड दे रुत विच,\nसपने सजावे सजीले\nरातां दी खामोशी।",
+      "translated_poem": "Moonlight\nThe moonlight’s glow\nIn the village’s season,\nAdorning dreams\nIn the silence of the night."
+    },
+    {
+      "poem_id": "MV++_0050",
+      "language": "Dogri",
+      "cultural_region": "North India",
+      "poem_title": "Kashmir",
+      "translated_title": "Kashmir",
+      "poet": "Shiv Kumar Sharma",
+      "translator": "Gaurav Kapoor",
+      "original_poem": "कश्मीर\nकश्मीर दी वादियां\nसपने लिपटीं, धुंध विच,\nधरती दे जन्नत दी खुशबू\nसांझी करे दिलां नाल।",
+      "translated_poem": "Kashmir\nThe valleys of Kashmir\nWrapped in dreams, in mist,\nThe scent of heaven on earth\nShared with hearts alike."
+    },
+    {
+      "poem_id": "MV++_0052",
+      "language": "Dogri",
+      "cultural_region": "North India",
+      "poem_title": "Ghar",
+      "translated_title": "Home",
+      "poet": "Kamla Kuthiala",
+      "translator": "Nirmal Sharma",
+      "original_poem": "घर\nघर दी खुशबू\nमिट्टी विच रची-बसी,\nहर दीवार ते इक कहानी,\nसपने सजदे, साये विच।",
+      "translated_poem": "Home\nThe fragrance of home\nWoven into the soil,\nEvery wall tells a story,\nDreams blossoming in its shade."
+    },
+    {
+      "poem_id": "MV++_0053",
+      "language": "Dogri",
+      "cultural_region": "North India",
+      "poem_title": "Jeevan",
+      "translated_title": "Life",
+      "poet": "Balbir K. Khatri",
+      "translator": "Pawan Kumar",
+      "original_poem": "जीवन\nजीवन दी राह,\nसपने बुनदी हौंसले नाल,\nहर मोड़ ते इक नवा जोश,\nरुकना तां है नहीं।",
+      "translated_poem": "Life\nThe path of life,\nWeaving dreams with courage,\nAt every turn, a new zeal,\nStopping is not an option."
+    }
+  ]
+}
